@@ -40,9 +40,7 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/80675">
-        <contato/>
-    </orgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/80675"></orgao>
     <segmentos-da-sociedade>
         <item>Cidadãos</item>
     </segmentos-da-sociedade>
