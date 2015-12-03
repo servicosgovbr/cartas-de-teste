@@ -5,6 +5,9 @@
     <nomes-populares>
         <item>A</item>
     </nomes-populares>
+    <id-aplicacao>
+      emissao-darf-spu
+    </id-aplicacao>
     <descricao><![CDATA[ASD]]></descricao>
     <contato><![CDATA[ADS]]></contato>
     <gratuito>true</gratuito>
