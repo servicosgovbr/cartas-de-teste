@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Teste do JEAN (xispa!!!)]]></nome>
+    <sigla>TDJSD</sigla>
+    <nomes-populares>
+        <item>A</item>
+    </nomes-populares>
+    <descricao><![CDATA[ASD]]></descricao>
+    <contato><![CDATA[ADS]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>A</tipo>
+            <requisitos><![CDATA[B]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="1" unidade="horas"/>
+        <descricao><![CDATA[asd]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>A</titulo>
+            <descricao><![CDATA[B]]></descricao>
+            <documentos>
+                <default>
+                    <item>A</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo>
+                        <descricao><![CDATA[A]]></descricao>
+                        <moeda/>
+                        <valor>1</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="e-mail">
+                        <descricao><![CDATA[ASD]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/88765"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cultura</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>B</item>
+        <item>CA</item>
+        <item>A</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[legisla]]></item>
+    </legislacoes>
+</servico>
