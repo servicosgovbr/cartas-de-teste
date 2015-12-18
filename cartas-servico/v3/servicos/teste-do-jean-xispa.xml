@@ -29,13 +29,7 @@
                 <default/>
             </documentos>
             <custos>
-                <default>
-                    <custo>
-                        <descricao><![CDATA[A]]></descricao>
-                        <moeda/>
-                        <valor>1</valor>
-                    </custo>
-                </default>
+                <default/>
             </custos>
             <canais-de-prestacao>
                 <default>
