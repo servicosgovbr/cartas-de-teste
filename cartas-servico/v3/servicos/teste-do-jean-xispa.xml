@@ -23,9 +23,7 @@
             <titulo>Emissão de DARF</titulo>
             <descricao><![CDATA[B]]></descricao>
             <documentos>
-                <default>
-                    <item>A</item>
-                </default>
+                <default/>
             </documentos>
             <custos>
                 <default>
