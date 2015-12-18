@@ -11,7 +11,7 @@
     <solicitantes>
         <solicitante>
             <tipo>Proprietários de imóveis da união</tipo>
-            <requisitos/>
+            <requisitos><![CDATA[Nos casos de transferência de titularidade do ocupante ou foreiro, é obrigatória a comunicação no prazo máximo de sessenta dias à Superintendência do Patrimônio da União para a devida alteração cadastral.]]></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
