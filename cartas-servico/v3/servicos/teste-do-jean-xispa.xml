@@ -5,9 +5,6 @@
     <nomes-populares>
         <item>DARF Patrimonial</item>
     </nomes-populares>
-    <id-aplicacao>
-      emissao-darf-spu
-    </id-aplicacao>
     <descricao><![CDATA[O Documento de Arrecadação de Receitas Federais – DARF é utilizado para recolhimento, junto aos bancos autorizados, da taxa de ocupação ou foro dos imóveis da União, além de outros débitos de caráter extraordinário. Nele serão impressos os dados de identificação do imóvel, do titular ocupante ou foreiro, a data de pagamento e os respectivos valores, a serem recolhidos ao Tesouro Nacional.]]></descricao>
     <contato/>
     <gratuito>true</gratuito>
@@ -18,7 +15,7 @@
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <ate max="3" unidade="dias-corridos"/>
+        <entre max="5" min="1" unidade="dias-uteis"/>
         <descricao/>
     </tempo-total-estimado>
     <etapas>
