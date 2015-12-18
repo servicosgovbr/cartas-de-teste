@@ -6,7 +6,7 @@
         <item>DARF Patrimonial</item>
     </nomes-populares>
     <descricao><![CDATA[O Documento de Arrecadação de Receitas Federais – DARF é utilizado para recolhimento, junto aos bancos autorizados, da taxa de ocupação ou foro dos imóveis da União, além de outros débitos de caráter extraordinário. Nele serão impressos os dados de identificação do imóvel, do titular ocupante ou foreiro, a data de pagamento e os respectivos valores, a serem recolhidos ao Tesouro Nacional.]]></descricao>
-    <contato><![CDATA[ADS]]></contato>
+    <contato/>
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
@@ -46,7 +46,7 @@
         </etapa>
         <etapa>
             <titulo>Pagamento DARF</titulo>
-            <descricao><![CDATA[Os DARF com código de barras devem ser pagos exclusivamente nos bancos encontrados nesse link http://atendimentovirtual.spu.planejamento.gov.br/.
+            <descricao><![CDATA[Os DARF com código de barras devem ser pagos exclusivamente nos bancos encontrados nesse link [Site do ministério do planejamento](http://atendimentovirtual.spu.planejamento.gov.br/).
 
 O não pagamento de qualquer obrigação, até sua data de vencimento, implicará na inclusão do atual titular ocupante no CADIN – Cadastro Informativo dos Créditos não quitados de Órgãos e Entidades Federais e posterior inscrição em Dívida Ativa da União – DAU.]]></descricao>
             <documentos>
@@ -72,11 +72,11 @@ O não pagamento de qualquer obrigação, até sua data de vencimento, implicar�
         <item>Cultura</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item>B</item>
-        <item>CA</item>
-        <item>A</item>
+        <item>DARF</item>
+        <item>SPU</item>
+        <item>DARF Patrimonial</item>
     </palavras-chave>
     <legislacoes>
-        <item><![CDATA[legisla]]></item>
+        <item><![CDATA[[Carencia](http://atendimentovirtual.spu.planejamento.gov.br/Emissoes/DARF/Carencia.asp)]]></item>
     </legislacoes>
 </servico>
