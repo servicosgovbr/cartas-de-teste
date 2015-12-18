@@ -16,7 +16,7 @@
     </solicitantes>
     <tempo-total-estimado>
         <entre max="5" min="1" unidade="dias-uteis"/>
-        <descricao/>
+        <descricao><![CDATA[O não pagamento de qualquer obrigação, até sua data de vencimento, implicará na inclusão do atual titular ocupante no CADIN – Cadastro Informativo dos Créditos não quitados de Órgãos e Entidades Federais e posterior inscrição em Dívida Ativa da União – DAU.]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
