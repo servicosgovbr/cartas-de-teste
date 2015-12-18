@@ -10,17 +10,17 @@
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
-            <tipo>A</tipo>
-            <requisitos><![CDATA[B]]></requisitos>
+            <tipo>Proprietários de imóveis da união</tipo>
+            <requisitos/>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <ate max="1" unidade="horas"/>
-        <descricao><![CDATA[asd]]></descricao>
+        <ate max="3" unidade="dias-corridos"/>
+        <descricao/>
     </tempo-total-estimado>
     <etapas>
         <etapa>
-            <titulo>A</titulo>
+            <titulo>Emissão de DARF</titulo>
             <descricao><![CDATA[B]]></descricao>
             <documentos>
                 <default>
@@ -40,6 +40,25 @@
                 <default>
                     <canal-de-prestacao tipo="e-mail">
                         <descricao><![CDATA[ASD]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Pagamento DARF</titulo>
+            <descricao><![CDATA[Os DARF com código de barras devem ser pagos exclusivamente nos bancos encontrados nesse link http://atendimentovirtual.spu.planejamento.gov.br/.
+
+O não pagamento de qualquer obrigação, até sua data de vencimento, implicará na inclusão do atual titular ocupante no CADIN – Cadastro Informativo dos Créditos não quitados de Órgãos e Entidades Federais e posterior inscrição em Dívida Ativa da União – DAU.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://atendimentovirtual.spu.planejamento.gov.br/]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
