@@ -21,7 +21,7 @@
     <etapas>
         <etapa>
             <titulo>Emissão de DARF</titulo>
-            <descricao><![CDATA[B]]></descricao>
+            <descricao/>
             <documentos>
                 <default/>
             </documentos>
