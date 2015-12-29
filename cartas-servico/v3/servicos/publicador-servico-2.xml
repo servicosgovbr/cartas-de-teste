@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[publicador_servico_2]]></nome>
+    <sigla>ASDFd</sigla>
+    <nomes-populares>
+        <item>ASDF</item>
+    </nomes-populares>
+    <descricao><![CDATA[publicador_descrição]]></descricao>
+    <contato/>
+    <gratuito>true</gratuito>
+    <solicitantes/>
+    <tempo-total-estimado>
+        <entre max="3" min="1" unidade=""/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas/>
+    <orgao id=""/>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes/>
+</servico>
