@@ -8,7 +8,8 @@
 updated by publicador do AAP
 updated by ponto focal do ABC
 updated by editor do ABC
-updated by publicador do AAP]]></contato>
+updated by publicador do AAP
+updated by ponto focal do APP]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
@@ -39,7 +40,7 @@ updated by publicador do AAP]]></contato>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/203141"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3616"/>
     <segmentos-da-sociedade>
         <item>Cidadãos</item>
     </segmentos-da-sociedade>
