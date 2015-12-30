@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[ponto focal 3 - serviço para MINC]]></nome>
+    <sigla>FOCAL SERVIÇO</sigla>
+    <nomes-populares/>
+    <descricao><![CDATA[ponto focal 3 - serviço descrição]]></descricao>
+    <contato><![CDATA[updated by editor do ABC
+updated by publicador do AAP]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Solicitante Tipo</tipo>
+            <requisitos><![CDATA[Solicitante_requisitos]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="1" unidade="minutos"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Etapa Serviço</titulo>
+            <descricao><![CDATA[etapa desc]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="e-mail">
+                        <descricao><![CDATA[asdfas@asdfas.com]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/203141"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Biodiversidade</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>AAP</item>
+        <item>Publicador</item>
+        <item>teste palavra</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[legislações desc.]]></item>
+    </legislacoes>
+</servico>
