@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pagina-tematica xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <nome>publicador1_páginaTemática</nome>
-    <conteudo><![CDATA[publicador1_páginaTemática_conteúdo]]></conteudo>
+    <conteudo><![CDATA[publicador1_páginaTemática_conteúdo
+UPDATED by pontoFocal]]></conteudo>
 </pagina-tematica>
