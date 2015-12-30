@@ -3,7 +3,8 @@
     <nome><![CDATA[publicador1_servico]]></nome>
     <sigla>PUBLICADOR</sigla>
     <nomes-populares/>
-    <descricao><![CDATA[publicador1_descrição]]></descricao>
+    <descricao><![CDATA[publicador1_descrição
+UPDATED by pontoFocal]]></descricao>
     <contato/>
     <gratuito/>
     <solicitantes/>
