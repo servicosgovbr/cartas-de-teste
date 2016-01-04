@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>Teste</nome>
+    <nome><![CDATA[Teste]]></nome>
     <sigla>abcdefg</sigla>
     <nomes-populares>
         <item>test</item>
@@ -15,6 +15,10 @@
         <solicitante>
             <tipo>Eu</tipo>
             <requisitos><![CDATA[ser maior de 18 anos]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>a</tipo>
+            <requisitos><![CDATA[a]]></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
