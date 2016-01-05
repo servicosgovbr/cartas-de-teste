@@ -5,18 +5,10 @@
 
 Este texto é comum, mas **este está em negrito**, como esperado.
 
-1. Este é o primeiro item
-2. Este é o segundo
-3. E assim por diante...
+2. Outro item em uma lista ordenada
+1. Um item em uma lista ordenada
 
-* Este é o primeiro item
-* Este é o segundo
-* E assim por diante...
 
-Este é um link para o [Portal de Serviços](http://servicos.gov.br).
-
-* [Portal de Serviços](http://servicos.gov.br)
-* [Editor de Serviços](http://servicos.gov.br/editar)
-* [Portal Brasil](http://brasil.gov.br)
+![Opa](https://files.gitter.im/gustavo-freitas/4rmv/blob "Apenas uma imagem")
 ]]></conteudo>
 </pagina-tematica>
