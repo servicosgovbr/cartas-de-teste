@@ -8,7 +8,7 @@
     <gratuito/>
     <solicitantes/>
     <tempo-total-estimado>
-        <descricao/>
+        <descricao><![CDATA[aaa]]></descricao>
     </tempo-total-estimado>
     <etapas/>
     <orgao id=""/>
