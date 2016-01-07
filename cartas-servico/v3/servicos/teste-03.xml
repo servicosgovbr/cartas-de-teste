@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
     <nome><![CDATA[Teste 03]]></nome>
-    <sigla>Teste</sigla>
+    <sigla>Testea</sigla>
     <nomes-populares>
-        <item>teste</item>
+        <item>testea</item>
     </nomes-populares>
     <descricao><![CDATA[teste a]]></descricao>
     <contato><![CDATA[a]]></contato>
