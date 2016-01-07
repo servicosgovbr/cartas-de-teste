@@ -3,7 +3,7 @@
     <nome><![CDATA[aaaa]]></nome>
     <sigla/>
     <nomes-populares/>
-    <descricao/>
+    <descricao><![CDATA[Teste]]></descricao>
     <contato/>
     <gratuito/>
     <solicitantes/>
