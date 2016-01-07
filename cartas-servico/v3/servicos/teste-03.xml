@@ -5,23 +5,23 @@
     <nomes-populares>
         <item>teste</item>
     </nomes-populares>
-    <descricao><![CDATA[teste]]></descricao>
+    <descricao><![CDATA[teste a]]></descricao>
     <contato><![CDATA[a]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
-            <tipo>a</tipo>
-            <requisitos><![CDATA[a]]></requisitos>
+            <tipo>aa</tipo>
+            <requisitos><![CDATA[aa]]></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <ate max="1" unidade="horas"/>
-        <descricao><![CDATA[teste]]></descricao>
+        <descricao><![CDATA[teste a]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
-            <titulo>a</titulo>
-            <descricao><![CDATA[a]]></descricao>
+            <titulo>aa</titulo>
+            <descricao><![CDATA[aa]]></descricao>
             <documentos>
                 <default>
                     <item>a</item>
