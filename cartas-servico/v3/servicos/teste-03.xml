@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Teste 03]]></nome>
+    <sigla>Teste</sigla>
+    <nomes-populares>
+        <item>teste</item>
+    </nomes-populares>
+    <descricao><![CDATA[teste]]></descricao>
+    <contato><![CDATA[a]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>a</tipo>
+            <requisitos><![CDATA[a]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="1" unidade="horas"/>
+        <descricao><![CDATA[teste]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>a</titulo>
+            <descricao><![CDATA[a]]></descricao>
+            <documentos>
+                <default>
+                    <item>a</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="e-mail">
+                        <descricao><![CDATA[aaa]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1930"/>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse>
+        <item>Administração</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[a]]></item>
+    </legislacoes>
+</servico>
