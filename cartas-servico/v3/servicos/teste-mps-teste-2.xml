@@ -2,7 +2,11 @@
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
     <nome><![CDATA[Teste MPS Teste 2]]></nome>
     <sigla>Palavra Chaves</sigla>
-    <nomes-populares/>
+    <nomes-populares>
+        <item>Arroz</item>
+        <item>Cenoura</item>
+        <item>Feijão</item>
+    </nomes-populares>
     <descricao><![CDATA[Desc Teste]]></descricao>
     <contato/>
     <gratuito>true</gratuito>
