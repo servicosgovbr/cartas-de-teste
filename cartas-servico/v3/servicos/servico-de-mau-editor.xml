@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Serviço de Mau-editor]]></nome>
+    <sigla>opa</sigla>
+    <nomes-populares>
+        <item>nada mesmo</item>
+        <item>oura coisa</item>
+    </nomes-populares>
+    <descricao><![CDATA[não quero dizer nada
+nadinha mesmo]]></descricao>
+    <contato><![CDATA[23456]]></contato>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>eu</tipo>
+            <requisitos><![CDATA[meus documentros]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>ele</tipo>
+            <requisitos><![CDATA[documentos dele]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre max="3" min="2" unidade="horas"/>
+        <descricao><![CDATA[é esse o tempo mesmo]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>agenda</titulo>
+            <descricao><![CDATA[primeiro liga]]></descricao>
+            <documentos>
+                <default>
+                    <item>rg</item>
+                    <item>cpf</item>
+                </default>
+                <caso descricao="se for maior que 18 anos">
+                    <item>cnh</item>
+                    <item>passaporte</item>
+                </caso>
+                <caso descricao="se for menor">
+                    <item>documento do pai</item>
+                    <item>documento da mãe</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default>
+                    <custo>
+                        <descricao><![CDATA[Custo de impressao]]></descricao>
+                        <moeda/>
+                        <valor>10</valor>
+                    </custo>
+                    <custo>
+                        <descricao><![CDATA[custo do docuemnto]]></descricao>
+                        <moeda/>
+                        <valor>20</valor>
+                    </custo>
+                </default>
+                <caso descricao="se for maior que 18 anos">
+                    <custo>
+                        <descricao><![CDATA[taxa extra]]></descricao>
+                        <moeda/>
+                        <valor>16</valor>
+                    </custo>
+                </caso>
+                <caso descricao="Se for menor que 18 anos">
+                    <custo>
+                        <descricao><![CDATA[taxinha]]></descricao>
+                        <moeda/>
+                        <valor>5</valor>
+                    </custo>
+                </caso>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="e-mail">
+                        <descricao><![CDATA[teste@teste]]></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[www.google.com]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso descricao="se for maior que 18 anos">
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[vai lá você mesmo]]></descricao>
+                    </canal-de-prestacao>
+                </caso>
+                <caso descricao="se for menor que 18 anos">
+                    <canal-de-prestacao tipo="telefone">
+                        <descricao><![CDATA[liga para 234242]]></descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>perícia</titulo>
+            <descricao><![CDATA[nadinha]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="postal">
+                        <descricao><![CDATA[wvg]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/108999"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+        <item>Órgãos e entidades públicas</item>
+        <item>Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comunicações</item>
+        <item>Cultura</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>chave 1</item>
+        <item>chave 2</item>
+        <item>chave 3</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[lei 8666]]></item>
+    </legislacoes>
+</servico>
