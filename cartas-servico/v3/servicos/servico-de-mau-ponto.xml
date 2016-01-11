@@ -20,7 +20,7 @@
     </tempo-total-estimado>
     <etapas>
         <etapa>
-            <titulo>primeira</titulo>
+            <titulo>Primeira</titulo>
             <descricao/>
             <documentos>
                 <default/>
@@ -31,7 +31,7 @@
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao tipo="e-mail">
-                        <descricao><![CDATA[ops]]></descricao>
+                        <descricao><![CDATA[nada]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
