@@ -15,7 +15,7 @@
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <ate max="1" unidade="horas"/>
+        <entre max="2" min="1" unidade="horas"/>
         <descricao/>
     </tempo-total-estimado>
     <etapas>
