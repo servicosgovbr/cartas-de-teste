@@ -8,14 +8,24 @@
         <item>Carta de Condutor Automotivo</item>
     </nomes-populares>
     <descricao><![CDATA[A Carteira Nacional  de Habilitação (CNH)  atesta que o  cidadão  brasileiro  está apto a conduzir veículos. O porte é obrigatório para quem está dirigindo. O modelo atual de CNH possui fotografia da pessoa, o número da Carteira de Identidade (RG) e do Cadastro de Pessoa Física (CPF). Assim, a CNH pode ser utilizada para identificação em todo território nacional.]]></descricao>
-    <contato/>
-    <gratuito/>
-    <solicitantes/>
+    <contato><![CDATA[O processo deve ser concluído em um ano.]]></contato>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Habilitação na categoria A, B ou AB</tipo>
+            <requisitos><![CDATA[Estão aptos a solicitar a Carteira Nacional de Habilitação nas categorias A e B os brasileiros maiores de 18 anos, que saibam ler e escrever, possuem documento de identidade e CPF. O processo deve ser concluído em um ano.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Habilitação nas categorias C, D ou E</tipo>
+            <requisitos><![CDATA[O condutor deve estar habilitado há pelo menos um ano na categoria anterior exigida (por exemplo, para obter a CNH na categoria C, é necessário ter no mínimo um ano de habilitação na categoria B).]]></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <entre max="6" min="2" unidade="meses"/>
-        <descricao><![CDATA[Há vários fatores que influencia no processo da CNH, tais como:
+        <entre max="8" min="2" unidade="meses"/>
+        <descricao><![CDATA[Há vários fatores que influencia no tempo para aquisição da CNH, tais como: 
  - Pagamento da taxa;
- - Exame médico]]></descricao>
+ - Exame médico e psicológico;
+ - Prova teórica e prática no Detran da sua cidade.]]></descricao>
     </tempo-total-estimado>
     <etapas/>
     <orgao id=""/>
