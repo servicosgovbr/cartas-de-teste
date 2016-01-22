@@ -27,7 +27,32 @@
  - Exame médico e psicológico;
  - Prova teórica e prática no Detran da sua cidade.]]></descricao>
     </tempo-total-estimado>
-    <etapas/>
+    <etapas>
+        <etapa>
+            <titulo>Apresentar-se ao órgão de trânsito</titulo>
+            <descricao><![CDATA[O interessado deve comparecer a uma unidade do Detran em sua cidade com os documentos exigidos.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Original e cópia da Carteira de Identidade (RG)</item>
+                    <item>Original e cópia do Cadastro de Pessoa Física (CPF)</item>
+                    <item>Original e cópia do comprovante de residência</item>
+                    <item>Duas fotos 3x4</item>
+                </default>
+                <caso descricao="Renovação">
+                    <item>Carteira Nacional de Habilitação (original e cópia)</item>
+                    <item>Carteira de Identidade ou documento equivalente (original e cópia)</item>
+                    <item>CPF - Cadastro de Pessoa Física (original e cópia)</item>
+                    <item>Uma foto 3x4</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id=""/>
     <segmentos-da-sociedade/>
     <areas-de-interesse/>
