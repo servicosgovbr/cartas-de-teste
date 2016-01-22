@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Carteira Nacional de Habitação]]></nome>
+    <sigla>CNH</sigla>
+    <nomes-populares>
+        <item>Carta de Motorista</item>
+        <item>Carteira de Habitação</item>
+        <item>Carta de Condutor Automotivo</item>
+    </nomes-populares>
+    <descricao><![CDATA[A Carteira Nacional  de Habilitação (CNH)  atesta que o  cidadão  brasileiro  está apto a conduzir veículos. O porte é obrigatório para quem está dirigindo. O modelo atual de CNH possui fotografia da pessoa, o número da Carteira de Identidade (RG) e do Cadastro de Pessoa Física (CPF). Assim, a CNH pode ser utilizada para identificação em todo território nacional.]]></descricao>
+    <contato/>
+    <gratuito/>
+    <solicitantes/>
+    <tempo-total-estimado>
+        <entre max="6" min="2" unidade="meses"/>
+        <descricao><![CDATA[Há vários fatores que influencia no processo da CNH, tais como:
+ - Pagamento da taxa;
+ - Exame médico]]></descricao>
+    </tempo-total-estimado>
+    <etapas/>
+    <orgao id=""/>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes/>
+</servico>
