@@ -46,10 +46,20 @@
                 </caso>
             </documentos>
             <custos>
-                <default/>
+                <default>
+                    <custo>
+                        <descricao><![CDATA[Recolhimento do encargo]]></descricao>
+                        <moeda/>
+                        <valor>218,00</valor>
+                    </custo>
+                </default>
             </custos>
             <canais-de-prestacao>
-                <default/>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao/>
+                    </canal-de-prestacao>
+                </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
