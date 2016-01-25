@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Emissão de Passaporte Comum]]></nome>
+    <sigla>EPC</sigla>
+    <nomes-populares/>
+    <descricao/>
+    <contato><![CDATA[SHCGN 706 BLOCO R - Esplanada dos MInistérios, s/n - Asa Norte, Brasília - DF, 70044-902, Sala 902, Telefone: 2026 -9999]]></contato>
+    <gratuito/>
+    <solicitantes/>
+    <tempo-total-estimado>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Agendar Atendimento no Detran</titulo>
+            <descricao><![CDATA[O agendamento por telefone deverá ser realizado no período de 8h as 18h, de segunda a sexta.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Carteira de Identidade</item>
+                    <item>Comprovante de residência</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo>
+                        <descricao><![CDATA[Pagamento de taxa]]></descricao>
+                        <moeda/>
+                        <valor>85,00</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://www.detran.df.gov.br/agendamento-ou-reagendamento.html]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Abastecimento</item>
+        <item>Agropecuária</item>
+        <item>Combustíveis</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>Carteira de Motorista</item>
+        <item>Carta de Motorista</item>
+        <item>Carteira de Condutor Automotivo</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[http://www.denatran.gov.br/publicacoes/download/ctb_e_legislacao_complementar.pdf]]></item>
+    </legislacoes>
+</servico>
