@@ -1875,5 +1875,9 @@
     <xs:simpleType name="Legislacao">
         <xs:restriction base="xs:string"/>
     </xs:simpleType>
-
+    
+    <xs:simpleType name="PalavraChaveTeste">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    
 </xs:schema>
