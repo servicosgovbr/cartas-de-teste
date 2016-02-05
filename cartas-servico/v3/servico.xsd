@@ -23,6 +23,7 @@
             <xs:element name="areas-de-interesse" type="AreasDeInteresse" minOccurs="0" maxOccurs="1"/>
             <xs:element name="palavras-chave" type="PalavrasChave" minOccurs="0" maxOccurs="1"/>
             <xs:element name="legislacoes" type="Legislacoes" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="palavra-chave-teste" type="PalavraChaveTeste" minOccurs="0" maxOccurs="1"/>
             <xs:element name="id-aplicacao" type="IDAplicacao" minOccurs="0" maxOccurs="1"/>
         </xs:choice>
     </xs:complexType>
