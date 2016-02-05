@@ -61,4 +61,7 @@
     <legislacoes>
         <item><![CDATA[teste]]></item>
     </legislacoes>
+    <teste-campo>
+        <item><![CDATA[teste]]</item>
+    </testeCampo>
 </servico>
