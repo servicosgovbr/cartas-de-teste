@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[teste servico final test]]></nome>
+    <sigla/>
+    <nomes-populares/>
+    <descricao><![CDATA[dsfsadfsfdff]]></descricao>
+    <contato/>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>solic</tipo>
+            <requisitos/>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="2" unidade="dias-corridos"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>etapa</titulo>
+            <descricao/>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="e-mail">
+                        <descricao><![CDATA[asdsadsadsa]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981"/>
+    <segmentos-da-sociedade>
+        <item>Empresas</item>
+        <item>Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Biodiversidade</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Água</item>
+        <item>Administração</item>
+        <item>Abastecimento</item>
+        <item>Agropecuária</item>
+        <item>Assistência Hospitalar e Ambulatorial</item>
+        <item>Assistência ao Idoso</item>
+        <item>Atendimento básico</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>teste</item>
+        <item>tetste</item>
+        <item>tetetwe</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[legis]]></item>
+    </legislacoes>
+</servico>
