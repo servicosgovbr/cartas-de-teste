@@ -2,10 +2,10 @@
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
     <nome><![CDATA[Instalação de cisterna de polietileno para consumo]]></nome>
     <sigla/>
-    <nomes-populares>
-        <item>cisterna</item>
-    </nomes-populares>
-    <descricao><![CDATA[O serviço de instalação de cisterna de consumo é um dos serviços do programa água para todos, que é um conjunto de ações do Governo Federal que busca universalizar o amplo acesso e uso de água para populações que não dispõem desse serviço público essencial.]]></descricao>
+    <nomes-populares/>
+    <descricao><![CDATA[A cisterna ou reservatório de armazenamento é o principal elemento de um projeto de aproveitamento de águas pluviais, esta pode variar em volume e material de que é feita.
+
+O serviço de instalação de cisterna de polietileno para consumo é um dos serviços do programa Água para Todos, que é um conjunto de ações do Governo Federal que busca universalizar o amplo acesso e uso de água para populações que não dispõem desse serviço público essencial.]]></descricao>
     <contato/>
     <gratuito>true</gratuito>
     <solicitantes>
@@ -80,6 +80,8 @@ http://mi.gov.br/documents/10157/122165/FAQ+-+APT+Executores+-+site+MI.pdf/85564
         <item>Cisterna</item>
         <item>Água para Todos</item>
         <item>Água</item>
+        <item>Reservatório de água</item>
+        <item>Chuva</item>
     </palavras-chave>
     <legislacoes>
         <item><![CDATA[http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2011-07-26;7535]]></item>
