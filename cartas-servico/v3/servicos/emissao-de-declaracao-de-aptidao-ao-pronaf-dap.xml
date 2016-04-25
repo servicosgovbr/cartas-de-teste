@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Emissão de Declaração de Aptidão ao Pronaf - DAP]]></nome>
+    <sigla>DAP</sigla>
+    <nomes-populares>
+        <item>Declaração Pronaf</item>
+    </nomes-populares>
+    <descricao><![CDATA[Este serviço trata da emissão da DAP (Declaração de  Aptidão ao Programa  Nacional  de  Fortalecimento  da  Agricultura), que serve para identificar e qualificar o agricultor familiar e assim obter os diversos benefícios de programas do governo.]]></descricao>
+    <contato/>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Beneficiário da Reforma Agrária (família assentada)</tipo>
+            <requisitos><![CDATA[1- Ser um beneficiário da Reforma Agrária;
+
+2- O imóvel rural do solicitante não pode ser maior do que 04 (quatro) módulos fiscais, sendo que cada módulo fiscal tem entre  05 (cinco) a 110 (cento e dez) hectares dependendo do município onde está o imóvel, conforme estabelecido pelo Instituto Nacional de Colonização e Reforma Agrária - INCRA;
+
+3- A maior parte dos trabalhadores do imóvel sejam da própria família cadastrada e não de trabalhadores contratados;
+
+4- A família deve ter residência dentro do próprio imóvel rural ou em outro local próximo que seja possível a administração da propriedade.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Família Agricultora com renda de até R$ 20.000,00</tipo>
+            <requisitos><![CDATA[1- A família inteira deve ter uma renda total de até R$ 20.000,00;
+
+2- O imóvel rural do solicitante não pode ser maior do que 04 (quatro) módulos fiscais, sendo que cada módulo fiscal tem entre  05 (cinco) a 110 (cento e dez) hectares dependendo do município onde está o imóvel, conforme estabelecido pelo Instituto Nacional de Colonização e Reforma Agrária - INCRA. Caso o solicitante seja extrativista, pescador, índio ou quilombola não precisa cumprir esses requisito;
+
+3- A maior parte dos trabalhadores do imóvel sejam da própria família cadastrada e não de trabalhadores contratados;
+
+4- A família deve ter residência dentro do próprio imóvel rural ou em outro local próximo que seja possível a administração da propriedade.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Família Agricultora com renda de R$ 20.000,00 até R$ 360.000,00</tipo>
+            <requisitos><![CDATA[1- A família inteira deve ter uma renda total entre R$ 20.000,00 e R$ 360.000,00;
+
+2- O imóvel rural do solicitante não pode ser maior do que 04 (quatro) módulos fiscais, sendo que cada módulo fiscal tem entre  05 (cinco) a 110 (cento e dez) hectares dependendo do município onde está o imóvel, conforme estabelecido pelo Instituto Nacional de Colonização e Reforma Agrária - INCRA. Caso o solicitante seja extrativista, pescador, índio ou quilombola não precisa cumprir esses requisito;
+
+3- A maior parte dos trabalhadores do imóvel sejam da própria família cadastrada e não de trabalhadores contratados;
+
+4- A família deve ter residência dentro do próprio imóvel rural ou em outro local próximo que seja possível a administração da propriedade.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Filhos dos Agricultores Familiares que já tem uma DAP emitida</tipo>
+            <requisitos><![CDATA[1- O solicitante deve ser filho de agricultores familiares que já tenham uma DAP emitida e ativa.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Mulheres agregadas a Agricultores Familiares que já tem uma DAP emitida</tipo>
+            <requisitos><![CDATA[1- A solicitante deve ser agregada de agricultores familiares que já tenham uma DAP emitida e ativa.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Pessoas Jurídicas (Empreendimento Familiar Rural) compostas por agricultores familiares</tipo>
+            <requisitos><![CDATA[1- O solicitante deve ser uma Pessoa Jurídica de Empreendimento Familiar Rural, constituída com a finalidade de beneficiamento, processamento e comercialização de produtos agropecuários, ou ainda para prestação de serviços de turismo rural, desde que formado exclusivamente por um ou mais agricultores detentores de DAP Ativa;
+
+2- Limite mínimo de 55% (cinquenta e cinco por cento) da produção beneficiada, processada ou comercializada serem de cooperados ou associados enquadrados no Pronaf;
+
+3- Patrimônio líquido mínimo de R$ 25.000,00 (vinte e cinco mil reais);
+
+4- Tenha, no mínimo, um ano de funcionamento.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Cooperativas centrais compostas por cooperativas singulares de agricultores familiares</tipo>
+            <requisitos><![CDATA[1- O solicitante deve ser uma Cooperativa (singular ou central), aquelas que comprovem que, no mínimo, 60% (sessenta por cento) de seus associados são agricultores familiares com DAP Ativa]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="20" unidade="dias-uteis"/>
+        <descricao><![CDATA[O tempo é variável de acordo com a análise da documentação fornecida no momento da solicitação da emissão de DAP]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Solicitar Emissão de DAP</titulo>
+            <descricao><![CDATA[O solicitante deve se dirigir a órgãos públicos e entidades credenciadas a emitirem DAP em seu município, como regionais do MDA, INCRA, Emater, Contag, Fetraf, etc.]]></descricao>
+            <documentos>
+                <default/>
+                <caso descricao="Agricultor Familiar - Pessoa Física">
+                    <item>Cartão do Cadastro de Pessoa Física da Receita Federal do Brasil (CPF), de cada um dos titulares</item>
+                    <item>Cédula de identidade de cada um dos titulares</item>
+                </caso>
+                <caso descricao="Pessoas Jurídicas ou Cooperativas">
+                    <item>Cartão do Cadastro Nacional de Pessoa Jurídica (CNPJ)</item>
+                    <item>Ata de eleição, posse e nomeação dos responsáveis pela pessoa jurídica, detalhando o nome completo, CPF e a cédula de identidade civil</item>
+                    <item>Cópia do contrato, estatuto social e regimentos internos ou instrumentos equivalentes, e respectivas alterações vigentes depositadas e registradas junto ao registro público competente</item>
+                    <item>Relação do quadro de associados ou cooperados, detalhando nome completo, CPF e data de filiação de cada um</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[O endereço depende dos órgãos públicos e entidades credenciadas a emitirem DAP em seu município, como regionais do MDA, INCRA, Emater, Contag, Fetraf, etc.]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Recebimento da DAP emitida</titulo>
+            <descricao><![CDATA[Quando o processo de emissão da DAP for concluído a unidade que realizou a solicitação inicial entrará em contato para entregar o documento e coletar assinatura do solicitante.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/17125"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>DAP</item>
+        <item>Declaração de Aptidão ao PRONAF</item>
+        <item>Declaração de  Aptidão ao Programa  Nacional  de  Fortalecimento  da  Agricultura</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[PORTARIA MDA/SAF N. 26, DE 9 DE MAIO DE 2014]]></item>
+    </legislacoes>
+</servico>
