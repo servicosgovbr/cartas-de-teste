@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[Instalação de cisterna de polietileno para consumo]]></nome>
+    <nome>Instalação de cisterna de polietileno</nome>
     <sigla/>
     <nomes-populares/>
     <descricao><![CDATA[A cisterna é um reservatório de armazenamento de águas pluviais (das chuvas) podendo ser de alvenaria ou material plástico (polietileno).
