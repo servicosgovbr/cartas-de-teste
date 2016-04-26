@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Instalação de cisternas de consumo]]></nome>
+    <sigla/>
+    <nomes-populares/>
+    <descricao><![CDATA[O serviço de instalação de cisterna de consumo faz parte do programa água para todos]]></descricao>
+    <contato/>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Populações carentes, residentes em comunidades rurais com acesso precário à água.</tipo>
+            <requisitos><![CDATA[- Renda familiar per capita de R$ 154,00  (cento e cinquenta quarenta reais) mensais
+- Acesso precário á água
+- Morar em área rural]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="12" unidade="meses"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Cadastrar no CadÚnico  (Cadastro Único dos Programas Sociais do Governo Federal)</titulo>
+            <descricao><![CDATA[Os beneficiários são identificados por meio do CadÚnico (Cadastro Único dos Programas Sociais do Governo Federal). Os chamados Centros de Referência de Assistência Social (CRAS), localizados nos municípios, são as unidades responsáveis, juntamente com as prefeituras municipais, pelo cadastro e inserção de famílias no CadÚnico.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Carteira de trabalho e/ou três últimos contra-cheques</item>
+                    <item>Documento de Identidade (RG)</item>
+                    <item>CPF (Cadastro de Pessoa Física)</item>
+                    <item>Comprovante de Residência</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Centros de Referência de Assistência Social (CRAS) do seu município.]]></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="telefone">
+                        <descricao><![CDATA[0800-707-2003]]></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://www.brasilsemmiseria.gov.br]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/42670"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Água</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>AGUA</item>
+        <item>cisterna</item>
+        <item>cisterna 1</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[lexml.gov.br]]></item>
+    </legislacoes>
+</servico>
