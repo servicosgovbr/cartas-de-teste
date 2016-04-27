@@ -70,6 +70,26 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
+        <etapa>
+            <titulo>Solicitar a passagem</titulo>
+            <descricao><![CDATA[Após receber a carteria do Passe Livre na etapa anterior, basta apresentá-la junto com a carteira de identidade nos pontos-de-venda de passagens, até três horas antes do início da viagem. As empresas são obrigadas a reservar, em cada viagem, dois assentos para atender às pessoas com deficiência portadoras do Passe Livre do Governo Federal.
+Se as vagas já estiverem preenchidas, a empresa tem obrigação de reservar a sua passagem em outra data ou horário.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Carteira de Identidade</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Pontos de venda de passagem]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
     </etapas>
     <orgao id=""/>
     <segmentos-da-sociedade/>
