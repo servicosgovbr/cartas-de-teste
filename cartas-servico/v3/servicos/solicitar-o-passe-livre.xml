@@ -32,8 +32,8 @@
                     <item>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado</item>
                     <item>Formulário para requerimento de beneficiário</item>
                 </default>
-                <caso descricao="Caso deficiente necessite de acompanhante">
-                    <item>Formulário para requerimento de acompanhante</item>
+                <caso descricao="Caso o deficiente necessite de acompanhante">
+                    <item>Formulário para requerimento de acompanhante. Nem toda pessoa com deficiência tem direito a acompanhante. Somente aquelas que necessitam, obrigatoriamente, de auxílio para se locomover. É preciso que o médico declare no atestado a necessidade do acompanhante.</item>
                 </caso>
             </documentos>
             <custos>
@@ -49,6 +49,23 @@
                     </canal-de-prestacao>
                     <canal-de-prestacao tipo="telefone">
                         <descricao><![CDATA[(61) 33299068]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Entregar a Documentação</titulo>
+            <descricao><![CDATA[Após o envio da documentação, ela será analisada e, se estiver correta, o Passe Livre será enviado para seu endereço.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Ministério dos Transportes, Caixa Postal 9600 - CEP 70.040-976 - Brasília (DF).]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
