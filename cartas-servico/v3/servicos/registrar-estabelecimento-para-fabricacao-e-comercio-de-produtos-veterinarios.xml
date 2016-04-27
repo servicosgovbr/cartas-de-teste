@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Registrar Estabelecimento para fabricação e comércio de Produtos Veterinários]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Registro de Estabelecimento de Produtos Veterinários</item>
+        <item>Licença para estabelecimento de Produtos Veterinários</item>
+    </nomes-populares>
+    <descricao><![CDATA[Para um estabelecimento obter licença de fabricação ou manipulação de produtos de uso veterinário, assim como para comercializar (incluindo exportação e importação), armazenar ou distribuir esses produtos, deve ser solicitado registro no Ministério da Agricultura. Esse licença tem validade de 01 (um) ano e é necessária para que garantir que as instalações desses estabelecimentos atendam os requisitos exigidos para o exercício da atividade.]]></descricao>
+    <contato><![CDATA[O cidadão terá o seu telefonema atendido na Superintendência no horário das 8h às 12h e das 14h às 18h, de segunda a sexta-feira.
+
+O fax e o e-mail funcionam na Superintendência todos os dias da semana, interruptamente.
+
+A Coordenação de Fiscalização de Produtos Veterinários (CPV) disponibiliza os seguintes canais de atendimento:
+
+Telefones: (61) 3218-2950
+
+E-mail: produtosveterinarios@agricultura.gov.br]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Proprietário de estabelecimento de origem brasileira</tipo>
+            <requisitos><![CDATA[Ser proprietário do estabelecimento com origem brasileira]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Representante legal de estabelecimento de origem extrangeira</tipo>
+            <requisitos><![CDATA[Se o estabelecimento do proprietário ou fabricante tiver origem extrangeira e pretenda exportar produto de uso veterinário para o Brasil, qualquer que seja sua natureza, deverá ter representante exclusivo e legalmente habilitado.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="180" unidade="dias-corridos"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Solicitar registro do estabelecimento</titulo>
+            <descricao><![CDATA[O interessado deve solicitar o registro do estabelecimento através de requerimento por escrito]]></descricao>
+            <documentos>
+                <default>
+                    <item>Requerimento por escrito contendo dados da empresa: nome, CNPJ, endereço, finalidade, natureza dos produtos e responsável técnico</item>
+                    <item>Cópia autenticada do contrato social da empresa proprietária, contendo cláusula que especifique finalidade compatível o registro solicitado</item>
+                    <item>Cópia do cartão de inscrição no CNPJ</item>
+                    <item>Relação dos produtos a serem fabricados, manipulados ou importados, especificando sua natureza e forma farmacêutica</item>
+                    <item>Declaração do responsável técnico, de que assume a responsabilidade técnica do estabelecimento e dos produtos a serem fabricados, comercializados ou importados</item>
+                    <item>Cópia da carteira de identidade profissional do responsável técnico</item>
+                </default>
+                <caso descricao="Estabelecimento fabricante, manipulador, fracionador, envasador ou rotulador">
+                    <item>Memorial descritivo de instalações e equipamentos, assinado pelo responsável técnico</item>
+                    <item>Planta baixa, e cortes transversal e longitudinal, na escala mínima de 1:200</item>
+                    <item>Detalhe da rede de esgoto, na escala mínima de 1:50</item>
+                    <item>Descrição do sistema de controle preventivo para evitar contaminação do meio ambiente e risco para a saúde, observando os requisitos técnicos de segurança biológica, para a fabricação, manipulação e armazenamento dos produtos</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[O cidadão deve entregar o requerimento para registro na Unidade Técnica Regional de Agricultura, Pecuária e Abastecimento (UTRA) mais próxima ou no Serviço de Fiscalização de Insumos Pecuários (SEFIP) na Superintendência Federal de Agricultura, Pecuária e Abastecimento (SFA) do Estado ou do Distrito Federal, local onde se encontra o estabelecimento.
+
+O endereço pode ser obtido no sítio eletrônico www.agricultura.gov.br]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Inspeção e aprovação das instalações do estabelecimento</titulo>
+            <descricao><![CDATA[O registro e licenciamento do estabelecimento será concedido após inspeção e aprovação das instalações que foram informadas no requerimento de solicitação, que será realizada por técnico autorizado pelo Ministério da Agricultura]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[O endereço das instalações do estabelecimento, conforme informado no requerimento de solicitação de registro]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Recebimento da licença do estabelecimento</titulo>
+            <descricao><![CDATA[O estabelecimento do interessado é registrado recebe a licença para fabricação e comércio de Produtos Veterinários]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[A licença pode ser obtida no mesmo local onde foi entregue a solicitação]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14"/>
+    <segmentos-da-sociedade>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+        <item>Comércio e Serviços</item>
+        <item>Comercio externo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>Registro de Estabelecimento de Produtos Veterinários</item>
+        <item>Estabelecimento de Produtos Veterinários</item>
+        <item>Licença de Estabelecimento de Produtos Veterinários</item>
+        <item>Produtos Veterinários</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Decreto-Lei 467/1969;
+Decreto 5.053/2004]]></item>
+    </legislacoes>
+</servico>
