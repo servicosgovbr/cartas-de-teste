@@ -11,14 +11,49 @@
     <solicitantes>
         <solicitante>
             <tipo>Pessoas com deficiência</tipo>
-            <requisitos><![CDATA[Renda familiar mensal de até 1 salário mínimo.]]></requisitos>
+            <requisitos><![CDATA[Renda familiar mensal de até 1 salário mínimo. Como calcular a renda:
+* Veja quantos familiares residentes em sua casa recebem salário. Se a família tiver outros rendimentos que não o salário (lucro de atividade agrícola, pensão, aposentadoria, etc.), esses devem ser computados na renda familiar.
+* Some todos os valores.
+* Divida o resultado pelo número total de familiares, incluindo até mesmo os que não têm renda, desde que morem em sua casa.
+* Se o resultado for igual ou abaixo de um salário mínimo, a Pessoa com Deficiência será considerada carente.]]></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <ate max="15" unidade="dias-corridos"/>
         <descricao/>
     </tempo-total-estimado>
-    <etapas/>
+    <etapas>
+        <etapa>
+            <titulo>Solicitar o Passe Livre</titulo>
+            <descricao/>
+            <documentos>
+                <default>
+                    <item>Cópia da Carteira de Identidade ou Certidão de Nascimento ou Certidão de Casamento ou Certificado de Reservista ou Carteira de Trabalho e Previdência Social ou Título de Eleitor ou Carteira Nacional de Habilitação</item>
+                    <item>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado</item>
+                    <item>Formulário para requerimento de beneficiário</item>
+                </default>
+                <caso descricao="Caso deficiente necessite de acompanhante">
+                    <item>Formulário para requerimento de acompanhante</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://transportes.gov.br/direto-ao-cidadao/passe-livre/2-uncategorised/2761-formularios-para-requisicao-passe-livre.html]]></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="postal">
+                        <descricao><![CDATA[Ministério dos Transportes, Caixa Postal 9600 - CEP 70.040-976 - Brasília (DF). Ao escrever para o endereço citado, informe seu endereço completo para que o Ministério dos Transportes possa lhe remeter o kit do Passe Livre. Em ambos os casos, as despesas de correio serão por conta do beneficiário.]]></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="telefone">
+                        <descricao><![CDATA[(61) 33299068]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id=""/>
     <segmentos-da-sociedade/>
     <areas-de-interesse/>
