@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Solicitar o Passe Livre]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Passe Livre</item>
+    </nomes-populares>
+    <descricao><![CDATA[Permite às pessoas com deficiência e carentes, gratuidade nas passagens para viajar entre os estados brasileiros.]]></descricao>
+    <contato/>
+    <gratuito/>
+    <solicitantes/>
+    <tempo-total-estimado>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas/>
+    <orgao id=""/>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes/>
+</servico>
