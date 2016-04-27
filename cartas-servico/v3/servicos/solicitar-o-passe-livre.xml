@@ -5,11 +5,17 @@
     <nomes-populares>
         <item>Passe Livre</item>
     </nomes-populares>
-    <descricao><![CDATA[Permite às pessoas com deficiência e carentes, gratuidade nas passagens para viajar entre os estados brasileiros.]]></descricao>
+    <descricao><![CDATA[Permite às pessoas com deficiência e carentes, gratuidade nas passagens para viajar entre os estados brasileiros, seja de ônibus, trem ou barco. Este benefício não é válido para transporte urbano ou entre municípios dentro do mesmo estado.]]></descricao>
     <contato/>
-    <gratuito/>
-    <solicitantes/>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Pessoas com deficiência</tipo>
+            <requisitos><![CDATA[Renda familiar mensal de até 1 salário mínimo.]]></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
+        <ate max="15" unidade="dias-corridos"/>
         <descricao/>
     </tempo-total-estimado>
     <etapas/>
