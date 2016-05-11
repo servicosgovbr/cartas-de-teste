@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Alistar no Serviço Militar Obrigatório]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Alistamento</item>
+        <item>Alistamento Militar</item>
+    </nomes-populares>
+    <descricao><![CDATA[O Serviço Militar é o exercício de atividades específicas desempenhadas pela Marinha, Exército e Aeronáutica na defesa nacional.]]></descricao>
+    <contato/>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Brasileiros do sexo masculino que completa 18 anos</tipo>
+            <requisitos><![CDATA[O Alistamento Militar deve ser realizado por todo jovem brasileiro, do sexo masculino no **ano** em que completar 18 anos.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Naturalizado brasileiro do sexo masculino que completa 18 anos</tipo>
+            <requisitos><![CDATA[Brasileiros naturalizados do sexo masculino que completaram 18 anos até o último dia de junho do ano de alistamento.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="1" unidade="meses"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Alistar na Junta de Serviço Militar</titulo>
+            <descricao><![CDATA[A Junta de Serviço Militar é um órgão de Serviço Militar sob responsabilidade da prefeitura do seu município, o alistamento terá que ser solicitado pessoalmente na Junta de Serviço Militar.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Documento de identidade ou Certidão de nascimento</item>
+                    <item>Fotografia 3x4</item>
+                    <item>Comprovante de residência</item>
+                    <item>Cadastro de Pessoa Física</item>
+                </default>
+                <caso descricao="Caso seja naturalizado brasileiro do sexo masculino que completa 18 anos">
+                    <item>Prova de naturalização  ou certidão do termo de opção</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[O alistamento deve ser feito na Junta de Serviço Militar mais próxima de sua residência. 
+  
+Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/jsm.action]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso descricao="Caso more no estado de Sergipe">
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://www.alistamento.eb.mil.br/]]></descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Comparecer a Seleção Geral</titulo>
+            <descricao><![CDATA[Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)]]></descricao>
+            <documentos>
+                <default>
+                    <item>Certificado de Alistamento Militar (CAM)</item>
+                    <item>Carteira de identidade (RG), se tiver</item>
+                    <item>Carteira de Trabalho, se tiver</item>
+                    <item>Certidão de Nascimento original dos filhos, caso adquira esta condição após o alistamento</item>
+                    <item>Certidão de Casamento original, caso adquira esta condição após o alistamento</item>
+                    <item>Declaração escolar: Certificado de conclusão ou atestado de frequência, se tiver</item>
+                    <item>Comprovantes de qualificação ou experiência profissional, se tiver</item>
+                    <item>Comprovante de residência</item>
+                    <item>Carteira nacional de Habilitação, se tiver</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Caso seja dispensado do Serviço Militar: Receber Certificado de Dispensa de Corporação (CDI)</titulo>
+            <descricao><![CDATA[Nesta etapa deve ir novamente a Junta de Serviço Militar para participar de uma cerimônia de juramento de compromisso à Bandeira Nacional e receber seu Certificado de Dispensa de Incorporação (CDI)]]></descricao>
+            <documentos>
+                <default>
+                    <item>Documento de identidade</item>
+                    <item>Certificado de Alistamento Militar</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Deverá comparecer na mesma Junta de Serviço Militar da Etapa 1.]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Caso seja apto ao Serviço Militar: Comparecer a organização militar da marinha, aeronáutico ou exército designado</titulo>
+            <descricao><![CDATA[Caso seja apto o brasileiro irá servir por no mínimo 1 ano na organização militar designada.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Documento de identidade</item>
+                    <item>Certificado de Alistamento Militar</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Endereço da organização militar designada.]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Defesa Nacional</item>
+        <item>Defesa militar</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>Exército</item>
+        <item>Marinha</item>
+        <item>Aeronáutica</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Legislação militar]]></item>
+    </legislacoes>
+</servico>
