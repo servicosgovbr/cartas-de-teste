@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Obter atestado de residência no exterior]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Atestado de residência no exterior</item>
+    </nomes-populares>
+    <descricao><![CDATA[O atestado de residência é um documento que certifica o tempo de permanência ou residência de um cidadão no exterior.
+
+Esse atestado é normalmente utilizado para fins de isenção de impostos alfandegários junto à Receita Federal, referentes a bens de cidadãos que estejam retornando em caráter permanente ao Brasil. Também é utilizado como comprovante de residência, solicitado por empresas e órgãos públicos no Brasil.]]></descricao>
+    <contato/>
+    <gratuito/>
+    <solicitantes/>
+    <tempo-total-estimado>
+        <ate max="1" unidade="horas"/>
+        <descricao><![CDATA[Este serviço pode demorar mais ou menos de acordo com]]></descricao>
+    </tempo-total-estimado>
+    <etapas/>
+    <orgao id=""/>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes/>
+</servico>
