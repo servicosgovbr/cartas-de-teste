@@ -8,17 +8,87 @@
     <descricao><![CDATA[O atestado de residência é um documento que certifica o tempo de permanência ou residência de um cidadão no exterior.
 
 Esse atestado é normalmente utilizado para fins de isenção de impostos alfandegários junto à Receita Federal, referentes a bens de cidadãos que estejam retornando em caráter permanente ao Brasil. Também é utilizado como comprovante de residência, solicitado por empresas e órgãos públicos no Brasil.]]></descricao>
-    <contato/>
-    <gratuito/>
-    <solicitantes/>
+    <contato><![CDATA[O contato depende do Consulado ou Embaixada de cada país, e pode ser consultado por este endereço:
+
+http://www.portalconsular.mre.gov.br/sites-dos-postos/por-ordem-alfabetica]]></contato>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Cidadão Brasileiro</tipo>
+            <requisitos/>
+        </solicitante>
+        <solicitante>
+            <tipo>Cidadão Estrangeiro</tipo>
+            <requisitos/>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
         <ate max="1" unidade="horas"/>
-        <descricao><![CDATA[Este serviço pode demorar mais ou menos de acordo com]]></descricao>
+        <descricao><![CDATA[Este serviço pode demorar mais ou menos tempo para ser atendido, pois pode variar de acordo com o Consulado ou Embaixada em que for solicitado]]></descricao>
     </tempo-total-estimado>
-    <etapas/>
-    <orgao id=""/>
-    <segmentos-da-sociedade/>
-    <areas-de-interesse/>
+    <etapas>
+        <etapa>
+            <titulo>Solicitar Atestado de Residência no Exterior</titulo>
+            <descricao><![CDATA[O cidadão deve ir a um Consulado ou Embaixada Brasileira no país em que deseja solicitar um atestado de residência e apresentar os documentos que, segundo a legislação local, possam comprovar que residiu naquele país]]></descricao>
+            <documentos>
+                <default>
+                    <item>Formulário de Atestado de Residência</item>
+                    <item>Original e cópia dos documentos que comprovem o período de residência no exterior</item>
+                </default>
+                <caso descricao="Cidadão Brasileiro">
+                    <item>Original e cópia de passaporte ou de documento de identidade brasileiro com foto</item>
+                </caso>
+                <caso descricao="Cidadão Estrangeiro">
+                    <item>Original e cópia de passaporte estrangeiro ou de documento estrangeiro oficial com foto</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default>
+                    <custo>
+                        <descricao><![CDATA[Valor da solicitação de atestado de residência, em moeda local, depende do Consulado e Embaixada que está solicitando o atestado]]></descricao>
+                        <moeda/>
+                        <valor/>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[O endereço depende do Consulado ou Embaixada de cada país, e pode ser consultado por este endereço:
+
+http://www.portalconsular.mre.gov.br/sites-dos-postos/por-ordem-alfabetica]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Receber o Atestado de Residência no Exterior</titulo>
+            <descricao><![CDATA[O cidadão deve buscar o Atestado de Residência no Exterior no mesmo Consulado ou Embaixada que fez a solicitação]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[O endereço depende do Consulado ou Embaixada de cada país, e pode ser consultado por este endereço:
+
+http://www.portalconsular.mre.gov.br/sites-dos-postos/por-ordem-alfabetica]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/263"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Turismo</item>
+        <item>Relações Internacionais</item>
+    </areas-de-interesse>
     <palavras-chave/>
     <legislacoes/>
 </servico>
