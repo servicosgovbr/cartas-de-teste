@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Obter pensão especial para atingidos pela hanseniase e internados compulsoriamente]]></nome>
+    <sigla/>
+    <nomes-populares/>
+    <descricao><![CDATA[A pensão especial é vitalícia e não pode ser transferida a dependentes. No entanto, em caso de morte do beneficiário, os herdeiros têm direito a receber os valores que eventualmente deixaram de ser pagos em vida para os titulares da pensão.
+A pensão corresponde a R$ 750,00 (setecentos e cinquenta reais) e tem reajuste anual, conforme os índices concedidos aos benefícios de valor superior ao piso do Regime Geral de Previdência Social.]]></descricao>
+    <contato/>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Pessoas com hanseníase</tipo>
+            <requisitos><![CDATA[Pessoas que passaram pela chamada “profilaxia da lepra”, implementada no país entre 1923 e 1962. Nesse período, milhares de mulheres, homens e crianças com a doença foram discriminados e isolados compulsoriamente em hospitais-colônia.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="30" unidade="dias-corridos"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Preencher formulário</titulo>
+            <descricao><![CDATA[O formulário deverá ser baixado pela internet e preenchido pelo solicitante.]]></descricao>
+            <documentos>
+                <default>
+                    <item>RG ou</item>
+                    <item>CNH ou</item>
+                    <item>Passaporte ou</item>
+                    <item>Carteira de trabalho</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://www.sdh.gov.br/assuntos/pessoa-com-deficiencia/programas/hanseniase-1/pdfs-e-docs/requerimento-de-pensao-especial]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Apresentar requerimento</titulo>
+            <descricao><![CDATA[Para comprovar o enquadramento para este serviço, o requerente deverá apresentar documentos hospitalares da época do isolamento e internação que contenham os seguintes registros:
+Data do fichamento;
+Data do diagnóstico da hanseníase;
+Data de internação;
+Data de alta hospitalar e
+Forma Clínica da hanseníase.
+
+A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depoimentos de testemunhas e, caso necessário, prova pericial para comprovar a situação do solicitante.]]></descricao>
+            <documentos>
+                <default>
+                    <item>carteira de identidade ou</item>
+                    <item>certidão de nascimento ou</item>
+                    <item>certidão de casamento ou</item>
+                    <item>certificado de reservista ou</item>
+                    <item>carteira de trabalho e previdência social</item>
+                    <item>formulário da etapa anterior preenchido e assinado</item>
+                    <item>documentos hospitalares da época do isolamento e internação</item>
+                </default>
+                <caso descricao="Se for representante legal">
+                    <item>Procuração</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Onde entrega a documentação e o formulário.]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Receber aviso de deferimento ou indeferimento da requisição</titulo>
+            <descricao><![CDATA[Caso não seja deferido, é possível pedir revisão através do formulário em http://www.sdh.gov.br/assuntos/pessoa-com-deficiencia/programas/hanseniase-1/pdfs-e-docs/requerimento-de-revisao
+ (nesse caso, há novas etapas ou o procedimento é o mesmo apenas mudando o formulário?)]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="postal">
+                        <descricao><![CDATA[Carta]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Receber pensão</titulo>
+            <descricao><![CDATA[Esta etapa só irá ocorrer se o requerimento tiver sido deferido na etapa anterior.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Banco]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Assistência ao Portador de Deficiência</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>lepra</item>
+        <item>doença</item>
+        <item>auxílio</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[lei x]]></item>
+    </legislacoes>
+</servico>
