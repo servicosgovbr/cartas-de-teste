@@ -1,21 +1,93 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>Obter autorização de operação de serviço de microfilmagem</nome>
+    <nome><![CDATA[Obter autorização de operação de serviço de microfilmagem]]></nome>
     <sigla/>
     <nomes-populares>
         <item>microfilmagem</item>
     </nomes-populares>
-    <descricao/>
+    <descricao><![CDATA[Todas as empresas antes de microfilmar documentos, devem solicitar ao Departamento de Justiça, Classificação, Títulos e Qualificação do Ministério da Justiça seu requerimento de autorização. Havendo parecer favorável, a autorização será publicada por meio de Portaria, no Diário Oficial da União.]]></descricao>
     <contato/>
-    <gratuito/>
-    <solicitantes/>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Empresas</tipo>
+            <requisitos/>
+        </solicitante>
+        <solicitante>
+            <tipo>Cartórios</tipo>
+            <requisitos/>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
+        <ate max="2" unidade="meses"/>
         <descricao/>
     </tempo-total-estimado>
-    <etapas/>
-    <orgao id=""/>
-    <segmentos-da-sociedade/>
-    <areas-de-interesse/>
-    <palavras-chave/>
-    <legislacoes/>
+    <etapas>
+        <etapa>
+            <titulo>Solicitar Autorização de operação de serviço de microfilmagem</titulo>
+            <descricao><![CDATA[O pedido de inscrição deverá ser formulado por meio de requerimento escrito à Secretaria Nacional de Justiça, com o assunto: “Microfilmagem – Registro”.]]></descricao>
+            <documentos>
+                <default>
+                    <item>comprovante de inscrição no Cadastro Nacional de Pessoa Jurídica, do Ministério da Fazenda (CNPJ)</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="postal">
+                        <descricao><![CDATA[Ministério da Justiça
+
+Secretaria Nacional de Justiça
+Departamento de Justiça, Classificação, Títulos e Qualificação
+Coordenação de Entidades Sociais
+Esplanada dos Ministérios, Bloco T, Anexo II, sala 209/211
+CEP 70064-900.  Brasília/DF]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Receber correspondência</titulo>
+            <descricao><![CDATA[Concluído o processo, a requerente será notificada por correspondência, recebendo o comunicado oficial acompanhado de cópia da publicação e ficará obrigada a manter atualizadas suas informações junto ao Ministério da Justiça para que não venha a perder sua autorização.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo>
+                        <descricao><![CDATA[Sem custo]]></descricao>
+                        <moeda/>
+                        <valor/>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="postal">
+                        <descricao><![CDATA[Na residência do requisitante]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316"/>
+    <segmentos-da-sociedade>
+        <item>Órgãos e entidades públicas</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cultura</item>
+        <item>Comunicações</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>microfilmagem</item>
+        <item>documentação</item>
+        <item>armazenamento</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Decreto nº 1.799, de 30 de janeiro de 1996.
+Lei nº 5.433, de 8 de maio de 1968.]]></item>
+    </legislacoes>
 </servico>
