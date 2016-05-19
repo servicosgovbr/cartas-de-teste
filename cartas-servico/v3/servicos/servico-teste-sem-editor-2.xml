@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Serviço teste sem editor 2]]></nome>
+    <sigla>editor 2</sigla>
+    <nomes-populares>
+        <item>editor 2</item>
+    </nomes-populares>
+    <descricao><![CDATA[Serviço teste para verificar se funciona sem o editor 2]]></descricao>
+    <contato><![CDATA[dsfsdadsfsdafadsf]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Eu</tipo>
+            <requisitos><![CDATA[dfdasfsdfsadf]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Tu</tipo>
+            <requisitos><![CDATA[afdfsafadsfsadfadsfadsfasfdasfdsafsdfsdafdsafvxzcvzxvzxvzxcvzxvxzvcxzvdfghjhkgjhkm,nloiuçpuóip]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre max="4" min="2" unidade="dias-uteis"/>
+        <descricao><![CDATA[afdsfasfsfdasfsfafsa]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Etapa 3000000000000000000000000000000000000</titulo>
+            <descricao><![CDATA[etapa gfklsdfjkglsdlknhlknblkglbn,.v,nxmcnbm,.nxcmv,bncmvxbnx,mcv.]]></descricao>
+            <documentos>
+                <default>
+                    <item>sadasfsdfsafdsf</item>
+                    <item>adsffadsfdsafdsafsdaf</item>
+                </default>
+                <caso descricao="adsfdasfdsafasdfdas">
+                    <item>sadfsadfdsafadsfd</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web-inscrever-se">
+                        <descricao><![CDATA[http://www.google.com.br]]></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="web-postos-de-atendimento">
+                        <descricao><![CDATA[http://www.uol.com.br]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso descricao="fdsafasfsafdsafdasff">
+                    <canal-de-prestacao tipo="web-declarar">
+                        <descricao><![CDATA[http://www.gmail.com]]></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="e-mail">
+                        <descricao><![CDATA[teste@teste.com]]></descricao>
+                    </canal-de-prestacao>
+                </caso>
+                <caso descricao="dsvfasfdsfasfdasfafds">
+                    <canal-de-prestacao tipo="web-simular">
+                        <descricao><![CDATA[www.tst.com.br]]></descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Etapa 400000000000000000000</titulo>
+            <descricao><![CDATA[dsfsdgfdgfdsgdsfgdfsgfdsgdsfgsfdgsfdgsdfgfsdgfdsgfsdgfsdgfsdgsfdgdsfg]]></descricao>
+            <documentos>
+                <default>
+                    <item>testertdsgacdvb</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="e-mail">
+                        <descricao><![CDATA[dfdsafsdfasdfsadfsd]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Órgãos e entidades públicas</item>
+        <item>Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Educação</item>
+        <item>Difusão Cultural</item>
+        <item>Defesa militar</item>
+        <item>Defesa agropecuária</item>
+        <item>Defesa Nacional</item>
+        <item>Defesa do Consumidor</item>
+        <item>Energia</item>
+        <item>Esporte comunitário</item>
+        <item>Esporte profissional</item>
+        <item>Indústria</item>
+        <item>Lazer</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>sadfjasdklfjkdlsajkflj</item>
+        <item>kjdksjfklsdjfkljsakdlj</item>
+        <item>jsdklfjlksdjfadslkjfkljdsklflkds</item>
+        <item>adfsafsdagsdagag</item>
+        <item>asdgasgasgsdfgafgfgag</item>
+        <item>agdgfagafgfgadfgafdgfad</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[hdjfkhgjkfhghjkghjklsdfhjkghjksdfhgjkshdjkl]]></item>
+        <item><![CDATA[dsfasffdasfdsfsadfasdfdasfasf]]></item>
+        <item><![CDATA[asdfafdsfsafdsafasdfasdfsaf]]></item>
+    </legislacoes>
+</servico>
