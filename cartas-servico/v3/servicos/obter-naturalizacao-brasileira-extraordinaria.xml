@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Obter naturalização brasileira extraordinária]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>naturalização</item>
+    </nomes-populares>
+    <descricao><![CDATA[Destinada aos estrangeiros que residem no Brasil, há mais de quinze anos ininterruptos, sem condenação penal, e que têm interesse em adquirir a nacionalidade brasileira.]]></descricao>
+    <contato/>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Estrangeiro residente no Brasil</tipo>
+            <requisitos><![CDATA[Residir no Brasil por 15 anos ininterruptos
+Inexistência de condenação penal
+Pagar GRU]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="60" unidade="dias-corridos"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Solicitar naturalização em um dos postos da polícia federal</titulo>
+            <descricao><![CDATA[O formulário de requerimento e os demais documentos devem ser apresentados perante uma das unidades do Departamento de Polícia Federal mais próxima da residência do interessado.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Requerimento devidamente datado e assinado pelo naturalizando</item>
+                    <item>Declaração de que deseja, ou não, traduzir ou adaptar o nome à língua portuguesa</item>
+                    <item>Cópia autenticada da cédula de identidade para estrangeiro permanente atualizada ou cópia autenticada do cartão de protocolo de pedido de carteira</item>
+                    <item>Cópia autenticada do CPF – Cadastro de Pessoa Física</item>
+                    <item>Atestado de antecedentes criminais expedido pela Secretaria de Segurança Pública dos Estados brasileiros onde residiu nos últimos cinco anos</item>
+                    <item>Certidão dos cartórios de distribuição de ações criminais das Comarcas onde residiu e de onde reside</item>
+                    <item>Certidão negativa de ações criminais da Justiça Federal dos estados onde residiu e de onde reside</item>
+                    <item>Atestados de antecedentes criminais expedidos pelo país de nacionalidade, conforme o caso, legalizado junto à repartição consular brasileira e traduzido por tradutor público no Brasil, devidamente inscrito na Junta Comercial ou Juramentado</item>
+                    <item>Cópia autenticada da última conta de água ou de luz ou de outro documento hábil para comprovar a residência no Brasil</item>
+                    <item>Cópia autenticada, na íntegra, do passaporte</item>
+                    <item>Documento hábil que comprove a estada regular no Território Nacional por 15 (quinze) anos ininterruptos</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes/>
+</servico>
