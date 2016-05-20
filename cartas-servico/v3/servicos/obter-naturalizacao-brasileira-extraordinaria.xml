@@ -43,13 +43,28 @@ Pagar GRU]]></requisitos>
                 <default/>
             </custos>
             <canais-de-prestacao>
-                <default/>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao/>
+                    </canal-de-prestacao>
+                </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id=""/>
-    <segmentos-da-sociedade/>
-    <areas-de-interesse/>
-    <palavras-chave/>
-    <legislacoes/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Indústria</item>
+        <item>Infraestrutura Urbana</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>Estrangeiro</item>
+        <item>Naturalização</item>
+        <item>Moradia</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[legislação]]></item>
+    </legislacoes>
 </servico>
