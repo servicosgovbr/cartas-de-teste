@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Obter termo de compromisso de cessação de atividade econômica]]></nome>
+    <sigla>TCC</sigla>
+    <nomes-populares/>
+    <descricao><![CDATA[O TCC poderá ocorrer no curso das investigações contra a ordem econômica e trata de um acordo entre a autoridade encarregada do processo administrativo e o representado – pessoa física ou jurídica – cuja conduta se analisa. A partir da celebração do compromisso de cessação, a investigação é suspensa enquanto o administrado compromete-se a suspender as práticas que geraram as suspeitas de infração à ordem econômica, independentemente do reconhecimento de culpa.]]></descricao>
+    <contato/>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Brasileiros - Pessoa física</tipo>
+            <requisitos><![CDATA[Estes requisitos valem para todos os tipos de solicitantes.
+
+Os pré-requisitos para se firmar um TCC são:
+
+(i) reconhecimento da participação na conduta investigada, nos casos de cartel.
+(ii) obrigação de não voltar a praticar a conduta investigada; e 
+(iii) outras medidas possíveis, como medidas estruturais e/ou comportamentais que estimulem e/ou reestabeleçam a concorrência no mercado, ou ainda que reparem os efeitos negativos da conduta.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Brasileiros - Pessoa jurídica</tipo>
+            <requisitos/>
+        </solicitante>
+        <solicitante>
+            <tipo>Estrangeiro - Pessoa física</tipo>
+            <requisitos/>
+        </solicitante>
+        <solicitante>
+            <tipo>Estrangeiro - Pessoa jurídica</tipo>
+            <requisitos/>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="300" unidade="dias-corridos"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Realizar credenciamento</titulo>
+            <descricao><![CDATA[O passo-a-passo para o credenciamento pode ser encontrado em http://www.cade.gov.br/noticias/requerimento-de-tcc-ja-pode-ser-realizado-pelo-protocolo-eletronico-do-cade/guia-peticionamento-eletronico.pdf]]></descricao>
+            <documentos>
+                <default>
+                    <item>cpf</item>
+                    <item>rg</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://sei.cade.gov.br/sei/institucional/usuarioexterno/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Apresentar documentação</titulo>
+            <descricao/>
+            <documentos>
+                <default>
+                    <item>cpf</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="postal">
+                        <descricao><![CDATA[Endereço informado no momento do cadastramento realizado na etapa anterior.]]></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Endereço informado no momento do cadastramento realizado na etapa anterior.]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Realizar requerimento de TCC</titulo>
+            <descricao><![CDATA[O sistema gera automaticamente recibo eletrônico do Requerimento de TCC,
+onde consta o número do processo, o tipo do processo e nível de acesso, a
+data e hora do protocolo do requerimento, o nome do usuário externo e o
+número do IP da máquina de acesso do usuário externo. O comprovante pode
+ser impresso ou armazenado como documento eletrônico.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Número do processo a que o requerimento é relacionado</item>
+                </default>
+                <caso descricao="Se for Brasilero - Pessoa física">
+                    <item>cpf</item>
+                </caso>
+                <caso descricao="Se for Brasilero - Pessoa jurídica">
+                    <item>cnpj</item>
+                </caso>
+                <caso descricao="Se for estrangeiro">
+                    <item>Colocar lista aqui</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[Colocar canal aqui]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Consultar processo</titulo>
+            <descricao/>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+                <caso descricao="Haverá uma contribuição pecuniária"/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web-acompanhar">
+                        <descricao><![CDATA[Colocar canal aqui]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Economia e Finanças</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>Acordo</item>
+        <item>Cartel</item>
+        <item>Concorrência</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Lei x]]></item>
+    </legislacoes>
+</servico>
