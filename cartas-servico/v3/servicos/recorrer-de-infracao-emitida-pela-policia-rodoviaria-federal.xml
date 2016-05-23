@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Recorrer de infração emitida pela Polícia Rodoviária Federal]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>recurso de multa de trânsito</item>
+        <item>multa de trânsito</item>
+        <item>recurso de infração</item>
+    </nomes-populares>
+    <descricao><![CDATA[O cidadão que recebeu uma notificação de multa de trânsito pode realizar sua defesa através de um recurso de infração. Este recurso será analisado e julgado pela Polícia Rodoviária Federal e poderá ser aceito, cancelando os efeitos da infração notificada.]]></descricao>
+    <contato><![CDATA[Unidade Sede, Unidades Regionais e nas Delegacias da Polícia Rodoviária Federal, cujos endereços estão disponíveis no portal eletrônico www.prf.gov.br, no link “Endereços e Telefones”]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>O proprietário do veículo</tipo>
+            <requisitos><![CDATA[Ser o proprietário do veículo, sendo pessoa física ou jurídica, e identificando devidamento o condutor que dirigia o veículo durante a autuação da infração]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Condutor autuado</tipo>
+            <requisitos><![CDATA[Não ser o proprietário do veículo, mas se identificar como o condutor que dirigia o veículo durante a autuação da infração]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="2" unidade="meses"/>
+        <descricao><![CDATA[Esse tempo pode ser maior ou menor, de acordo com as justificativas apresentadas no recurso.]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Entregar o recurso de infração</titulo>
+            <descricao><![CDATA[O solicitante interessado em recorrer de uma infração notificada deve entregar o recurso para análise da Polícia Rodoviária Federal]]></descricao>
+            <documentos>
+                <default>
+                    <item>Formulário preenchido com: órgão que emitiu a infração (PRF); nome, endereço, telefone, e dados de identificação do solicitante;  dados de identificação do veículo;  dados do documento de habilitação do condutor-infrator; número do auto de infração</item>
+                    <item>Cópia do documento de identificação do solicitante</item>
+                    <item>Cópia do documento de identificação do veículo</item>
+                    <item>Cópia do documento de habilitação do condutor-infrator (Carteira Nacional de Habilitação - CNH)</item>
+                    <item>Cópia do auto de infração</item>
+                    <item>Formulário disponível no site www.prf.gov.br, na aba “Recurso de Multa - Requerimento”</item>
+                </default>
+                <caso descricao="Procurador devidamente autorizado">
+                    <item>Procuração que identifica o procurador a atuar em nome do</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Unidade Sede, Unidades Regionais e nas Delegacias da Polícia Rodoviária Federal, cujos endereços estão disponíveis no portal eletrônico www.prf.gov.br, no link “Endereços e Telefones”]]></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="postal">
+                        <descricao><![CDATA[Unidade Sede, Unidades Regionais e nas Delegacias da Polícia Rodoviária Federal, cujos endereços estão disponíveis no portal eletrônico www.prf.gov.br, no link “Endereços e Telefones”]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Recebimento de notificação sobre resultado do recurso</titulo>
+            <descricao><![CDATA[O solicitante irá receber uma notificação da Polícia Rodoviária Federal no mesmo endereço que recebeu a notificação de infração, informando o resultado do recurso entregue]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Fiscalização do Estado</item>
+        <item>Serviços Públicos</item>
+        <item>Transporte Rodoviário</item>
+        <item>Transportes</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>Recurso</item>
+        <item>Infração</item>
+        <item>Multa</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Código de Trânsito Brasileiro, Lei Nº 9.503, de 23 de setembro de 1997 e suas alterações]]></item>
+    </legislacoes>
+</servico>
