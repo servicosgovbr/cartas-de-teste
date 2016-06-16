@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Obter Cartão Nacional de Saúde]]></nome>
+    <sigla>CNS</sigla>
+    <nomes-populares>
+        <item>Cartão do SUS</item>
+    </nomes-populares>
+    <descricao><![CDATA[É um documento projetado para facilitar o acesso à rede de atendimento do Sistema Único de Saúde (SUS) e conter dados sobre quando e onde o paciente foi atendido, quais serviços foram prestados e por qual profissional e quais procedimentos foram realizados.
+Com esse cartão, é possível marcar consultas médicas para solicitar uma cirurgia que seja feita pelo SUS e conseguir medicamentos gratuitos ou com desconto, por exemplo]]></descricao>
+    <contato><![CDATA[Disque saúde 136]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Qualque cidadão</tipo>
+            <requisitos/>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="dias-uteis"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Realizar pré-cadastro</titulo>
+            <descricao><![CDATA[Será gerado um protocolo de atendimento válido por 90 dias nas unidades de atendimento habilitadas para emitir o Cartão. Usando o pré-cadastro o seu atendimento será agilizado para emitir o cartão, restando apenas a verificação das informações prestadas junto a um agente público de saúde.
+Verifique se você já possui um número de cartão nacional de saúde: https://portaldocidadao.saude.gov.br/portalcidadao/validaNumeroCNS.htm
+Caso possua, dirija-se a uma unidade de saúde.]]></descricao>
+            <documentos>
+                <default>
+                    <item>cpf</item>
+                    <item>rg</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web-preencher">
+                        <descricao><![CDATA[https://portaldocidadao.saude.gov.br/portalcidadao/areaCadastro.htm]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso descricao="Se você já possui um número de cartão nacional de saúde ou prefere realizar o pedido em uma das unidades">
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Dirija-se a uma unidade de saúde do SUS. Pode localizar o posto mais próximo em ...]]></descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Receber cartão</titulo>
+            <descricao/>
+            <documentos>
+                <default>
+                    <item>rg</item>
+                    <item>cpf</item>
+                    <item>Número de protocolo</item>
+                    <item>Comprovante de residência</item>
+                </default>
+                <caso descricao="Se for menor de 18 anos">
+                    <item>Basta levar a certidão de nascimento</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Deverá comparecer a um posto de saúde. Veja os lugares disponíveis para o seu município aqui.]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Cadastrar-se no Portal de Saúde do Cidadão</titulo>
+            <descricao><![CDATA[Todos os atendimentos pelos quais você passar usando o cartão do SUS ficarão registrados no sistema. Ou seja: ele é a sua identificação em qualquer posto do país. Então, vale a pena se cadastrar no Portal de Saúde do Cidadão para manter as informações pessoais em dia, conseguir imprimir uma cópia do cartão do SUS, ter acesso ao seu histórico de consultas, medicamentos, internações etc. Além disso, o sistema traz a lista de remédios que estão na rede do programa Farmácia Popular.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web-preencher">
+                        <descricao><![CDATA[https://portaldocidadao.saude.gov.br/portalcidadao/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Saúde</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>sus</item>
+        <item>atendimento médico</item>
+        <item>postos de saúde</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Lexml]]></item>
+    </legislacoes>
+</servico>
