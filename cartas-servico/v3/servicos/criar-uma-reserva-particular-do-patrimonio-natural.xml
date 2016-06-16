@@ -23,7 +23,8 @@ alterações posteriores.]]></requisitos>
     <etapas>
         <etapa>
             <titulo>Requerer a criação de RPPN</titulo>
-            <descricao/>
+            <descricao><![CDATA[O  requerimento  gerado  deverá  ser  assinado  e  encaminhado  para  a  sede  do  Instituto 
+Chico Mendes em Brasília, juntamente com a documentação citada na próxima etapa.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -31,7 +32,49 @@ alterações posteriores.]]></requisitos>
                 <default/>
             </custos>
             <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://sistemas.icmbio.gov.br/simrppn]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Encaminhar documentação ao ICMBIO</titulo>
+            <descricao/>
+            <documentos>
+                <default>
+                    <item>Requerimento gerado na primeira etapa, com a assinatura do proprietário, e do cônjuge, se houver.</item>
+                    <item>C ópia  autenticada das  cédulas  de  identidade  dos  proprietários;  do  cônjuge  ou  convivente;  do procurador, se for o caso, e dos membros ou representantes, quando pessoa jurídica.</item>
+                    <item>Certidão negativa de débitos expedida pelo órgão de administração tributária competente para arrecadação dos tributos relativos ao imóvel, atualizada e quitada. A certidão pode ser emitida através do  site da Receita Federal.</item>
+                    <item>C ertificado do Cadast ro do Imóvel Rural (CCIR),  atualizado e  quitado .  O Certificado p ode ser  emitid o através do  site do INCRA .</item>
+                    <item>Três vias do Termo de Compromisso, assinadas por quem firmar o requerimento de criação da  RPPN. Modelo do Termo disponível no link:  http:\\www.icmbio.gov.br/rppn</item>
+                    <item>cópia  autenticada  do título de domínio do imóvel no qual se constituirá a RPPN.</item>
+                    <item>cópia  autenticada e  atualizada da  certidão  de  matrícula  e  registro  do  imóvel  no  qual  se  constituirá  a  RPPN,  indicando  a  cadeia  dominial  válida  e  ininterrupta,  trintenária  ou  desde  a  sua  origem.</item>
+                    <item>cópia autenticada da  certidão  de  ônus  reais  e  ações  reais  e  pessoais  reipersecutória s  sobre  o  imóvel.</item>
+                    <item>planta impressa da área total do imóvel indicando os limites; os confrontantes; a área a ser reconhecida, quando parcial; a localização da propriedade no município ou região, e as coordenadas dos vértices definidores dos limites do imóvel rural e da área proposta como RPPN,  georreferenciadas de acordo com o Sistema Geodésico Brasileiro, indicando a base cartográfica utilizada e assinada por profissional habilitado, com a devida Anotação de Responsabilidade Técnica – ART e seu comprovante de pagamento.</item>
+                    <item>memorial descritivo impresso dos limites do imóvel e da área proposta como RPPN , quando  parcial,  georreferenciado,  indicando  a  base  cartográfica  utilizada  e  as  coordenadas  dos  vértices  definidores dos limites , assinado por profissio nal habilitado, com a devida  ART e seu  comprovante  de pagamento.</item>
+                </default>
+                <caso descricao="Quando se tratar de condomínio">
+                    <item>todos os condôminos deverão assinar o requerimento ou indicar um representante legal, mediante procuração</item>
+                </caso>
+                <caso descricao="Se for pessoa jurídica">
+                    <item>o requerimento deve ser assinado pelos seus membros ou representantes com poder de disposição de imóveis.</item>
+                </caso>
+            </documentos>
+            <custos>
                 <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="postal">
+                        <descricao><![CDATA[INSTITUTO CHICO MENDES DE CONSERVAÇÃO DA BIODIVERSIDADE
+DIRETORIA DE CRIAÇÃO E MANEJO DE UNIDADE DE CONSERVAÇÃO
+COORDENAÇÃO DE CRIAÇÃO DE UNIDADE DE CONSERVAÇÃO
+RESERVA PARTICULAR DO PATRIMÔNIO NATURAL
+Caixa Postal nº 7993 - CEP: 70673-970 - Brasília/DF]]></descricao>
+                    </canal-de-prestacao>
+                </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
