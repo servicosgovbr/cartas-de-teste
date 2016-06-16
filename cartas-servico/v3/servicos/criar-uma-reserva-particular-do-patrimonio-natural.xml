@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Criar uma Reserva Particular do Patrimônio Natural]]></nome>
+    <sigla>RPPN</sigla>
+    <nomes-populares/>
+    <descricao><![CDATA[Permite  a participação  direta  da  sociedade  civil  no  processo  de  ampliação das  áreas protegidas  no  país. A grande  maioria  dos  proprietários  de  RPPN  criaram  suas  reservas 
+com  o  objetivo  de preservarem suas  áreas  em  caráter  perpétuo ou de  buscar  alternativas sustentáveis para o uso da propriedade. A propriedade de uma RPPN também dá acesso às políticas públicas específicas de incentivo, tais como isenção do imposto territorial rural.]]></descricao>
+    <contato/>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Proprietário Rural</tipo>
+            <requisitos><![CDATA[* Quando se  tratar  de  condomínio,  todos  os  condôminos  deverão  assinar  o requerimento ou indicar um representante legal, mediante a apresentação de procuração. 
+* Se  for pessoa  jurídica o  requerimento  deve  ser assinado pelos  seus  membros  ou 
+representantes  com  poder  de  disposição  de  imóveis,  conforme  seu  ato  constitutivo  e 
+alterações posteriores.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="30" unidade="dias-corridos"/>
+        <descricao><![CDATA[Confirmar o tempo.]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Requerer a criação de RPPN</titulo>
+            <descricao/>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes/>
+</servico>
