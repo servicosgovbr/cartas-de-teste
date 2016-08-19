@@ -54,34 +54,41 @@ classificacaoindicativa@mj.gov.br]]></contato>
                     <item>Ficha Técnica de Audiovisual</item>
                     <item>Cópia integral do produto para ser analisada</item>
                     <item>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
+                    <item>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/cinema-ou-video</item>
                 </caso>
                 <caso descricao="Festivais e Mostras de Cinema (dispensável)">
                     <item>Ficha Técnica de Audiovisual</item>
                     <item>Cópia integral do produto para ser analisada</item>
                     <item>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
+                    <item>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/cinema-ou-video</item>
                 </caso>
                 <caso descricao="Televisão Aberta">
                     <item>Ficha Técnica de Audiovisual</item>
                     <item>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
+                    <item>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</item>
                 </caso>
                 <caso descricao="Serviço de Acesso Condicionado (TV por assinatura) (dispensável)">
                     <item>Ficha Técnica de Audiovisual</item>
                     <item>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
+                    <item>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</item>
                 </caso>
                 <caso descricao="Jogos e aplicativos de distribuição em mídia física (DVD, Blu-ray, cartuchos, etc)">
                     <item>Ficha Técnica de Jogo Eletrônico</item>
                     <item>Sinopse do jogo</item>
                     <item>Cópia do jogo ou vídeo de gameplay abrangente com conteúdos pertinentes à classificação</item>
+                    <item>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/jogos-e-rpg</item>
                 </caso>
                 <caso descricao="Jogos e aplicativos de distribuição exclusivamente digital (download) (dispensável)">
                     <item>Ficha Técnica de Jogo Eletrônico</item>
                     <item>Sinopse do jogo</item>
                     <item>Cópia do jogo ou vídeo de gameplay abrangente com conteúdos pertinentes à classificação</item>
+                    <item>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/jogos-e-rpg</item>
                 </caso>
                 <caso descricao="Livros de RPG">
                     <item>Ficha Técnica de RPG</item>
                     <item>Sinopse do livro</item>
                     <item>Uma cópia integral do produto para ser analisada</item>
+                    <item>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/livros-de-rpg</item>
                 </caso>
             </documentos>
             <custos>
