@@ -45,9 +45,10 @@ classificacaoindicativa@mj.gov.br]]></contato>
             <documentos>
                 <default/>
                 <caso descricao="Cinema comercial ou vídeo doméstico em mídia física">
-                    <item>Ficha Técnica de Audiovisual (http://www.justica.gov.br/seus-direitos/classificacao/procedimento/1FichaTecnicadeAudiovisual_2016.doc)</item>
+                    <item>Ficha Técnica de Audiovisual</item>
                     <item>Cópia integral do produto para ser analisada</item>
                     <item>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
+                    <item>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/cinema-ou-video</item>
                 </caso>
                 <caso descricao="Distribuição por Vídeo sob Demanda (VoD) (dispensável)">
                     <item>Ficha Técnica de Audiovisual</item>
