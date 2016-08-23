@@ -12,7 +12,9 @@ Se sua empresa oferece serviços ligados à Arquitetura e Urbanismo, é obrigat�
     <gratuito>true</gratuito>
     <solicitantes/>
     <tempo-total-estimado>
-        <descricao/>
+        <ate max="30" unidade="dias-corridos"/>
+        <descricao><![CDATA[Até 30 dias para aprovação, identificação de pendências, ou indeferimento.
+Se identificadas pendências no pedido de registro, serão dados 10 dias para manifestação da empresa.]]></descricao>
     </tempo-total-estimado>
     <etapas/>
     <orgao id=""/>
