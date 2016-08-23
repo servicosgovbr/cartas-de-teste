@@ -6,10 +6,10 @@
         <item>Registro de PJ</item>
         <item>Cadastro de Empresas</item>
     </nomes-populares>
-    <descricao><![CDATA[Registro obrigatório de empresas de Arquitetura e Urbanismo.
-Compreende as atividades privativas]]></descricao>
+    <descricao><![CDATA[Registro obrigatório de empresas de Arquitetura e Urbanismo, Seções Técnicas de Arquitetura em empresas ou órgãos públicos.
+Se sua empresa oferece serviços ligados à Arquitetura e Urbanismo, é obrigatório o registro no CAU/UF onde está localizada a sede da empresa.]]></descricao>
     <contato/>
-    <gratuito/>
+    <gratuito>true</gratuito>
     <solicitantes/>
     <tempo-total-estimado>
         <descricao/>
@@ -20,6 +20,6 @@ Compreende as atividades privativas]]></descricao>
     <areas-de-interesse/>
     <palavras-chave/>
     <legislacoes>
-        <item><![CDATA[Resolução CAU/BR 28 de 6 de Julho de 2012]]></item>
+        <item><![CDATA[[Resolução CAU/BR 28 de 6 de Julho de 2012] (http://www.caubr.gov.br/wp-content/uploads/anexos/resolucao/RES-28REGISTRO-PJRP-JUL-2012.pdf)]]></item>
     </legislacoes>
 </servico>
