@@ -6,9 +6,10 @@
         <item>Registro de PJ</item>
         <item>Cadastro de Empresas</item>
     </nomes-populares>
-    <descricao><![CDATA[Registro obrigatório de empresas de Arquitetura e Urbanismo, Seções Técnicas de Arquitetura em empresas ou órgãos públicos.
+    <descricao><![CDATA[Registro obrigatório de empresas de Arquitetura e Urbanismo, Seções Técnicas de Arquitetura em empresas ou órgãos públicos. 
 Se sua empresa oferece serviços ligados à Arquitetura e Urbanismo, é obrigatório o registro no CAU/UF onde está localizada a sede da empresa.]]></descricao>
-    <contato><![CDATA[0800-883-0113]]></contato>
+    <contato><![CDATA[Para dúvidas sobre este serviço, entre em contato com a central de atendimento: 0800-883-0113
+Segunda a Sexta de 9h às 19h]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
@@ -43,13 +44,24 @@ I - As seções técnicas das pessoas jurídicas de direito privado e das de dir
 Se identificadas pendências no pedido de registro, serão dados 10 dias para manifestação da empresa.]]></descricao>
     </tempo-total-estimado>
     <etapas/>
-    <orgao id=""/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/214460"/>
     <segmentos-da-sociedade>
         <item>Órgãos e entidades públicas</item>
         <item>Empresas</item>
     </segmentos-da-sociedade>
-    <areas-de-interesse/>
-    <palavras-chave/>
+    <areas-de-interesse>
+        <item>Serviços Públicos</item>
+        <item>Comércio e Serviços</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>Registro de empresas</item>
+        <item>Registro de PJ</item>
+        <item>CAU/BR</item>
+        <item>Empresa</item>
+        <item>Filial</item>
+        <item>Seção Técnica</item>
+        <item>Empresa de Arquitetura</item>
+    </palavras-chave>
     <legislacoes>
         <item><![CDATA[[Resolução CAU/BR 28 de 6 de Julho de 2012](http://www.caubr.gov.br/wp-content/uploads/anexos/resolucao/RES-28REGISTRO-PJRP-JUL-2012.pdf)]]></item>
     </legislacoes>
