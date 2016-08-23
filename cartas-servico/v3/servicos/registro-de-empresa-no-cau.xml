@@ -48,13 +48,10 @@ Se identificadas pendências no pedido de registro, serão dados 10 dias para ma
             <descricao><![CDATA[O registro inicial de pessoa jurídica deverá ser requerido por meio do preenchimento de formulário próprio, disponível no SICCAU, ao qual deve ser anexada a seguinte documentação:]]></descricao>
             <documentos>
                 <default>
-                    <item>a. ato constitutivo, devidamente registrado no órgão competente, incluindo as alterações, ou se for o caso, a consolidação e as alterações posteriores;</item>
-                    <item>b. comprovante de inscrição no Cadastro Nacional de Pessoas Jurídicas (CNPJ);</item>
-                    <item>c. Registro de Responsabilidade Técnica (RRT) de Cargo ou Função do arquiteto e urbanista indicado como responsável técnico.</item>
+                    <item>ato constitutivo, devidamente registrado no órgão competente, incluindo as alterações, ou se for o caso, a consolidação e as alterações posteriores;</item>
+                    <item>comprovante de inscrição no Cadastro Nacional de Pessoas Jurídicas (CNPJ);</item>
+                    <item>Registro de Responsabilidade Técnica (RRT) de Cargo ou Função do arquiteto e urbanista indicado como responsável técnico.</item>
                 </default>
-                <caso descricao="Sociedade sem Personalidade Jurídica">
-                    <item>Termo de Constituição</item>
-                </caso>
             </documentos>
             <custos>
                 <default/>
