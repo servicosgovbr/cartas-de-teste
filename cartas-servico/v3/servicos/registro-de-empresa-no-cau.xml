@@ -10,7 +10,16 @@
 Se sua empresa oferece serviços ligados à Arquitetura e Urbanismo, é obrigatório o registro no CAU/UF onde está localizada a sede da empresa.]]></descricao>
     <contato/>
     <gratuito>true</gratuito>
-    <solicitantes/>
+    <solicitantes>
+        <solicitante>
+            <tipo>Empresas que desempenhem atividades privativas de Arquitetos e Urbanistas</tipo>
+            <requisitos><![CDATA[I - as pessoas jurídicas que tenham por objetivo social o exercício de atividades profissionais privativas de arquitetos e urbanistas;
+
+II - as pessoas jurídicas que tenham em seus objetivos sociais o exercício de atividades
+privativas de arquitetos e urbanistas cumulativamente com atividades em outras áreas
+profissionais não vinculadas ao Conselho de Arquitetura e Urbanismo;]]></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
         <ate max="30" unidade="dias-corridos"/>
         <descricao><![CDATA[Até 30 dias para aprovação, identificação de pendências, ou indeferimento.
