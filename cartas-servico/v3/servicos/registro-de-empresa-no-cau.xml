@@ -43,7 +43,28 @@ I - As seções técnicas das pessoas jurídicas de direito privado e das de dir
         <descricao><![CDATA[Até 30 dias para aprovação, identificação de pendências, ou indeferimento.
 Se identificadas pendências no pedido de registro, serão dados 10 dias para manifestação da empresa.]]></descricao>
     </tempo-total-estimado>
-    <etapas/>
+    <etapas>
+        <etapa>
+            <titulo>Requerimento no SICCAU</titulo>
+            <descricao><![CDATA[O registro inicial de pessoa jurídica deverá ser requerido por meio do preenchimento de formulário próprio, disponível no SICCAU, ao qual deve ser anexada a seguinte documentação:]]></descricao>
+            <documentos>
+                <default>
+                    <item>a. ato constitutivo, devidamente registrado no órgão competente, incluindo as alterações, ou se for o caso, a consolidação e as alterações posteriores;</item>
+                    <item>b. comprovante de inscrição no Cadastro Nacional de Pessoas Jurídicas (CNPJ);</item>
+                    <item>c. Registro de Responsabilidade Técnica (RRT) de Cargo ou Função do arquiteto e urbanista indicado como responsável técnico.</item>
+                </default>
+                <caso descricao="Sociedade sem Personalidade Jurídica">
+                    <item>Termo de Constituição</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/214460"/>
     <segmentos-da-sociedade>
         <item>Órgãos e entidades públicas</item>
