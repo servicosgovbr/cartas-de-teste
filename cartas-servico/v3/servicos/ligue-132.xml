@@ -10,7 +10,7 @@
         <item>Apoio sobre uso de Drogas</item>
         <item>Informações sobre Drogas</item>
     </nomes-populares>
-    <descricao/>
+    <descricao><![CDATA[O Ligue 132 é um serviço de atendimento sobre o uso de álcool e outras drogas, disponível em todo território nacional com o objetivo de informar e realizar ações de intervenção breve aos usuários e famílias. O serviço funciona em todos os dias da semana inclusive feriados.]]></descricao>
     <contato/>
     <gratuito/>
     <solicitantes/>
