@@ -16,7 +16,7 @@
     <solicitantes>
         <solicitante>
             <tipo>Qualquer pessoa em todas as idades.</tipo>
-            <requisitos><![CDATA[Fornecer o telefone.]]></requisitos>
+            <requisitos><![CDATA[Para a intervenção breve o cidadão tem que acordar em fornecer o telefone para o serviço.]]></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
