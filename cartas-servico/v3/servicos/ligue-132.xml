@@ -15,7 +15,8 @@
     <gratuito/>
     <solicitantes/>
     <tempo-total-estimado>
-        <descricao/>
+        <entre max="60" min="15" unidade="dias-corridos"/>
+        <descricao><![CDATA[Ao realizar o contado o cidadão pode aceitar ou não o acompanhamento para realizar a intervenção breve. São realizadas no máximo três ligações que podem durar até 15 minutos.]]></descricao>
     </tempo-total-estimado>
     <etapas/>
     <orgao id=""/>
