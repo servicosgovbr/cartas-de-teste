@@ -122,5 +122,7 @@
         <item>Farinha</item>
         <item>Pedra</item>
     </palavras-chave>
-    <legislacoes/>
+    <legislacoes>
+        <item><![CDATA[(Lei 11.343/2006)[http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2006-08-23;11343]]]></item>
+    </legislacoes>
 </servico>
