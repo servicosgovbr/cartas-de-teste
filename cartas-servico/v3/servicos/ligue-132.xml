@@ -16,7 +16,7 @@
     <solicitantes>
         <solicitante>
             <tipo>Qualquer pessoa em todas as idades.</tipo>
-            <requisitos/>
+            <requisitos><![CDATA[Fornecer o telefone.]]></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
