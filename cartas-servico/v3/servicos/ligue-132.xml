@@ -28,7 +28,9 @@
             <titulo>1° Contato pela pessoa</titulo>
             <descricao><![CDATA[A pessoa liga para o 132 para conhecer ou ser informado sobre os serviços de prevenção. Em caso de interesse ele pode ser apoiado por meio da intervenção breve.]]></descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item>Não é obrigatória identificação.</item>
+                </default>
             </documentos>
             <custos>
                 <default/>
@@ -39,6 +41,19 @@
                         <descricao><![CDATA[132]]></descricao>
                     </canal-de-prestacao>
                 </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>2º Contato</titulo>
+            <descricao><![CDATA[Ao concordar ser apoiado pelo serviço a pessoa será contatada, por telefone, por um dos consultores especializados para a continuidade do apoio.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
             </canais-de-prestacao>
         </etapa>
     </etapas>
