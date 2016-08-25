@@ -53,7 +53,11 @@
                 <default/>
             </custos>
             <canais-de-prestacao>
-                <default/>
+                <default>
+                    <canal-de-prestacao tipo="telefone">
+                        <descricao><![CDATA[132]]></descricao>
+                    </canal-de-prestacao>
+                </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
