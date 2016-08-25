@@ -11,7 +11,7 @@
         <item>Informações sobre Drogas</item>
     </nomes-populares>
     <descricao><![CDATA[O Ligue 132 é um serviço de atendimento sobre o uso de álcool e outras drogas, disponível em todo território nacional com o objetivo de informar e realizar ações de intervenção breve aos usuários e famílias. O serviço funciona em todos os dias da semana inclusive feriados.]]></descricao>
-    <contato/>
+    <contato><![CDATA[132]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
@@ -61,9 +61,53 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id=""/>
-    <segmentos-da-sociedade/>
-    <areas-de-interesse/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Órgãos e entidades públicas</item>
+        <item>Empresas</item>
+        <item>Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cidadania</item>
+        <item>Atendimento básico</item>
+        <item>Assistência ao Idoso</item>
+        <item>Assistência Hospitalar e Ambulatorial</item>
+        <item>Combate a desigualdade</item>
+        <item>Comunicações</item>
+        <item>Cooperação Internacional</item>
+        <item>Difusão Cultural</item>
+        <item>Educação</item>
+        <item>Esporte e Lazer</item>
+        <item>Fiscalização do Estado</item>
+        <item>Medicamentos e aparelhos</item>
+        <item>Patrimônio</item>
+        <item>Pesquisa e Desenvolvimento</item>
+        <item>Saúde</item>
+        <item>Serviços Públicos</item>
+        <item>Trabalho</item>
+        <item>Turismo</item>
+        <item>Vigilância Sanitária</item>
+        <item>Administração</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Comércio e Serviços</item>
+        <item>Cultura</item>
+        <item>Combate a epidemias</item>
+        <item>Educação básica</item>
+        <item>Educação superior</item>
+        <item>Esporte comunitário</item>
+        <item>Esporte profissional</item>
+        <item>Lazer</item>
+        <item>Orçamento</item>
+        <item>Previdência Social</item>
+        <item>Previdência Básica</item>
+        <item>Proteção Social</item>
+        <item>Recursos humanos</item>
+        <item>Relações Internacionais</item>
+        <item>Segurança e Ordem Pública</item>
+        <item>Telecomunicações</item>
+    </areas-de-interesse>
     <palavras-chave/>
     <legislacoes/>
 </servico>
