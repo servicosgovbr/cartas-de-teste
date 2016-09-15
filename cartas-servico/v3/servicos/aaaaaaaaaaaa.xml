@@ -27,8 +27,15 @@
                 </default>
                 <caso descricao="proprietario brasileiro">
                     <item>CPF</item>
+                    <item>xxxxx</item>
                 </caso>
-                <caso descricao="proprietario"/>
+                <caso descricao="proprietario">
+                    <item>asdadada</item>
+                    <item>gfgfgfgf</item>
+                </caso>
+                <caso descricao="fdsfsdfsdf">
+                    <item>fsdfsdfsd</item>
+                </caso>
             </documentos>
             <custos>
                 <default/>
