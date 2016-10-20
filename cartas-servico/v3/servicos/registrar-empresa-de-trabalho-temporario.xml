@@ -71,6 +71,26 @@ Coordenação-Geral de Relações do Trabalho da Secretaria de Relações do Tra
                 </default>
             </canais-de-prestacao>
         </etapa>
+        <etapa>
+            <titulo>Entrega do certificado</titulo>
+            <descricao><![CDATA[O certificado será entregue à empresa de trabalho temporário pela Seção ou Setor de Relações do Trabalho da unidade regional do MTE onde foi efetuado o protocolo do pedido.
+Caso seja um novo certificado para substituir um antigo, também é necessária a devolução do certificado anterior.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Recibo da solicitação realizada</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Unidade regional do MTE da localidade onde foi realizado o protocolo e a entrega dos documentos da empresa solicitante, que pode ser consultado no portal www.mte.gov.br]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
     </etapas>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844"/>
     <segmentos-da-sociedade>
