@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Registrar Empresa de Trabalho Temporário]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Certidão de Empresa de Trabalho Temporário</item>
+    </nomes-populares>
+    <descricao><![CDATA[Este serviço trata dos procedimentos para uma empresa obter o certificado de registro de empresa de trabalho temporário, possibilitando assim que realize contratos com pessoas físicas para atender a uma substituição dos empregados permanentes por um curto período de tempo ou para atender a aumentos excepcionais na demanda pelos serviços que comercializam]]></descricao>
+    <contato><![CDATA[Divisão de Registro de Empresa de Trabalho Temporário,
+Coordenação-Geral de Relações do Trabalho da Secretaria de Relações do Trabalho
+(61) 2222-3333]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Empresa</tipo>
+            <requisitos><![CDATA[A empresa solicitante deve estar em dia com as obrigações trabalhistas e previdenciárias]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="dias-corridos"/>
+        <descricao><![CDATA[Caso haja falta de documentação ou irregularidades esse prazo será estendido até que esses problemas sejam corrigidos]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Solicitar Registro de Empresa de Trabalho Temporário</titulo>
+            <descricao><![CDATA[Para solicitar o registro de empresa de trabalho temporário, a empresa deverá acessar o sistema SIRETT no portal do Ministério do Trabalho e Emprego (MTE), preencher os dados e transmiti-los na forma requerida pelo Sistema]]></descricao>
+            <documentos>
+                <default>
+                    <item>Cadastro Nacional da Pessoa Jurídica (CNPJ)</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://www3.mte.gov.br/internet/sirett/pedidoregistro/autenticarempresa.asp]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Entregar documentação da empresa</titulo>
+            <descricao><![CDATA[Após a solicitação da empresa pelo sistema SIRETT, a empresa deverá protocolizar a solicitação de registro gerada pelo SIRETT na unidade regional do MTE da localidade onde se situa sede da empresa]]></descricao>
+            <documentos>
+                <default>
+                    <item>requerimento de empresário ou do contrato social e suas alterações, ou versão consolidada, devidamente registrados na Junta Comercial, do qual conste o nome empresarial e o nome fantasia, se houver</item>
+                    <item>comprovação de integralização do capital social previsto na alínea "b" do art. 6º da Lei nº 6.019/74</item>
+                    <item>prova de entrega da Relação Anual de Informações Sociais (RAIS), positiva ou negativa</item>
+                    <item>certidão negativa de débito previdenciário (CND)</item>
+                    <item>prova de recolhimento da contribuição sindical patronal</item>
+                    <item>prova de propriedade do imóvel sede ou contrato de locação, e eventuais aditamentos e comprovantes de prorrogação da locação, acompanhado do recibo de aluguel do mês anterior à data do pedido</item>
+                    <item>inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ), em que conste como atividade principal a locação de mão de obra temporária</item>
+                </default>
+                <caso descricao="Para sócios pessoas físicas">
+                    <item>identificação pessoal que contenha o número da carteira de identidade e o número do Cadastro de Pessoa Física (CPF)</item>
+                </caso>
+                <caso descricao="Para os sócios pessoas jurídicas">
+                    <item>contrato social ou requerimento de empresário e inscrição no CNPJ</item>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Unidade regional do MTE da localidade onde se situa a sede da empresa solicitante, que pode ser consultado no portal www.mte.gov.br]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844"/>
+    <segmentos-da-sociedade>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Empregabilidade</item>
+        <item>Trabalho</item>
+        <item>Indústria</item>
+        <item>Comércio e Serviços</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>SIRETT</item>
+        <item>Empresa de Trabalho Temporário</item>
+        <item>Autorização de Trabalho Temporário</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Art. 5º da Lei nº 6.019/74]]></item>
+        <item><![CDATA[Art. 4º do Decreto nº 73.841/74]]></item>
+        <item><![CDATA[Instrução Normativa SRT nº 14/09 (DOU de 18/11/2009)]]></item>
+    </legislacoes>
+</servico>
