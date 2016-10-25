@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[CAU - Emissão de CAT - Certidão de Acervo Técnico]]></nome>
+    <nome>CAU - Emissão de Certidão de Acervo Técnico</nome>
     <sigla>CAT</sigla>
     <nomes-populares/>
     <descricao><![CDATA[Emissão do documento que certifica, para os efeitos legais, o conjunto de RRTs (Registro de Responsabilidade Técnica) que compõem o acervo técnico do profissional.]]></descricao>
