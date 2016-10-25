@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[CAU - Verificação de autenticidade de documentos]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Validação de documentos, confirmação de documentos, autenticação de documentos</item>
+    </nomes-populares>
+    <descricao><![CDATA[É a confirmação de que um documento é autêntico e realmente foi emitido pelo CAU. 
+Podem ser verificadas a autenticidade de RRTs (Registro de Responsabilidade Técnica), certidões e declarações.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Qualquer cidadão interessado</tipo>
+            <requisitos/>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <descricao><![CDATA[Serviço online de emissão automática pelo sistema.]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Verificação</titulo>
+            <descricao><![CDATA[Acessar o site para verificar a autenticidade do documento.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Número do RRT ou certidão e a chave de autenticação.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web-consultar">
+                        <descricao><![CDATA[http://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+        <item>Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Urbanismo</item>
+        <item>Serviços Públicos</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>Verificação</item>
+        <item>Autenticidade</item>
+        <item>Certidão</item>
+        <item>RRT</item>
+    </palavras-chave>
+    <legislacoes/>
+</servico>
