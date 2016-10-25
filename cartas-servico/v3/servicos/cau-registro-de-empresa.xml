@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>CAU - Registro de Empresa</nome>
+    <nome><![CDATA[CAU - Registro de Empresa]]></nome>
     <sigla/>
     <nomes-populares>
         <item>Registro de PJ</item>
@@ -8,7 +8,7 @@
     </nomes-populares>
     <descricao><![CDATA[Registro obrigatório de empresas de Arquitetura e Urbanismo, Seções Técnicas de Arquitetura em empresas ou órgãos públicos. 
 Se sua empresa oferece serviços ligados à Arquitetura e Urbanismo, é obrigatório o registro no CAU/UF onde está localizada a sede da empresa.]]></descricao>
-    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800-883-0113]]></contato>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800-883-0113 ou 4007-2613]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
