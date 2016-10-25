@@ -60,14 +60,15 @@ https://servicos.caubr.gov.br/]]></descricao>
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao tipo="e-mail">
-                        <descricao/>
+                        <descricao><![CDATA[SICCAU
+https://servicos.caubr.gov.br/]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
         <etapa>
             <titulo>Ressarcimento</titulo>
-            <descricao><![CDATA[Transferência bancária do valor a ser ressarcido para a conta informada no requerimento.]]></descricao>
+            <descricao><![CDATA[Transferência bancária do valor a ser ressarcido para a conta informada no requerimento será realizada pelo CAU.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
