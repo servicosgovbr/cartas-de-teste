@@ -13,8 +13,8 @@
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <ate max="10" unidade="dias-corridos"/>
-        <descricao><![CDATA[É o prazo máximo que o autuado possui para apresentar a defesa em cada instância. É contado a partir do primeiro dia útil subsequente ao recebimento da notificação.]]></descricao>
+        <entre max="12" min="3" unidade="meses"/>
+        <descricao><![CDATA[O tempo estimado é indefinido, pois depende da agenda das Comissões e Plenários envolvidos.]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
