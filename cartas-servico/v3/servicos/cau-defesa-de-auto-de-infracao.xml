@@ -14,12 +14,12 @@
     </solicitantes>
     <tempo-total-estimado>
         <ate max="10" unidade="dias-corridos"/>
-        <descricao><![CDATA[É o prazo máximo que o autuado possui para apresentar a defesa. É contado a partir do primeiro dia útil subsequente ao recebimento da notificação.]]></descricao>
+        <descricao><![CDATA[É o prazo máximo que o autuado possui para apresentar a defesa em cada instância. É contado a partir do primeiro dia útil subsequente ao recebimento da notificação.]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
             <titulo>Defesa perante a Comissão de Exercício Profissional do CAU do estado</titulo>
-            <descricao><![CDATA[Apresentar defesa fundamentada por escrito à Comissão de Exercício Profissional do CAU do estado que decidirá se acata a defesa, arquivando o processo, ou se mantém a autuação e a multa.]]></descricao>
+            <descricao><![CDATA[Apresentar ao CAU do estado a defesa fundamentada por escrito. Ela será encaminhada à Comissão de Exercício Profissional do CAU do estado que decidirá se acata a defesa, arquivando o processo, ou se mantém a autuação e a multa.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
