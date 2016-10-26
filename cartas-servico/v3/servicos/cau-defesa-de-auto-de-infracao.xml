@@ -14,7 +14,7 @@
     </solicitantes>
     <tempo-total-estimado>
         <entre max="12" min="3" unidade="meses"/>
-        <descricao><![CDATA[O tempo estimado é indefinido, pois depende da agenda das Comissões e Plenários envolvidos.]]></descricao>
+        <descricao><![CDATA[O tempo estimado é indefinido, pois depende das instâncias que o processo alcança e da agenda das Comissões e Plenários envolvidos.]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
