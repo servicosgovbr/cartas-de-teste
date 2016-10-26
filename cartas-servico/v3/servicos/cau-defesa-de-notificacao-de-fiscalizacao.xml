@@ -15,8 +15,8 @@
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <ate max="10" unidade="dias-corridos"/>
-        <descricao><![CDATA[É o prazo máximo que o notificado possui para apresentar a defesa. É contado a partir do primeiro dia útil subsequente ao recebimento da notificação.]]></descricao>
+        <ate max="" unidade="dias-corridos"/>
+        <descricao/>
     </tempo-total-estimado>
     <etapas>
         <etapa>
