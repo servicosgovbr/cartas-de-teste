@@ -33,12 +33,12 @@
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao tipo="e-mail">
-                        <descricao/>
+                        <descricao><![CDATA[Indicado na Notificação]]></descricao>
                     </canal-de-prestacao>
                     <canal-de-prestacao tipo="presencial">
-                        <descricao/>
+                        <descricao><![CDATA[Indicado na Notificação]]></descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao tipo="web-preencher">
+                    <canal-de-prestacao tipo="web">
                         <descricao><![CDATA[https://servicos.caubr.org.br/]]></descricao>
                     </canal-de-prestacao>
                 </default>
