@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[CAU - Defesa de Notificação de Fiscalização]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Defesa de notificação preventiva</item>
+    </nomes-populares>
+    <descricao><![CDATA[A Defesa de Notificação de Fiscalização é uma opção que a pessoa ou empresa notificada pelo CAU possui para tentar regularizar a sua situação, evitando que a notificação seja consolidada em um Auto de Infração.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Pessoas ou empresas</tipo>
+            <requisitos><![CDATA[Notificadas pela fiscalização do CAU.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="dias-corridos"/>
+        <descricao><![CDATA[É o prazo máximo que o notificado possui para apresentar a defesa. É contado a partir do primeiro dia útil subsequente ao recebimento da notificação.]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Apresentação da Defesa</titulo>
+            <descricao><![CDATA[Apresentar defesa fundamentada, por escrito, conforme providências indicadas na Notificação de Fiscalização.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Qualquer documento que comprove a defesa</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="e-mail">
+                        <descricao/>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao/>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="web-preencher">
+                        <descricao><![CDATA[https://servicos.caubr.org.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave>
+        <item>defesa</item>
+        <item>notificação</item>
+        <item>fiscalização</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Resolução N° 22/2012]]></item>
+    </legislacoes>
+</servico>
