@@ -2,7 +2,9 @@
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
     <nome><![CDATA[CAU - Emissão de Declaração Negativa de Antecedentes Éticos]]></nome>
     <sigla/>
-    <nomes-populares/>
+    <nomes-populares>
+        <item>Certidão Negativa</item>
+    </nomes-populares>
     <descricao><![CDATA[É a declaração que certifica para os devidos fins que o profissional arquiteto e urbanista não sofreu sanções éticas ou que já encontra-se reabilitado de possíveis sanções que tenha sofrido anteriormente. Também pode certificar que a empresa de arquitetura e urbanismo nunca sofreu sanções éticas.]]></descricao>
     <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
     <gratuito>true</gratuito>
