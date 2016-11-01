@@ -10,7 +10,16 @@
 Esse registro possui validade limitada à duração do contrato ou concurso, é válido em todo o território nacional, requer o acompanhamento de um arquiteto ou empresa residentes no Brasil e deve ser feito no CAU do estado onde esse arquiteto ou empresa residem.]]></descricao>
     <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
     <gratuito>true</gratuito>
-    <solicitantes/>
+    <solicitantes>
+        <solicitante>
+            <tipo>Arquiteto e Urbanista diplomado no exterior</tipo>
+            <requisitos><![CDATA[Vencedor de concurso internacional de arquitetura realizado no Brasil]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Arquiteto e Urbanista diplomado no exterior</tipo>
+            <requisitos><![CDATA[Com diploma de graduação devidamente revalidado no Brasil por Instituição Nacional credenciada e com proposta ou contrato de trabalho temporário]]></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
         <ate max="60" unidade="dias-corridos"/>
         <descricao/>
@@ -21,6 +30,31 @@ Esse registro possui validade limitada à duração do contrato ou concurso, é 
             <descricao><![CDATA[Acessar o site de serviços do CAU/BR para preencher o requerimento online e encaminhar toda a documentação digitalizada.]]></descricao>
             <documentos>
                 <default/>
+                <caso descricao="Vencedor de concurso internacional de arquitetura">
+                    <item>diploma de graduação em Arquitetura e Urbanismo, obtido em instituição de ensino superior oficialmente reconhecida no país onde está localizada;</item>
+                    <item>cópia do contrato temporário de trabalho entre o arquiteto e urbanista e o contratante com sede ou domicílio no País ou, no caso de não estar firmado o contrato, cópia do compromisso firmado entre as mesmas partes para a futura contratação;</item>
+                    <item>declaração do contratante ou futuro contratante, especificando as atividades que o arquiteto e urbanista irá desenvolver no País;</item>
+                    <item>declaração do contratante ou futuro contratante indicando um arquiteto e urbanista brasileiro ou uma sociedade de arquitetos e urbanistas com registro no CAU/UF,</item>
+                    <item>prova da relação contratual entre o contratante e o arquiteto e urbanista ou sociedade de arquitetos e urbanistas referidos na alínea anterior;</item>
+                    <item>carteira de identidade para brasileiros ou cédula de identidade de estrangeiro com indicação da obtenção de visto compatível com o trabalho remunerado</item>
+                    <item>comprovante de inscrição no Cadastro de Pessoas Físicas (CPF) do Ministério da Fazenda;</item>
+                    <item>se brasileiro nato ou naturalizado, comprovante de quitação com a Justiça Eleitoral;</item>
+                    <item>se brasileiro nato ou naturalizado do sexo masculino, comprovante de quitação com o Serviço Militar</item>
+                </caso>
+                <caso descricao="Proposta ou contrato de trabalho temporário">
+                    <item>diploma de graduação em Arquitetura e Urbanismo, obtido em instituição de ensino superior oficialmente reconhecida no país onde está localizada e devidamente revalidado no Brasil</item>
+                    <item>histórico escolar, com indicação da carga horária das disciplinas cursadas</item>
+                    <item>documento comprobatório do conteúdo programático das disciplinas cursadas;</item>
+                    <item>documento comprobatório da carga horária total e do tempo de integralização do curso;</item>
+                    <item>carteira de identidade para brasileiros ou cédula de identidade de estrangeiro com indicação da obtenção de visto compatível com o trabalho remunerado, expedida na forma da lei;</item>
+                    <item>comprovante de inscrição no Cadastro de Pessoas Físicas (CPF) do Ministério da Fazenda;</item>
+                    <item>uma fotografia frontal, em cores, nos padrões especificados no SICCAU;</item>
+                    <item>cópia do contrato temporário de trabalho entre o arquiteto e urbanista e o contratante com sede ou domicílio no País ou, no caso de não estar firmado o contrato, cópia do compromisso firmado entre as mesmas partes para a futura contratação;</item>
+                    <item>declaração do contratante indicando um profissional ou empresa de arquitetura brasileiros com registro no CAU/UF, a ser mantido com efetiva participação na execução das atividades do arquiteto e urbanista sem domicílio no País;</item>
+                    <item>prova da relação contratual entre o contratante e o arquiteto e urbanista ou sociedade de arquitetos e urbanistas</item>
+                    <item>se brasileiro nato ou naturalizado, comprovante de quitação com a Justiça Eleitoral;</item>
+                    <item>se brasileiro nato ou naturalizado do sexo masculino, comprovante de quitação com o Serviço Militar</item>
+                </caso>
             </documentos>
             <custos>
                 <default/>
