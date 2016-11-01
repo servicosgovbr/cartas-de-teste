@@ -5,7 +5,7 @@
     <nomes-populares>
         <item>Defesa de notificação preventiva</item>
     </nomes-populares>
-    <descricao><![CDATA[A Defesa de Notificação de Fiscalização é uma opção que a pessoa ou empresa notificada pelo CAU possui para tentar regularizar a sua situação, evitando que a notificação seja consolidada em um Auto de Infração.]]></descricao>
+    <descricao><![CDATA[É uma opção que a pessoa ou empresa notificada pelo CAU possui para tentar regularizar a sua situação, evitando que a notificação seja consolidada em um Auto de Infração.]]></descricao>
     <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
@@ -15,7 +15,7 @@
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <ate max="" unidade="dias-corridos"/>
+        <ate max="10" unidade="dias-corridos"/>
         <descricao/>
     </tempo-total-estimado>
     <etapas>
@@ -57,6 +57,7 @@
         <item>fiscalização</item>
     </palavras-chave>
     <legislacoes>
-        <item><![CDATA[Resolução N° 22/2012]]></item>
+        <item><![CDATA[Resolução CAU/BR N° 22/2012]]></item>
+        <item><![CDATA[Lei 12.378/2010]]></item>
     </legislacoes>
 </servico>
