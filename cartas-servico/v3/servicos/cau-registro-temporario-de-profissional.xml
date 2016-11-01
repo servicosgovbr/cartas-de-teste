@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[CAU – Registro Temporário de Profissional]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Cadastro, inscrição, filiação</item>
+    </nomes-populares>
+    <descricao><![CDATA[O registro temporário de profissional no CAU habilita ao arquiteto e urbanista diplomado no exterior e sem residência no Brasil a exercer a sua profissão temporariamente no país por motivo de contrato temporário de trabalho ou participação em concurso internacional de arquitetura. 
+
+Esse registro possui validade limitada à duração do contrato ou concurso, é válido em todo o território nacional, requer o acompanhamento de um arquiteto ou empresa residentes no Brasil e deve ser feito no CAU do estado onde esse arquiteto ou empresa residem.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes/>
+    <tempo-total-estimado>
+        <ate max="60" unidade="dias-corridos"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Requerimento</titulo>
+            <descricao><![CDATA[Acessar o site de serviços do CAU/BR para preencher o requerimento online e encaminhar toda a documentação digitalizada.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[https://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Análise e Deliberação do CAU</titulo>
+            <descricao><![CDATA[O solicitante será informado se o registro foi ou não aprovado. Caso seja, o arquiteto receberá um e-mail com as informações de acesso ao SICCAU. Caso não seja aprovado, o CAU informará quais as pendências e pedirá a regularização da documentação encaminhada.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[https://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave>
+        <item>Registro no CAU</item>
+        <item>Registro temporário</item>
+        <item>Cadastro no CAU</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Resolução CAU/BR N° 35/2012]]></item>
+        <item><![CDATA[Lei 12.378/2010]]></item>
+    </legislacoes>
+</servico>
