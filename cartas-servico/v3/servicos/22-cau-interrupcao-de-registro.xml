@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome>22. CAU - Interrupção de Registro</nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Cancelamento, suspensão ou desligamento.</item>
+    </nomes-populares>
+    <descricao><![CDATA[A interrupção do registro é uma opção para o profissional ou empresa de arquitetura e urbanismo que, temporariamente, não pretendem exercer a profissão ou ofertar serviços de arquitetura e urbanismo.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Arquitetos e Urbanistas</tipo>
+            <requisitos><![CDATA[Registrados no CAU, que não ocupam cargo ou emprego de arquiteto e urbanista, não possuem RRTs sem baixa e não constem como autuados em processo ético em tramitação.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Empresas de Arquitetura e Urbanismo</tipo>
+            <requisitos><![CDATA[Registradas no CAU que não possuem RRTs sem baixa e não esteja respondendo a processo no âmbito do CAU.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Solicitação</titulo>
+            <descricao><![CDATA[Solicitar pelo SICCAU a interrupção de registro.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Declaração de que não exercerá a profissão durante a interrupção do registro</item>
+                    <item>Comprovação da baixa ou inexistência de RRT</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[https://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes>
+        <item><![CDATA[Resoluções CAU/BR N° 18/2012, Nº 121/2015]]></item>
+        <item><![CDATA[Lei 12.378/2010]]></item>
+    </legislacoes>
+</servico>
