@@ -22,7 +22,7 @@
     </tempo-total-estimado>
     <etapas>
         <etapa>
-            <titulo>Login</titulo>
+            <titulo>Acesso e Cálculo</titulo>
             <descricao><![CDATA[Acessar o site da Tabela de Honorários e realizar o login para fazer os cálculos. Caso não seja arquiteto, será necessário realizar o cadastro antes, informando nome, e-mail e senha.]]></descricao>
             <documentos>
                 <default/>
