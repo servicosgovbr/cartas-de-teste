@@ -19,7 +19,7 @@
     <etapas>
         <etapa>
             <titulo>Cadastrar denúncia</titulo>
-            <descricao><![CDATA[Acessar a página de serviços do CAU e clicar em]]></descricao>
+            <descricao><![CDATA[Acessar a página de serviços do CAU e clicar em "Cadastrar Denúncia". A denúncia poderá ser identificada ou anônima. No caso de denúncia anônima, não será possível acompanhar o seu andamento. Para cadastrar a denúncia é preciso informar o nome do denunciado, descrever o fato e fornecer um endereço com CEP.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
