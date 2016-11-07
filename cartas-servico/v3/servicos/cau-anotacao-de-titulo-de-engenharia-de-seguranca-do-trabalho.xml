@@ -41,7 +41,7 @@
         </etapa>
         <etapa>
             <titulo>Análise e aprovação</titulo>
-            <descricao><![CDATA[A solicitação será analisada pelo CAU do estado. Caso falte algum documento, o CAU irá solicitar ao arquiteto. Depois que estiver tudo certo, será anotado o título e o profissional serpa informado por email ou protocolo.]]></descricao>
+            <descricao><![CDATA[A solicitação será analisada pelo CAU do estado. Caso falte algum documento, o CAU irá solicitar ao arquiteto. Depois que estiver tudo certo, será anotado o título e o profissional será informado por e-mail ou protocolo.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
