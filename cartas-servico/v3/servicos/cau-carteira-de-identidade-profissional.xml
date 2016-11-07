@@ -21,7 +21,7 @@
     <etapas>
         <etapa>
             <titulo>Solicitação e Atualização Cadastral</titulo>
-            <descricao><![CDATA[Solicitar a carteira por meio de um protocolo no SICCAU, ou ligando no CAU do estado, e em seguida faz a Atualização Cadastral em seu ambiente profissional. A atualização é para confirmação dos dados cadastrados no sistema.]]></descricao>
+            <descricao><![CDATA[Solicitar a carteira por meio de um protocolo no SICCAU, ou ligando no CAU do estado, e em seguida fazer a Atualização Cadastral em seu ambiente profissional no SICCAU. A atualização é para confirmação dos dados cadastrados no sistema.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
