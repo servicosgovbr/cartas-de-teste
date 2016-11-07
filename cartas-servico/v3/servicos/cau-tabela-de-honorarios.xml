@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[CAU - Tabela de Honorários]]></nome>
+    <nome>11. CAU - Tabela de Honorários</nome>
     <sigla/>
     <nomes-populares/>
     <descricao><![CDATA[Aplicativo para cálculo de honorários a serem cobrados para prestação de serviços de arquitetura e urbanismo, conforme tabela indicativa de honorários definida pelo CAU.]]></descricao>
