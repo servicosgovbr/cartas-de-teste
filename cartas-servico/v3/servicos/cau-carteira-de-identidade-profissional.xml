@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[CAU - CARTEIRA DE IDENTIDADE PROFISSIONAL]]></nome>
+    <sigla>CIP</sigla>
+    <nomes-populares>
+        <item>carteirinha do CAU</item>
+    </nomes-populares>
+    <descricao><![CDATA[Emissão da carteira profissional para os arquitetos e urbanistas que possuem registro definitivo no CAU. A carteira é prova  de  identificação civil  e possui fé  pública  em todo o território nacional.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Arquitetos e Urbanistas</tipo>
+            <requisitos><![CDATA[Com registro definitivo e ativo.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="120" unidade="dias-corridos"/>
+        <descricao><![CDATA[Este prazo não inclui o tempo de entrega dos Correios.]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Solicitação e Atualização Cadastral</titulo>
+            <descricao><![CDATA[Solicitar a carteira por meio de um protocolo no SICCAU, ou ligando no CAU do estado, e em seguida faz a Atualização Cadastral em seu ambiente profissional. A atualização é para confirmação dos dados cadastrados no sistema.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[https://servicos.caubr.org.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Pagamento de taxa</titulo>
+            <descricao><![CDATA[O profissional será informado por protocolo e/ou e-mail sobre o boleto emitido para pagamento da taxa. Ele também poderá solicitar ao CAU do estado a emissão do boleto. Deverá imprimir o boleto em seu ambiente SICCAU e fazer o pagamento.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo>
+                        <descricao><![CDATA[Taxa de Emissão]]></descricao>
+                        <moeda/>
+                        <valor>49,82</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[https://servicos.caubr.org.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes/>
+</servico>
