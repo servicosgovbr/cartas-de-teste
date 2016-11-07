@@ -4,7 +4,7 @@
     <sigla/>
     <nomes-populares/>
     <descricao><![CDATA[Aplicativo para cálculo de honorários a serem cobrados para prestação de serviços de arquitetura e urbanismo, conforme tabela indicativa de honorários definida pelo CAU.]]></descricao>
-    <contato/>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
@@ -16,10 +16,41 @@
         <entre max="40" min="10" unidade="minutos"/>
         <descricao><![CDATA[Depende muito da complexidade do serviço a ser calculado.]]></descricao>
     </tempo-total-estimado>
-    <etapas/>
+    <etapas>
+        <etapa>
+            <titulo>Login</titulo>
+            <descricao><![CDATA[Acessar o site da Tabela de Honorários e realizar o login para fazer os cálculos. Caso não seja arquiteto, será necessário realizar o cadastro antes, informando nome, e-mail e senha.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://honorario.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id=""/>
-    <segmentos-da-sociedade/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Órgãos e entidades públicas</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
     <areas-de-interesse/>
-    <palavras-chave/>
-    <legislacoes/>
+    <palavras-chave>
+        <item>tabela</item>
+        <item>honorarios</item>
+        <item>cau</item>
+        <item>valor de projeto</item>
+        <item>quanto cobra um arquiteto</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Resoluções Nº 64/2013 e 76/2014]]></item>
+        <item><![CDATA[Lei 12.378/2010]]></item>
+    </legislacoes>
 </servico>
