@@ -7,7 +7,9 @@
     </nomes-populares>
     <descricao><![CDATA[O registro temporário de profissional no CAU habilita ao arquiteto e urbanista diplomado no exterior e sem residência no Brasil a exercer a sua profissão temporariamente no país por motivo de contrato temporário de trabalho ou participação em concurso internacional de arquitetura. 
 
-Esse registro possui validade limitada à duração do contrato ou concurso, é válido em todo o território nacional, requer o acompanhamento de um arquiteto ou empresa residentes no Brasil e deve ser feito no CAU do estado onde esse arquiteto ou empresa residem.]]></descricao>
+Esse registro possui validade limitada à duração do contrato ou concurso, é válido em todo o território nacional, requer o acompanhamento de um arquiteto ou empresa residentes no Brasil e deve ser solicitado no CAU do estado onde esse arquiteto ou empresa residem.
+
+O contratante ou futuro contratante deverá indicar um arquiteto e urbanista ou uma sociedade de arquitetos e urbanistas responsável pelo acompanhamento de todas as fases das atividades a serem desenvolvidas pelo requerente.]]></descricao>
     <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
@@ -63,6 +65,9 @@ Esse registro possui validade limitada à duração do contrato ou concurso, é 
                 <default>
                     <canal-de-prestacao tipo="web">
                         <descricao><![CDATA[https://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Caso seja do interesse do requerente, ele poderá comparecer pessoalmente ao atendimento do CAU/UF para solicitar o registro.]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
