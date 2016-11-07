@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[CAU - Verificação de autenticidade de documentos]]></nome>
+    <nome>02. CAU - Verificação de autenticidade de documentos</nome>
     <sigla/>
     <nomes-populares>
         <item>Validação de documentos, confirmação de documentos, autenticação de documentos</item>
