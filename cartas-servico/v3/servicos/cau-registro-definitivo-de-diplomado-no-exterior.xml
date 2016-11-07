@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[CAU - Registro definitivo de diplomado no exterior]]></nome>
+    <nome>20. CAU - Registro Definitivo de Diplomado no Exterior</nome>
     <sigla/>
     <nomes-populares>
         <item>Cadastro, inscrição, filiação</item>
