@@ -14,13 +14,17 @@ O registro concedido ao profissional estrangeiro terá vigência vinculada à da
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
-            <tipo>Brasileiros ou estrangeiros diplomados no exterior</tipo>
+            <tipo>Arquiteto e Urbanista diplomado no exterior</tipo>
             <requisitos><![CDATA[Brasileiros ou estrangeiros portadores de visto permanente, diplomados no exterior por instituições de ensino superior oficialmente reconhecidas no respectivo país e cujo diploma tenha sido devidamente revalidado por instituição nacional credenciada.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Arquiteto inscrito na Ordem dos Arquitectos de Portugal (OA)</tipo>
+            <requisitos><![CDATA[Arquitetos portugueses e brasileiros, natos e naturalizados, membros da Ordem dos Arquitectos de Portugal (OA)]]></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <ate max="6" unidade="meses"/>
-        <descricao/>
+        <descricao><![CDATA[Os requerimentos de registro amparados pelo Acordo de Cooperação entre o CAU/BR e a Ordem dos Arquitectos de Portugal (OA) deverão estar concluídos em 60 dias.]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
@@ -40,11 +44,21 @@ O registro concedido ao profissional estrangeiro terá vigência vinculada à da
                     <item>se brasileiro nato ou naturalizado, comprovante de quitação com a Justiça Eleitoral;</item>
                     <item>se brasileiro nato ou naturalizado do sexo masculino, comprovante de quitação com o Serviço Militar</item>
                 </default>
-                <caso descricao="documentos em língua espanhola">
+                <caso descricao="Arquitetos de países de língua espanhola">
                     <item>Dispensa-se a tradução dos documentos expedidos pela Instituição de Ensino estrangeira, com exceção do diploma.</item>
                 </caso>
-                <caso descricao="documentos do MERCOSUL">
+                <caso descricao="Arquitetos de países do MERCOSUL">
                     <item>Dispensa-se a tradução dos documentos estrangeiros expedidos em países do MERCOSUL</item>
+                </caso>
+                <caso descricao="Arquitetos inscritos na Ordem dos Arquitectos de Portugal (OA)">
+                    <item>diploma de graduação estrangeiro, legalizado pela autoridade consular brasileira e devidamente revalidado por instituição nacional credenciada (se não expedido em língua portuguesa, acompanhado de tradução juramentada)</item>
+                    <item>carteira de identidade ou Registro Nacional de Estrangeiro (RNE) dentro do prazo de validade e com classificação permanente;</item>
+                    <item>inscrição no Cadastro de Pessoas Físicas (CPF);</item>
+                    <item>declaração de inscrição efectiva na OA, indicando a respectiva data de inscrição e legalizado pela autoridade consular brasileira;</item>
+                    <item>declaração negativa de antecedentes ético-disciplinares emitida pela OA e legalizado pela autoridade consular brasileira;</item>
+                    <item>Formulário Único para Solicitação de Registro (anexo ao Acordo de cooperação, disponível em http://www.caubr.gov.br/acordosinternacionais/) preenchido;</item>
+                    <item>se brasileiro nato ou naturalizado, inscrito na OA, comprovante de quitação com a Justiça Eleitoral; e</item>
+                    <item>se brasileiro nato ou naturalizado do sexo masculino, inscrito na OA, comprovante de quitação com o Serviço Militar</item>
                 </caso>
             </documentos>
             <custos>
@@ -83,7 +97,9 @@ O registro concedido ao profissional estrangeiro terá vigência vinculada à da
     <segmentos-da-sociedade>
         <item>Cidadãos</item>
     </segmentos-da-sociedade>
-    <areas-de-interesse/>
+    <areas-de-interesse>
+        <item>Energia</item>
+    </areas-de-interesse>
     <palavras-chave>
         <item>Registro no CAU</item>
         <item>Registro definitivo</item>
