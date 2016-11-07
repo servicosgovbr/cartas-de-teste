@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[CAU - Registro definitivo de diplomado no exterior]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Registro de estrangeiro</item>
+        <item>Registro de diplomado no exterior</item>
+    </nomes-populares>
+    <descricao><![CDATA[Registro definitivo de profissionais, brasileiros ou estrangeiros portadores de visto permanente, diplomados no exterior por instituições de ensino superior oficialmente reconhecidas no respectivo país e cujo diploma tenha sido devidamente revalidado por instituição nacional credenciada]]></descricao>
+    <contato/>
+    <gratuito/>
+    <solicitantes/>
+    <tempo-total-estimado>
+        <ate max="6" unidade="meses"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas/>
+    <orgao id=""/>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes/>
+</servico>
