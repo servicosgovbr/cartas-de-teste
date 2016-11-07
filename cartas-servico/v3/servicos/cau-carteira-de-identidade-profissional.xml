@@ -59,12 +59,53 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
+        <etapa>
+            <titulo>Coleta Biométrica</titulo>
+            <descricao><![CDATA[O arquiteto deverá comparecer ao CAU do seu estado, ou no posto de coleta informado, para fazer a coleta da digital, assinatura e fotografia. Dependendo do estado, será necessário agendar um horário de atendimento. Após a apresentação dos documentos necessários, o profissional deverá assinar o termo de Atualização Cadastral.]]></descricao>
+            <documentos>
+                <default>
+                    <item>documento válido de identidade</item>
+                    <item>CPF</item>
+                    <item>título de eleitor</item>
+                    <item>comprovante de residência</item>
+                    <item>diploma de graduação</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Recebimento</titulo>
+            <descricao><![CDATA[Quando a carteira for emitida, o arquiteto e urbanista receberá o documento em casa ou, dependendo do estado, deverá ir buscar na sede do CAU.]]></descricao>
+            <documentos>
+                <default>
+                    <item>documento válido de identidade (para retirada no CAU)</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
     </etapas>
     <orgao id=""/>
     <segmentos-da-sociedade>
         <item>Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse/>
-    <palavras-chave/>
-    <legislacoes/>
+    <palavras-chave>
+        <item>carteiras</item>
+        <item>carteirinha</item>
+        <item>carteira do cau</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Lei 12.378/2010]]></item>
+        <item><![CDATA[Resolução Nº 14/2012]]></item>
+    </legislacoes>
 </servico>
