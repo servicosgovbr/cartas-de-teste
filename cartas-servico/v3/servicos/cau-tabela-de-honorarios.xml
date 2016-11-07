@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[CAU - Tabela de Honorários]]></nome>
+    <sigla/>
+    <nomes-populares/>
+    <descricao><![CDATA[Aplicativo para cálculo de honorários a serem cobrados para prestação de serviços de arquitetura e urbanismo, conforme tabela indicativa de honorários definida pelo CAU.]]></descricao>
+    <contato/>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Arquitetos e Urbanistas</tipo>
+            <requisitos><![CDATA[Com registro no CAU que possuem senha do SICCAU.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre max="40" min="10" unidade="minutos"/>
+        <descricao><![CDATA[Depende muito da complexidade do serviço a ser calculado.]]></descricao>
+    </tempo-total-estimado>
+    <etapas/>
+    <orgao id=""/>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes/>
+</servico>
