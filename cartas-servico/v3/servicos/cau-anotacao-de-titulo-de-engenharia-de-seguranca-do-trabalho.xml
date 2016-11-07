@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[CAU - Anotação de Título de Engenharia de Segurança do Trabalho]]></nome>
+    <sigla/>
+    <nomes-populares/>
+    <descricao><![CDATA[É feita para indicar que o Arquiteto e Urbanista possui especialização em Engenharia de Segurança do Trabalho, assim ele poderá exercer as atribuições específicas desse título.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Arquitetos e Urbanistas</tipo>
+            <requisitos><![CDATA[Com registro no CAU e que concluíram a especialização em Engenharia de Segurança do Trabalho.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="dias-uteis"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Solicitação</titulo>
+            <descricao><![CDATA[Solicitar por meio de um protocolo no SICCAU a anotação do título.]]></descricao>
+            <documentos>
+                <default>
+                    <item>certificado de conclusão de curso de especialização, em nível de pós-graduação, em Engenharia de Segurança do Trabalho; ou</item>
+                    <item>certificado de curso de especialização em Engenharia de Segurança do Trabalho, realizado em caráter prioritário pelo Ministério do Trabalho; ou</item>
+                    <item>registro de Engenharia de Segurança do Trabalho, expedido pelo Ministério do Trabalho, dentro de 180 (cento e oitenta) dias da extinção do curso referido no item anterior.</item>
+                    <item>histórico escolar do curso de especialização</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[https://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Análise e aprovação</titulo>
+            <descricao><![CDATA[A solicitação será analisada pelo CAU do estado. Caso falte algum documento, o CAU irá solicitar ao arquiteto. Depois que estiver tudo certo, será anotado o título e o profissional serpa informado por email ou protocolo.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave>
+        <item>engenharia de segurança do trabalho</item>
+        <item>arquiteto especialista em engenharia de segurança</item>
+        <item>anotar título</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Resolução CAU/BR N° 10/2012]]></item>
+        <item><![CDATA[Leis 7.410/1985 e 12.378/2010]]></item>
+    </legislacoes>
+</servico>
