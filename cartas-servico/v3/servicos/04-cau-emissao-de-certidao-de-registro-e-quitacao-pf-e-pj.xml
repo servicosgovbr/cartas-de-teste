@@ -21,7 +21,7 @@
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <descricao><![CDATA[Serviço online de emissão automática pelo sistema.]]></descricao>
+        <descricao/>
     </tempo-total-estimado>
     <etapas>
         <etapa>
