@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome>06. CAU - Emissão de Declaração Negativa de Antecedentes Éticos</nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Certidão Negativa</item>
+    </nomes-populares>
+    <descricao><![CDATA[É a declaração que certifica para os devidos fins que o profissional arquiteto e urbanista não sofreu sanções éticas ou que já se encontra reabilitado de possíveis sanções que tenha sofrido anteriormente. Também pode certificar que a empresa de arquitetura e urbanismo nunca sofreu sanções éticas.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Arquitetos e Urbanistas</tipo>
+            <requisitos><![CDATA[Registrados no CAU, sem sanções éticas ou reabilitado de sanções anteriores.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Empresas de Arquitetura e Urbanismo</tipo>
+            <requisitos><![CDATA[Registradas no CAU.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="3" unidade="meses"/>
+        <descricao><![CDATA[O tempo pode variar conforme agenda da Comissão de Ética e Disciplina e do Presidente.]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Solicitação</titulo>
+            <descricao><![CDATA[Solicitar declaração ao CAU do estado, podendo ser feita presencialmente, por e-mail, ou telefone.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave>
+        <item>declaração negativa</item>
+        <item>antecedentes éticos</item>
+        <item>certidão negativa</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Resoluções CAU/BR Nº 25/2012, Nº 34/2012, N° 52/2013 (Código de Ética e Disciplina do CAU/BR), Nº 58/2013, Nº 112/2015.]]></item>
+        <item><![CDATA[Lei 12.378/2010, Lei 9.784/1999, Constituição Federal 1988 (art 5º, inciso 34)]]></item>
+    </legislacoes>
+</servico>
