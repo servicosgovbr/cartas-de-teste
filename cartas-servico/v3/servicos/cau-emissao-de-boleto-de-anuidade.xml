@@ -3,7 +3,7 @@
     <nome><![CDATA[CAU - Emissão de Boleto de Anuidade]]></nome>
     <sigla/>
     <nomes-populares/>
-    <descricao><![CDATA[O pagamento da anuidade é necessário para que o profissional ou a empresa de Arquitetura e Urbanismo exerçam suas atividades no Brasil regularmente. A anuidade pode ser paga à vista ou dividida em até 5 parcelas, somente por meio do boleto bancário. O CAU não realiza o envio de boletos por Correios ou e-mail.]]></descricao>
+    <descricao><![CDATA[O pagamento da anuidade é necessário para que o profissional ou a empresa de Arquitetura e Urbanismo exerçam suas atividades no Brasil regularmente. A anuidade pode ser paga à vista ou dividida em até 5 parcelas, somente por meio do boleto bancário emitido pelo SICCAU do profissional ou empresa. O CAU não realiza o envio de boletos pelos Correios ou por e-mail.]]></descricao>
     <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
@@ -19,7 +19,7 @@
     <etapas>
         <etapa>
             <titulo>Emissão</titulo>
-            <descricao><![CDATA[Acessar o SICCAU para emitir o boleto selecionado a forma de pagamento desejada.]]></descricao>
+            <descricao><![CDATA[Acessar o SICCAU para emitir o boleto selecionando a forma de pagamento desejada. O pagamento deve ser feito até a data do vencimento em qualquer banco.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
