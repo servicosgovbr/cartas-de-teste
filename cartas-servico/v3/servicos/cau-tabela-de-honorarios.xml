@@ -11,6 +11,10 @@
             <tipo>Arquitetos e Urbanistas</tipo>
             <requisitos><![CDATA[Com registro no CAU que possuem senha do SICCAU.]]></requisitos>
         </solicitante>
+        <solicitante>
+            <tipo>Demais usuários</tipo>
+            <requisitos><![CDATA[Fazer o cadastro no site da Tabela de Honorários.]]></requisitos>
+        </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <entre max="40" min="10" unidade="minutos"/>
