@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[18. Registro Provisório de Profissional Diplomado no Brasil]]></nome>
+    <sigla/>
+    <nomes-populares>
+        <item>Cadastro</item>
+        <item>Inscrição</item>
+        <item>Filiação</item>
+    </nomes-populares>
+    <descricao><![CDATA[O registro provisório de pessoa física no CAU é o que habilita ao arquiteto e urbanista diplomado no Brasil o exercício da sua profissão. 
+O registro possui validade de um ano, prorrogável por mais um, permite atuação em todo o território nacional e deve ser feito no CAU do estado onde o arquiteto reside.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Bacharéis em Arquitetura e Urbanismo</tipo>
+            <requisitos><![CDATA[Diplomados no Brasil, brasileiros ou estrangeiros portadores de visto permanente.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre max="45" min="5" unidade="dias-corridos"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Requerimento</titulo>
+            <descricao><![CDATA[Acessar o site de serviços do CAU/BR para preencher o requerimento online e encaminhar toda a documentação digitalizada.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Certificado de conclusão da graduação em Arquitetura e Urbanismo</item>
+                    <item>Histórico escolar do curso de graduação em Arquitetura e Urbanismo</item>
+                    <item>Documento válido de identidade (RG, CNH etc) ou, caso seja estrangeiro, RNE com indicação do visto permanente no País</item>
+                    <item>Prova de regularidade com a Justiça Eleitoral, quando brasileiro</item>
+                    <item>Prova de regularidade com o serviço militar, quando brasileiro do sexo masculino</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[servicos.caubr.gov.br]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Análise e Deliberação do CAU</titulo>
+            <descricao><![CDATA[O solicitante será informado se o registro foi ou não aprovado. Caso seja, ele receberá um e-mail com as informações de acesso ao SICCAU. 
+Caso não seja aprovado, o CAU informará quais as pendências e pedirá a regularização da documentação encaminhada.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave>
+        <item>Registro no CAU</item>
+        <item>Inscrição no CAU</item>
+        <item>Cadastro no CAU</item>
+        <item>Filiação no CAU</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Resolução N° 18/2012]]></item>
+    </legislacoes>
+</servico>
