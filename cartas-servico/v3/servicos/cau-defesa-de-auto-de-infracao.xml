@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[CAU - Defesa de Auto de Infração]]></nome>
+    <nome>07. CAU - Defesa de Auto de Infração</nome>
     <sigla/>
     <nomes-populares/>
     <descricao><![CDATA[É uma opção que a pessoa ou empresa autuada pelo CAU possui para tentar regularizar a sua situação. A defesa é apresentada primeiro à Comissão de Exercício Profissional do CAU do estado. Caso não seja aceita, a defesa sobe para a segunda instância, sendo apresentada ao Plenário do CAU do estado. Não sendo aceita, a última instância será o Plenário do CAU/BR.]]></descricao>
