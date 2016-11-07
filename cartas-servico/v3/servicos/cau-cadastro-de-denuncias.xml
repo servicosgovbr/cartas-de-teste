@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[CAU - Cadastro de Denúncias]]></nome>
+    <nome>05. CAU - Cadastro de Denúncias</nome>
     <sigla/>
     <nomes-populares/>
     <descricao><![CDATA[Denunciar empresas, profissionais ou cidadãos que estejam violando a legislação do exercício profissional de Arquitetura e Urbanismo. Como exemplo, podem ser denunciadas as faltas éticas e situações de exercício ilegal da profissão por leigos, falta de registro de RRT, falta de placa de identificação de responsável técnico em obras, entre outras.]]></descricao>
