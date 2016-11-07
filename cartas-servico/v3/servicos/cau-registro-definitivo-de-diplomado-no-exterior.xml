@@ -3,13 +3,21 @@
     <nome><![CDATA[CAU - Registro definitivo de diplomado no exterior]]></nome>
     <sigla/>
     <nomes-populares>
-        <item>Registro de estrangeiro</item>
-        <item>Registro de diplomado no exterior</item>
+        <item>Cadastro, inscrição, filiação</item>
     </nomes-populares>
-    <descricao><![CDATA[Registro definitivo de profissionais, brasileiros ou estrangeiros portadores de visto permanente, diplomados no exterior por instituições de ensino superior oficialmente reconhecidas no respectivo país e cujo diploma tenha sido devidamente revalidado por instituição nacional credenciada]]></descricao>
+    <descricao><![CDATA[O registro definitivo no CAU habilita o arquiteto e urbanista diplomado no exterior, brasileiro ou estrangeiro portador de visto permanente a exercer a profissão.  
+ 
+Esse registro é válido em todo o território nacional e deverá ser solicitado no CAU do estado onde o arquiteto e urbanista reside. 
+
+O registro concedido ao profissional estrangeiro terá vigência vinculada à data de expiração do Registro Nacional de Estrangeiro (RNE) e poderá ser reativado com a apresentação de novo documento de identidade válido.]]></descricao>
     <contato/>
     <gratuito/>
-    <solicitantes/>
+    <solicitantes>
+        <solicitante>
+            <tipo>Brasileiros ou estrangeiros diplomados no exterior</tipo>
+            <requisitos><![CDATA[brasileiros ou estrangeiros portadores de visto permanente, diplomados no exterior por instituições de ensino superior oficialmente reconhecidas no respectivo país e cujo diploma tenha sido devidamente revalidado por instituição nacional credenciada]]></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
         <ate max="6" unidade="meses"/>
         <descricao/>
