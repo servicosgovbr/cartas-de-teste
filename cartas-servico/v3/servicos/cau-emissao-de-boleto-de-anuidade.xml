@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[CAU - Emissão de Boleto de Anuidade]]></nome>
+    <sigla/>
+    <nomes-populares/>
+    <descricao><![CDATA[O pagamento da anuidade é necessário para que o profissional ou a empresa de Arquitetura e Urbanismo exerçam suas atividades no Brasil regularmente. A anuidade pode ser paga à vista ou dividida em até 5 parcelas, somente por meio do boleto bancário. O CAU não realiza o envio de boletos por Correios ou e-mail.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Profissionais ou Empresas de Arquitetura e Urbanismo</tipo>
+            <requisitos><![CDATA[Com registro ativo no CAU]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="minutos"/>
+        <descricao><![CDATA[Serviço online de emissão automática pelo sistema.]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Emissão</titulo>
+            <descricao><![CDATA[Acessar o SICCAU para emitir o boleto selecionado a forma de pagamento desejada.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[https://servicos.caubr.org.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave>
+        <item>anuidade</item>
+        <item>anuidade do cau</item>
+        <item>boleto do cau</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Resoluções CAU/BR Nº 61/2013 e 121/2016]]></item>
+        <item><![CDATA[Lei 12.378/2010]]></item>
+    </legislacoes>
+</servico>
