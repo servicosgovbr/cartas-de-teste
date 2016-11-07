@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[CAU - Emissão de Boleto de Anuidade]]></nome>
+    <nome>10. CAU - Emissão de Boleto de Anuidade</nome>
     <sigla/>
     <nomes-populares/>
     <descricao><![CDATA[O pagamento da anuidade é necessário para que o profissional ou a empresa de Arquitetura e Urbanismo exerçam suas atividades no Brasil regularmente. A anuidade pode ser paga à vista ou dividida em até 5 parcelas, somente por meio do boleto bancário emitido pelo SICCAU do profissional ou empresa. O CAU não realiza o envio de boletos pelos Correios ou por e-mail.]]></descricao>
