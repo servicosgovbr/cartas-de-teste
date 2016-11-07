@@ -19,10 +19,14 @@ Esse registro possui validade limitada à duração do contrato ou concurso, é 
             <tipo>Arquiteto e Urbanista diplomado no exterior</tipo>
             <requisitos><![CDATA[Com diploma de graduação devidamente revalidado no Brasil por Instituição Nacional credenciada e com proposta ou contrato de trabalho temporário]]></requisitos>
         </solicitante>
+        <solicitante>
+            <tipo>Arquiteto inscrito na Ordem dos Arquitectos de Portugal (OA)</tipo>
+            <requisitos><![CDATA[Arquitetos portugueses e brasileiros, natos e naturalizados, membros da Ordem dos Arquitectos de Portugal (OA)]]></requisitos>
+        </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <ate max="60" unidade="dias-corridos"/>
-        <descricao/>
+        <descricao><![CDATA[Os requerimentos de registro amparados pelo Acordo de Cooperação entre o CAU/BR e a Ordem dos Arquitectos de Portugal (OA) deverão estar concluídos em 60 dias.]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
@@ -54,6 +58,19 @@ Esse registro possui validade limitada à duração do contrato ou concurso, é 
                     <item>prova da relação contratual entre o contratante e o arquiteto e urbanista ou sociedade de arquitetos e urbanistas</item>
                     <item>se brasileiro nato ou naturalizado, comprovante de quitação com a Justiça Eleitoral;</item>
                     <item>se brasileiro nato ou naturalizado do sexo masculino, comprovante de quitação com o Serviço Militar</item>
+                </caso>
+                <caso descricao="Arquitetos inscritos na Ordem dos Arquitectos de Portugal (OA)">
+                    <item>diploma de graduação ou de formação habilitante no domínio da Arquitetura ou da Arquitetura e Urbanismo, obtido em instituição de ensino superior oficialmente reconhecida em Portugal;</item>
+                    <item>diploma de graduação estrangeiro, legalizado pela autoridade consular brasileira (se não expedido em língua portuguesa, acompanhado de tradução juramentada)</item>
+                    <item>carteira de identidade ou Registro Nacional de Estrangeiros (RNE) com indicação da obtenção de visto compatível com o trabalho a ser desenvolvido e dentro do prazo de validade;</item>
+                    <item>inscrição no Cadastro de Pessoas Físicas (CPF);</item>
+                    <item>declaração de inscrição efectiva na OA, indicando a respectiva data de inscrição e legalizado pela autoridade consular brasileira;</item>
+                    <item>declaração negativa de antecedentes ético-disciplinares emitida pela OA e legalizado pela autoridade consular brasileira;</item>
+                    <item>cópia do contrato temporário entre o Arquiteto e Urbanista e o contratante do Brasil ou, no caso de não estar firmado, cópia do compromisso existente entre as mesmas partes;</item>
+                    <item>Formulário Único para Solicitação de Registro (anexo ao Acordo de cooperação, disponível em http://www.caubr.gov.br/acordosinternacionais/) preenchido;</item>
+                    <item>declaração do requerente indicando um arquiteto ou empresa com registro no CAU, com efetiva participação na execução das atividades que irá desempenhar no Brasil, com aceitação de tal escolha por parte do contratante ou futuro contratante;</item>
+                    <item>se brasileiro nato ou naturalizado, inscrito na OA, comprovante de quitação com a Justiça Eleitoral;</item>
+                    <item>se brasileiro nato ou naturalizado do sexo masculino, inscrito na OA, comprovante de quitação com o Serviço Militar</item>
                 </caso>
             </documentos>
             <custos>
