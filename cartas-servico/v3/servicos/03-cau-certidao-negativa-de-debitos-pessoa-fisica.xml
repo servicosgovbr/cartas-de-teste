@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[03. CAU - Certidão Negativa de Débitos Pessoa Física]]></nome>
+    <sigla>CND</sigla>
+    <nomes-populares>
+        <item>Nada Consta</item>
+    </nomes-populares>
+    <descricao><![CDATA[Emissão do documento que certifica, para os efeitos legais, que o arquiteto e urbanista ou a pessoa jurídica de Arquitetura e Urbanismo com registro interrompido, suspenso, cancelado ou baixado encontra-se sem débito junto ao CAU.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Arquitetos e Urbanistas</tipo>
+            <requisitos><![CDATA[Registrados no CAU, com o registro interrompido, suspenso ou cancelado e que não possuem débitos junto ao CAU.]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Empresas de Arquitetura e Urbanismo</tipo>
+            <requisitos><![CDATA[Ser registrada no CAU, estar com o registro interrompido, suspenso, cancelado ou baixado e não possuir débitos junto ao CAU.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <descricao><![CDATA[Serviço online de emissão automática pelo sistema.]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Emissão</titulo>
+            <descricao><![CDATA[Acessar o SICCAU com CPF/CNJP e senha para emitir a certidão.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[servicos.caubr.gov.br]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave>
+        <item>Certidão negativa</item>
+        <item>CND</item>
+        <item>CNDPJ</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Resolução N° 93/2014]]></item>
+    </legislacoes>
+</servico>
