@@ -13,8 +13,8 @@
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <ate max="15" unidade="dias-uteis"/>
-        <descricao/>
+        <ate max="45" unidade="dias-corridos"/>
+        <descricao><![CDATA[O tempo pode variar conforme a agenda das Comissões.]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
