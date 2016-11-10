@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[13. CAU - Registro de Direito Autoral]]></nome>
+    <sigla>RDA</sigla>
+    <nomes-populares/>
+    <descricao><![CDATA[É o registro que o arquiteto e urbanista pode fazer no CAU para proteger o seu trabalho intelectual. Podem ser registrados os projetos, obras e demais trabalhos técnicos de criação no âmbito da Arquitetura e Urbanismo que conferem direitos autorais morais e patrimoniais ao seu autor.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Arquitetos e Urbanistas</tipo>
+            <requisitos><![CDATA[Com registro ativo no CAU e anuidade em dia.]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="15" unidade="dias-uteis"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Cadastro</titulo>
+            <descricao><![CDATA[No SICCAU, deverá preencher o cadastro indicando se é autor ou coautor, fornecer os demais dados do trabalho técnico e anexar a documentação. Em seguida deverá emitir o boleto e realizar o pagamento.]]></descricao>
+            <documentos>
+                <default>
+                    <item>Documentação comprobatória de autoria como desenhos, projetos, fotografias, croquis etc.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo>
+                        <descricao><![CDATA[Taxa de expediente]]></descricao>
+                        <moeda/>
+                        <valor>167,16</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Análise e Aprovação</titulo>
+            <descricao><![CDATA[O requerimento será analisado pela Comissão de Exercício Profissional do CAU do estado que poderá solicitar outros documentos, aprovar ou negar o RDA. O solicitante será informado por e-mail e também poderá consultar em seu ambiente SICCAU.]]></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave>
+        <item>direito autoral</item>
+        <item>rda</item>
+        <item>registro de direito autoral</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Resolução Nº 67/2013]]></item>
+        <item><![CDATA[Lei 12.378/2010]]></item>
+        <item><![CDATA[Lei 9.610/1998]]></item>
+    </legislacoes>
+</servico>
