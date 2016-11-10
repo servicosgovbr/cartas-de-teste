@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[12. CAU - Consulta de Registro de Direito Autorial]]></nome>
+    <sigla>RDA</sigla>
+    <nomes-populares/>
+    <descricao><![CDATA[É a consulta pública a RDAs cadastrados no CAU. Pode ser feita pelo número de CPF ou registro do arquiteto e pelo número ou chave do RDA. A consulta confirma a autenticidade dos documentos registrados.]]></descricao>
+    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Qualquer interessado</tipo>
+            <requisitos/>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="minutos"/>
+        <descricao><![CDATA[Serviço online de consulta pelo sistema.]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Consulta</titulo>
+            <descricao><![CDATA[Acessar a página de serviços do CAU e clicar em "Consultar Registro de Direito Autoral".]]></descricao>
+            <documentos>
+                <default>
+                    <item>CPF do autor, ou</item>
+                    <item>número de registro do autor, ou</item>
+                    <item>número do RDA, ou</item>
+                    <item>chave do RDA</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id=""/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Órgãos e entidades públicas</item>
+        <item>Empresas</item>
+        <item>Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse/>
+    <palavras-chave>
+        <item>consulta rda</item>
+        <item>consultar direito autoral</item>
+        <item>consultar registro de direito autoral</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Resolução Nº 67/2013]]></item>
+        <item><![CDATA[Lei 12.378/2010]]></item>
+        <item><![CDATA[Lei 9.610/98]]></item>
+    </legislacoes>
+</servico>
