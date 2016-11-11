@@ -42,6 +42,9 @@ Se identificadas pendências no pedido de registro, serão dados 10 dias para ma
                     <item>comprovante de inscrição no Cadastro Nacional de Pessoas Jurídicas (CNPJ);</item>
                     <item>Registro de Responsabilidade Técnica (RRT) de Cargo ou Função do arquiteto e urbanista indicado como responsável técnico.</item>
                 </default>
+                <caso descricao="Empresas que possuíam registro no CREA e não foram migradas automaticamente">
+                    <item>Certidão de Registro e Quitação de Pessoa Jurídica (CRQPJ) com objetivos sociais, capital social, data de registro no CREA, identificação do arquiteto e urbanista responsável técnico</item>
+                </caso>
             </documentos>
             <custos>
                 <default/>
