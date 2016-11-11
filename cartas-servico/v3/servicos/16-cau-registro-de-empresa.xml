@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>16. CAU - Registro de Empresa</nome>
+    <nome><![CDATA[16. CAU - Registro de Empresa]]></nome>
     <sigla/>
     <nomes-populares>
         <item>Registro de PJ</item>
         <item>Cadastro de Empresas</item>
     </nomes-populares>
-    <descricao><![CDATA[Registro obrigatório de empresas de Arquitetura e Urbanismo, Seções Técnicas de Arquitetura em empresas ou órgãos públicos. 
-Se sua empresa oferece serviços ligados à Arquitetura e Urbanismo, é obrigatório o registro no CAU/UF onde está localizada a sede da empresa.]]></descricao>
+    <descricao><![CDATA[Toda empresa que oferece serviços ligados à Arquitetura e Urbanismo deve obrigatoriamente ser registrada no CAU do estado onde está localizada a sede da empresa. Assim como as empresas, também devem se registrar as Seções Técnicas de Arquitetura que compõem o quadro de órgãos públicas ou empresas.]]></descricao>
     <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800-883-0113 ou 4007-2613]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
-            <tipo>Empresas que desempenhem atividades privativas de Arquitetos e Urbanistas</tipo>
-            <requisitos><![CDATA[Devem se registrar: 
-I - As pessoas jurídicas e filiais que tenham por objetivo social o exercício de atividades profissionais privativas de arquitetos e urbanistas;
-
-II - as pessoas jurídicas e filiais que tenham em seus objetivos sociais o exercício de atividades privativas de arquitetos e urbanistas cumulativamente com atividades em outras áreas profissionais não vinculadas ao Conselho de Arquitetura e Urbanismo;]]></requisitos>
+            <tipo>Empresas que oferecem serviços de Arquitetura e Urbanismo</tipo>
+            <requisitos><![CDATA[E tem como objetivo social o exercício de atividades profissionais privativas de arquitetos e urbanistas.]]></requisitos>
         </solicitante>
         <solicitante>
-            <tipo>Empresas que desempenhem atividades  de Arquitetos e Urbanistas compartilhadas com outras áreas profissionais</tipo>
-            <requisitos><![CDATA[Devem se registrar: 
-I - As pessoas jurídicas e filiais que tenham em seus objetivos sociais o exercício de atividades de arquitetos e urbanistas compartilhadas com outras áreas profissionais, cujo responsável técnico seja arquiteto e urbanista.]]></requisitos>
+            <tipo>Empresas que oferecem serviços de Arquitetura e Urbanismo</tipo>
+            <requisitos><![CDATA[E tem como objetivo social o exercício de atividades profissionais de arquitetos e urbanistas que são compartilhadas com outras profissões, mas que possui responsável técnico arquiteto e urbanista.]]></requisitos>
         </solicitante>
         <solicitante>
-            <tipo>Sociedades de Empresas</tipo>
-            <requisitos><![CDATA[As pessoas jurídicas regularmente registradas no CAU/UF poderão reunir-se em sociedades e requerer registro no conselho.
-Podem se registrar:
-- Sociedades com personalidade jurídica
-- Sociedades não personificadas]]></requisitos>
+            <tipo>Sociedades de Empresas com ou sem personalidade jurídica</tipo>
+            <requisitos><![CDATA[Constituídas por pessoas jurídicas regularmente registradas no CAU.]]></requisitos>
         </solicitante>
         <solicitante>
             <tipo>Seções Técnicas de Arquitetura e Urbanismo</tipo>
-            <requisitos><![CDATA[Devem se registrar:
-
-I - As seções técnicas das pessoas jurídicas de direito privado e das de direito público, dos órgãos da administração direta, das autarquias e das fundações que desenvolvam atividades privativas de arquitetos e urbanistas ou compartilhadas entre estes e outras profissões regulamentadas, no caso de terem entre seus responsáveis técnicos arquitetos e urbanistas.]]></requisitos>
+            <requisitos><![CDATA[Que compõem o quadro de empresas ou órgãos públicos e que desenvolvem atividades privativas de arquitetos e urbanistas ou ainda atividades compartilhadas com outras profissões regulamentadas, mas cujo responsável técnico é arquiteto e urbanista.]]></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
@@ -44,8 +34,8 @@ Se identificadas pendências no pedido de registro, serão dados 10 dias para ma
     </tempo-total-estimado>
     <etapas>
         <etapa>
-            <titulo>Requerimento no SICCAU</titulo>
-            <descricao><![CDATA[O registro inicial de pessoa jurídica deverá ser requerido por meio do preenchimento de formulário próprio, disponível no SICCAU, ao qual deve ser anexada a seguinte documentação:]]></descricao>
+            <titulo>Solicitação de Registro</titulo>
+            <descricao><![CDATA[Acessar a área de serviços do site e preencher o formulário de solicitação, anexando a documentação abaixo.]]></descricao>
             <documentos>
                 <default>
                     <item>ato constitutivo, devidamente registrado no órgão competente, incluindo as alterações, ou se for o caso, a consolidação e as alterações posteriores;</item>
@@ -57,7 +47,28 @@ Se identificadas pendências no pedido de registro, serão dados 10 dias para ma
                 <default/>
             </custos>
             <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[https://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa>
+            <titulo>Análise e aprovação</titulo>
+            <descricao><![CDATA[O requerimento será analisado pela Comissão de Exercício Profissional do CAU do estado que poderá solicitar outros documentos para finalizar o registro. O solicitante será informado por e-mail. Ao final do processo, receberá a senha de acesso ao SICCAU.]]></descricao>
+            <documentos>
                 <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[https://servicos.caubr.gov.br/]]></descricao>
+                    </canal-de-prestacao>
+                </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
@@ -66,10 +77,7 @@ Se identificadas pendências no pedido de registro, serão dados 10 dias para ma
         <item>Órgãos e entidades públicas</item>
         <item>Empresas</item>
     </segmentos-da-sociedade>
-    <areas-de-interesse>
-        <item>Serviços Públicos</item>
-        <item>Comércio e Serviços</item>
-    </areas-de-interesse>
+    <areas-de-interesse/>
     <palavras-chave>
         <item>Registro de empresas</item>
         <item>Registro de PJ</item>
@@ -80,6 +88,7 @@ Se identificadas pendências no pedido de registro, serão dados 10 dias para ma
         <item>Empresa de Arquitetura</item>
     </palavras-chave>
     <legislacoes>
-        <item><![CDATA[[Resolução CAU/BR 28 de 6 de Julho de 2012](http://www.caubr.gov.br/wp-content/uploads/anexos/resolucao/RES-28REGISTRO-PJRP-JUL-2012.pdf)]]></item>
+        <item><![CDATA[Resolução CAU/BR nº 28/2012]]></item>
+        <item><![CDATA[Lei 12.378/2010]]></item>
     </legislacoes>
 </servico>
