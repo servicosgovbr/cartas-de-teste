@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servicos xmlns="http://servicos.gov.br/v3/schema">
+    <servico>
+        <id>obter-carteira-de-trabalho-2</id>
+        <dbId>3587</dbId>
+        <nome>Obter carteira de trabalho 2</nome>
+        <sigla>CTPS 2</sigla>
+        <nomes-populares>
+            <item id="41">carteira</item>
+            <item id="42">trabalho</item>
+            <item id="43">carteira de trabalho</item>
+        </nomes-populares>
+        <descricao>A Carteira de Trabalho e Previdência Social (CTPS) é um documento obrigatório para quem venha a prestar algum tipo de serviço profissional no Brasil. A retenção da CTPS por constitui crime de contravenção penal, punível com pena de prisão simples de 1 a 3 meses ou multa, segundo a Lei 5.553/68[1].
+
+A carteira de trabalho é um dos únicos documentos a reproduzir, esclarecer e comprovar dados sobre a vida funcional do trabalhador.</descricao>
+        <contato>contato</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40247">
+                <tipo>Pessoa Física</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17382">
+                <titulo>Pedir carteira</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17332" tipo="fax">
+                            <descricao>233344556</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="17305" descricao="seja do sexo masculino">
+                        <canal-de-prestacao id="17331" tipo="e-mail">
+                            <descricao>teste@teste.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17383">
+                <titulo>Pegar carteira</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17333" tipo="postal">
+                            <descricao>rua x</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11555">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Trabalho</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17354">trabalho</item>
+            <item id="17355">carteira</item>
+            <item id="17356">desemprego</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5811">fdsadffdsfdasfsfdsfas</item>
+            <item id="5812">fsadfasdfasdfsdfs</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>mais-um-teste</id>
+        <dbId>2</dbId>
+        <nome>Mais um teste</nome>
+        <sigla>opa</sigla>
+        <nomes-populares>
+            <item id="4">testando</item>
+        </nomes-populares>
+        <descricao>wrrfrwwer
+wfg</descricao>
+        <contato>erv</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-digital>0</porcentagem-digital>
+        <solicitantes>
+            <solicitante id="3">
+                <tipo>eu</tipo>
+                <requisitos>nada</requisitos>
+            </solicitante>
+            <solicitante id="4">
+                <tipo>ele</tipo>
+                <requisitos>também nada</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="2">
+                <titulo>primeira</titulo>
+                <descricao>dv</descricao>
+                <documentos>
+                    <default>
+                        <documento codigo="0">
+                            <id>63301</id>
+                            <descricao>rg</descricao>
+                            <ondeObter></ondeObter>
+                            <observacoes></observacoes>
+                        </documento>
+                        <documento codigo="0">
+                            <id>63302</id>
+                            <descricao>cpf</descricao>
+                            <ondeObter></ondeObter>
+                            <observacoes></observacoes>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="4" tipo="aplicativo-movel">
+                            <descricao>fsdv</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="3" descricao="situação">
+                        <canal-de-prestacao id="3" tipo="aplicativo-movel">
+                            <descricao>lugar</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="108999"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Habitação</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="4">opa</item>
+            <item id="5">opa</item>
+            <item id="6">opa</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5829">wads</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>obter-auxilio-doenca-3</id>
+        <dbId>8</dbId>
+        <nome>Obter auxílio-doença 3</nome>
+        <sigla>3</sigla>
+        <descricao>O auxílio-doença é um benefício por incapacidade devido ao segurado do INSS acometido por uma doença ou acidente que o torne temporariamente incapaz para o trabalho.</descricao>
+        <contato>Através do telefone 135</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40221">
+                <tipo>Desempregado</tipo>
+                <requisitos>- Comprovar doença que torne o cidadão temporariamente incapaz de trabalhar;
+- Possuir a carência (link) de 12 contribuições ao INSS (isenta em caso de acidente de trabalho ou doenças previstas em lei) (Veja aqui se você possui esse requisito)</requisitos>
+            </solicitante>
+            <solicitante id="40222">
+                <tipo>Cidadão doente empregado em empresa</tipo>
+                <requisitos>Estar afastado do trabalho há pelo menos 15 dias.</requisitos>
+            </solicitante>
+            <solicitante id="40223">
+                <tipo>Segurado especial (trabalhador rural, lavrador, pescador):</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="40224">
+                <tipo>Trabalhador avulso</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="40225">
+                <tipo>Contribuinte Individual</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="40226">
+                <tipo>Conribuinte Facultativo</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="40227">
+                <tipo>Empregado Doméstico</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="30" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17357">
+                <titulo>Agendar atendimento</titulo>
+                <descricao>Caso não possa comparecer à perícia médica no dia e hora marcados, você pode solicitar a remarcação, uma única vez, até três dias antes da data agendada, pelo telefone 135. O cálculo do benefício não poderá exce­der a média das últimas 12 contribui­ções.
+
+Obs.: Como tratar a questão da empresa requerer o auxílio ? (outro serviço ?)</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63214</id>
+                            <descricao>NIT - Número de Identificação do Trabalhador (PIS/PASEP/CICI)</descricao>
+                        </documento>
+                    </default>
+                    <caso id="17295" descricao="Se for empregado de empresa">
+                        <documento>
+                            <id>63213</id>
+                            <descricao>CEI</descricao>
+                        </documento>
+                        <documento>
+                            <id>63212</id>
+                            <descricao>CNPJ/CGC ou</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17295" tipo="web-agendar">
+                            <descricao>http://www2.dataprev.gov.br/sabiweb/agendamento/escolherAPS.view#sabiweb</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17358">
+                <titulo>Comparecer à perícia médica</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63218</id>
+                            <descricao>Documento de identificação válido e oficial com foto;</descricao>
+                        </documento>
+                        <documento>
+                            <id>63219</id>
+                            <descricao>Número do CPF</descricao>
+                        </documento>
+                        <documento>
+                            <id>63220</id>
+                            <descricao>Carteira de trabalho, carnês de contribuição e outros documentos que comprovem pagamento ao INSS;</descricao>
+                        </documento>
+                        <documento>
+                            <id>63221</id>
+                            <descricao>Documentos médicos que comprovem a causa do problema de saúde, o tratamento médico indicado e o período sugerido de afastamento do trabalho;</descricao>
+                        </documento>
+                    </default>
+                    <caso id="17296" descricao="Para o empregado">
+                        <documento>
+                            <id>63216</id>
+                            <descricao>[link]Comunicação de Acidente de Trabalho – CAT , se for o caso;</descricao>
+                        </documento>
+                        <documento>
+                            <id>63215</id>
+                            <descricao>declaração carimbada e assinada do empregador, informando último dia trabalhado (se precisar, [link]imprima o requerimento);</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="17297" descricao="Para o segurado especial (trabalhador rural, lavrador, pescador):">
+                        <documento>
+                            <id>63217</id>
+                            <descricao>documentos que comprovem esta situação, como declaração de sindicato, contratos de arrendamento, documentos onde conste a sua ocupação etc.</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17296" tipo="presencial">
+                            <descricao>Endereço informado na etapa anterior de agendamento.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17359">
+                <titulo>Consultar situação do benefício</titulo>
+                <descricao>Explicar que vai receber carta, se for aprovado vai receber no banco cadastrado, etc.
+Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Outra etapa/serviço ?</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63222</id>
+                            <descricao>Número do Benefício</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17297" tipo="web-consultar">
+                            <descricao>http://www.mtps.gov.br/consulta-de-situacao-de-beneficio</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11535">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="11536">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Previdência Social</item>
+            <item>Saúde</item>
+            <item>Trabalho</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17310">doente</item>
+            <item id="17311">afastamento</item>
+            <item id="17312">ajuda</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5794">Lei x</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>revalidar-diploma-medico-expedido-no-exterior-2</id>
+        <dbId>3580</dbId>
+        <nome>Revalidar diploma médico expedido no exterior 2</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="29">Revalida</item>
+        </nomes-populares>
+        <descricao>Trata-se de um exame para revalidação dos diplomas estrangeiros compatíveis com as exigências de formação correspondentes aos diplomas médicos expedidos por universidades brasileiras, em consonância com as Diretrizes Curriculares Nacionais do Curso de Graduação em Medicina, com parâmetros e critérios isonômicos adequados para aferição de equivalência curricular e definição da correspondente aptidão para o exercício profissional da medicina no Brasil.</descricao>
+        <contato>0800-616161</contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="40228">
+                <tipo>Médicos com diploma obtido no exterior</tipo>
+                <requisitos>* Ser  brasileiro(a)  ou  estrangeiro  em  situação  legal  no Brasil;
+* Possuir  Cadastro  de  Pessoas  Físicas  -  CPF,  emitido pela  Receita  Federal  do  Brasil;
+* Ser  portador  de  diploma  médico  expedido  por  Instituição  de  Educação  Superior  Estrangeira,  reconhecida  no  país  de origem  pelo  seu  Ministério  da  Educação  ou  órgão  equivalente,  autenticado  pela  autoridade  consular  brasileira.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="2" max="4" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17360">
+                <titulo>Realizar inscrição</titulo>
+                <descricao>Para  fazer  sua  inscrição,  o  participante  deverá  entrar  no site  indicado  e  obter  código  de  identificação  e  senha. O  número  de  inscrição  e  a  senha  devem  ser  mantidos sob  a  guarda  do  participante,  sendo  indispensáveis  para  o  acompanhamento  do  processo  de  inscrição  e  para  a  obtenção  dos  resultados  individuais  via  Internet.</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63223</id>
+                            <descricao>Diploma  digitalizado,  frente  e verso</descricao>
+                        </documento>
+                        <documento>
+                            <id>63224</id>
+                            <descricao>Informar  se  possui  o  Certificado  de  Proficiência  em Língua  Portuguesa  Para  Estrangeiros  (Celpe-Bras)</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17298" tipo="web">
+                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17361">
+                <titulo>Efetuar pagamento da avaliação escrita</titulo>
+                <descricao>O  participante  deverá  entrar  no  sistema,  com  seu  código e senha, a fim de emitir o boleto para pagamento da taxa de inscrição, devendo  efetuar  o  pagamento  até  a  data  de  vencimento  indicada  no boleto.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="11">
+                            <descricao>Avaliação escrita</descricao>
+                            <moeda></moeda>
+                            <valor>10,000</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17299" tipo="web">
+                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17362">
+                <titulo>Realizar avaliação escrita</titulo>
+                <descricao>A data de realização da avaliação está disponível no [edital do exame](http://portal.inep.gov.br/legislacao).</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17300" tipo="presencial">
+                            <descricao>O local de realização da avaliação está disponível no [portal do INEP](http://revalida.inep.gov.br/revalida/inscricao).</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17363">
+                <titulo>Efetuar pagamento da avaliação de habilidades clínicas</titulo>
+                <descricao>Na hipótese de aprovação na avaliação escrita, o  participante deverá emitir novo boleto para pagamento da taxa, até a data de  vencimento  indicada,  relativa  à  segunda  etapa.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="12">
+                            <descricao>Avaliação de habilidades clínicas</descricao>
+                            <moeda></moeda>
+                            <valor>30,000</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17301" tipo="web">
+                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17364">
+                <titulo>Realizar avaliação de habilidades clínicas</titulo>
+                <descricao>A data de realização da avaliação está disponível no [edital do exame](http://portal.inep.gov.br/legislacao).</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17302" tipo="presencial">
+                            <descricao>O local de realização da avaliação está disponível no [portal do INEP](http://revalida.inep.gov.br/revalida/inscricao).</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17365">
+                <titulo>Consultar resultado</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17303" tipo="web">
+                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17366">
+                <titulo>Comparecer à universidade</titulo>
+                <descricao>Em  caso  de  aprovação  no  Revalida  o  participante  deverá  apresentar,  junto  à  Universidade  à  qual  foi  solicitada  a  revalidação,  o  Certificado  de  Proficiência  em  Língua  Portuguesa  para Estrangeiros (Celpe-Bras), nível intermediário superior, conforme Resolução  CFM  nº  1831/2008,  exceto  os  naturais  de  países  cuja  língua
+oficial  seja  o  português.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17304" tipo="presencial">
+                            <descricao>Universidade escolhida para revalidação do diploma.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11537">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Educação superior</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17313">diploma</item>
+            <item id="17314">revalidar</item>
+            <item id="17315">exterior</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5795">http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2007-12-20;6317</item>
+            <item id="5796">http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-12-20;9394</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>servico-teste</id>
+        <dbId>3579</dbId>
+        <nome>Serviço teste</nome>
+        <sigla>STST</sigla>
+        <nomes-populares>
+            <item id="35">Serviço para teste</item>
+            <item id="36">Testando a interface</item>
+            <item id="37">C</item>
+        </nomes-populares>
+        <descricao>O Programa Universidade para Todos - Prouni tem como finalidade a concessão de bolsas de estudo integrais e parciais em cursos de graduação e sequenciais de formação específica, em instituições de ensino superior privadas. Criado pelo Governo Federal em 2004 e institucionalizado pela Lei nº 11.096, em 13 de janeiro de 2005 oferece, em contrapartida, isenção de tributos àquelas instituições que aderem ao Programa.</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="40241">
+                <tipo>Estudantes egressos do ensino médio da rede pública</tipo>
+                <requisitos>Na condição de bolsistas integrais:
+* Com renda familiar per capita máxima de três salários mínimos.
+* Tenha participado do Exame Nacional do Ensino Médio - Enem, a partir da edição de 2010, e obtido, em uma mesma edição do referido exame, média das notas nas provas igual ou superior a 450 pontos e nota superior a zero na redação.</requisitos>
+            </solicitante>
+            <solicitante id="40242">
+                <tipo>Estudantes egressos do ensino médio da rede particular</tipo>
+                <requisitos>Na condição de bolsistas parciais:
+* Com renda familiar per capita máxima de seis salários mínimos.
+* Tenha participado do Exame Nacional do Ensino Médio - Enem, a partir da edição de 2010, e obtido, em uma mesma edição do referido exame, média das notas nas provas igual ou superior a 450 pontos e nota superior a zero na redação.</requisitos>
+            </solicitante>
+            <solicitante id="40243">
+                <tipo>Pessoa com deficiência</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="40244">
+                <tipo>Professor da rede pública de ensino</tipo>
+                <requisitos>No efetivo exercício do magistério da educação básica e integrando o quadro de pessoal permanente da instituição pública e concorrer a bolsas exclusivamente nos cursos de licenciatura.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="40" unidade="dias-uteis"/>
+            <descricao>Teste Teste</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17378">
+                <titulo>Agendamento</titulo>
+                <descricao>Inscrições abertas a partir de 11/08 até 31/08, o prazo final para inscrição de candidato ainda não matriculado na instituição de educação superior em que deseja se inscrever.</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63241</id>
+                            <descricao>CPF</descricao>
+                        </documento>
+                        <documento>
+                            <id>63242</id>
+                            <descricao>RG</descricao>
+                        </documento>
+                        <documento>
+                            <id>63243</id>
+                            <descricao>Comprovante de renda</descricao>
+                        </documento>
+                    </default>
+                    <caso id="17302" descricao="Professores">
+                        <documento>
+                            <id>63240</id>
+                            <descricao>Comprovante do exercício do magistério</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="16">
+                            <descricao>Taxa de inscrição</descricao>
+                            <moeda></moeda>
+                            <valor>9,000</valor>
+                        </custo>
+                    </default>
+                    <caso id="17313" descricao="Estudantes da rede pública de ensino">
+                        <custo id="20">
+                            <descricao>Taxa de inscrição</descricao>
+                            <moeda></moeda>
+                            <valor>0</valor>
+                        </custo>
+                    </caso>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17327" tipo="web-agendar">
+                            <descricao>http://siteprouni.mec.gov.br/</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="17326" tipo="e-mail">
+                            <descricao>brasil@gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="17325" tipo="postal">
+                            <descricao>Av. Ipiranga 6681 - Prédio 99A - sala 218 – 2º andar. Porto Alegre - RS - Brasil. CEP 90619-900</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="17304" descricao="Estudantes de primeiro grau">
+                        <canal-de-prestacao id="17323" tipo="e-mail">
+                            <descricao>estudantes@gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="17324" tipo="fax">
+                            <descricao>3434234242342342</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17379">
+                <titulo>Inscrição no SisFIES</titulo>
+                <descricao>Pode se inscrever às bolsas remanescentes do Prouni 2º/2015 o candidato que atenda a uma das condições a seguir.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17328" tipo="e-mail">
+                            <descricao>fsefsfse</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11552">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Politica econômica</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17345">Teste</item>
+            <item id="17346">Prouni</item>
+            <item id="17347">Bolsa de estudos</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5808">[TítuloLei nº 6.766, de 19 de Dezembro de 1979](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1979-12-19;6766)</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>servico-elias-555</id>
+        <dbId>3585</dbId>
+        <nome>Servico Elias 555</nome>
+        <sigla>se</sigla>
+        <nomes-populares>
+            <item id="32">elias</item>
+        </nomes-populares>
+        <descricao>elias</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40233">
+                <tipo>teste</tipo>
+                <requisitos>teste</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao>blah</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17371">
+                <titulo>etapa1</titulo>
+                <descricao>etapa1</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17310" tipo="e-mail">
+                            <descricao>email</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11542">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="11541">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Empregabilidade</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17324">elias</item>
+            <item id="17325">blah</item>
+            <item id="17326">bleh</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5800">blah</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste2</id>
+        <dbId>3582</dbId>
+        <nome>TeSte2</nome>
+        <sigla>TST2</sigla>
+        <descricao>Descrição</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="40232">
+                <tipo>Solicitante Teste</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="6" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17370">
+                <titulo>ETAPA 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="14">
+                            <descricao>Custo</descricao>
+                            <moeda></moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17309" tipo="fax">
+                            <descricao>51 910 234 34</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11540">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <palavras-chave>
+            <item id="17321">Palavra 1</item>
+            <item id="17322">Palavra 2</item>
+            <item id="17323">Palavra 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5799">Le</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste-mps-teste-2</id>
+        <dbId>3589</dbId>
+        <nome>Teste MPS Teste 2</nome>
+        <sigla>Palavra Chaves</sigla>
+        <nomes-populares>
+            <item id="38">Arroz</item>
+            <item id="39">Cenoura</item>
+            <item id="40">Feijão</item>
+        </nomes-populares>
+        <descricao>Desc Teste</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40246">
+                <tipo>Soli</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17381">
+                <titulo>Etapa</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17330" tipo="presencial">
+                            <descricao>teste</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11554">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Serviços Urbanos</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17351">Abacate</item>
+            <item id="17352">Laranja</item>
+            <item id="17353">Limão</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5810">Legislação</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>servico-teste-sem-editor-2</id>
+        <dbId>3588</dbId>
+        <nome>Serviço teste sem editor 2</nome>
+        <sigla>editor 2</sigla>
+        <nomes-populares>
+            <item id="33">editor 2</item>
+        </nomes-populares>
+        <descricao>Serviço teste para verificar se funciona sem o editor 2</descricao>
+        <contato>dsfsdadsfsdafadsf</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40236">
+                <tipo>Eu</tipo>
+                <requisitos>dfdasfsdfsadf</requisitos>
+            </solicitante>
+            <solicitante id="40237">
+                <tipo>Tu</tipo>
+                <requisitos>afdfsafadsfsadfadsfadsfasfdasfdsafsdfsdafdsafvxzcvzxvzxvzxcvzxvxzvcxzvdfghjhkgjhkm,nloiuçpuóip</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="2" max="4" unidade="dias-uteis"/>
+            <descricao>afdsfasfsfdasfsfafsa</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17374">
+                <titulo>Etapa 3000000000000000000000000000000000000</titulo>
+                <descricao>etapa gfklsdfjkglsdlknhlknblkglbn,.v,nxmcnbm,.nxcmv,bncmvxbnx,mcv.</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63235</id>
+                            <descricao>sadasfsdfsafdsf</descricao>
+                        </documento>
+                        <documento>
+                            <id>63236</id>
+                            <descricao>adsffadsfdsafdsafsdaf</descricao>
+                        </documento>
+                    </default>
+                    <caso id="17299" descricao="adsfdasfdsafasdfdas">
+                        <documento>
+                            <id>63234</id>
+                            <descricao>sadfsadfdsafadsfd</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17319" tipo="web-postos-de-atendimento">
+                            <descricao>http://www.uol.com.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="17318" tipo="web-inscrever-se">
+                            <descricao>http://www.google.com.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="17300" descricao="fdsafasfsafdsafdasff">
+                        <canal-de-prestacao id="17316" tipo="e-mail">
+                            <descricao>teste@teste.com</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="17315" tipo="web-declarar">
+                            <descricao>http://www.gmail.com</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="17301" descricao="dsvfasfdsfasfdasfafds">
+                        <canal-de-prestacao id="17317" tipo="web-simular">
+                            <descricao>www.tst.com.br</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17375">
+                <titulo>Etapa 400000000000000000000</titulo>
+                <descricao>dsfsdgfdgfdsgdsfgdfsgfdsgdsfgsfdgsfdgsdfgfsdgfdsgfsdgfsdgfsdgsfdgdsfg</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63237</id>
+                            <descricao>testertdsgacdvb</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17320" tipo="e-mail">
+                            <descricao>dfdsafsdfasdfsadfsd</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11546">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="11547">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="11549">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="11548">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <palavras-chave>
+            <item id="17333">sadfjasdklfjkdlsajkflj</item>
+            <item id="17334">kjdksjfklsdjfkljsakdlj</item>
+            <item id="17335">jsdklfjlksdjfadslkjfkljdsklflkds</item>
+            <item id="17336">adfsafsdagsdagag</item>
+            <item id="17337">asdgasgasgsdfgafgfgag</item>
+            <item id="17338">agdgfagafgfgadfgafdgfad</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5803">hdjfkhgjkfhghjkghjklsdfhjkghjksdfhgjkshdjkl</item>
+            <item id="5804">dsfasffdasfdsfsadfasdfdasfasf</item>
+            <item id="5805">asdfafdsfsafdsafasdfasdfsaf</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste-elias</id>
+        <dbId>3586</dbId>
+        <nome>Teste Elias</nome>
+        <sigla></sigla>
+        <descricao>Blah</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40235">
+                <tipo>ljnknj</tipo>
+                <requisitos>injisnjinj</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="6" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17373">
+                <titulo>sdfsadf</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17314" tipo="e-mail">
+                            <descricao>blah</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11544">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="11545">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Previdência Social</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17330">legal</item>
+            <item id="17331">asdfasd</item>
+            <item id="17332">asdf</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5802">qualquer coisa</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>servico-velho</id>
+        <dbId>3594</dbId>
+        <nome>Serviço Velho</nome>
+        <sigla>Velho</sigla>
+        <nomes-populares>
+            <item id="45">Velho</item>
+            <item id="46">Idoso</item>
+        </nomes-populares>
+        <descricao>Serviço super velho, idoso e acabado</descricao>
+        <contato>contato serviço</contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="40249">
+                <tipo>Velho 1</tipo>
+                <requisitos>Velho que é idoso</requisitos>
+            </solicitante>
+            <solicitante id="40250">
+                <tipo>Velho 2</tipo>
+                <requisitos>Velhão</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="2" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17385">
+                <titulo>Etapa 1 velha</titulo>
+                <descricao>Velha descrição</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63244</id>
+                            <descricao>Velha documentação</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="17">
+                            <descricao>Custo 1</descricao>
+                            <moeda></moeda>
+                            <valor>110</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17335" tipo="e-mail">
+                            <descricao>velho@email.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17386">
+                <titulo>Velha etapa 2</titulo>
+                <descricao>Descrição etapa 2</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63245</id>
+                            <descricao>Documentação 2</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="18">
+                            <descricao>Custo 2</descricao>
+                            <moeda></moeda>
+                            <valor>50</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17336" tipo="postal">
+                            <descricao>Endereço do postal</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11558">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <palavras-chave>
+            <item id="17360">Velho 1</item>
+            <item id="17361">Velho 2</item>
+            <item id="17362">Velho 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5814">teste legislação</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste</id>
+        <dbId>3592</dbId>
+        <nome>Teste</nome>
+        <sigla>abcdefga</sigla>
+        <nomes-populares>
+            <item id="34">test</item>
+        </nomes-populares>
+        <descricao>Breve texto explicativo!!!</descricao>
+        <contato>Teste de **contato**!
+
+* contato1
+* contato2</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40239">
+                <tipo>Eu</tipo>
+                <requisitos>ser maior de 18 anos</requisitos>
+            </solicitante>
+            <solicitante id="40240">
+                <tipo>a</tipo>
+                <requisitos>a</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao>comentário sobre tempo estimado comentário sobre tempo estimado comentário sobre tempo estimado comentário sobre tempo estimado</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17377">
+                <titulo>Primeira etapa</titulo>
+                <descricao>desc da etapa um</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63238</id>
+                            <descricao>RG</descricao>
+                        </documento>
+                        <documento>
+                            <id>63239</id>
+                            <descricao>CPF</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17322" tipo="e-mail">
+                            <descricao>teste@teste.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11551">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <palavras-chave>
+            <item id="17342">ola 1</item>
+            <item id="17343">ola 2</item>
+            <item id="17344">ola 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5807">lei 1</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste-de-edicao-2-do-carlos-1</id>
+        <dbId>3583</dbId>
+        <nome>Teste de edição 2, do Carlos 1</nome>
+        <sigla>CT2</sigla>
+        <nomes-populares>
+            <item id="30">Carlos</item>
+            <item id="31">Teste</item>
+        </nomes-populares>
+        <descricao>Teste de serviço</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="40229">
+                <tipo>Idosos</tipo>
+                <requisitos>Maiores de 65 anos</requisitos>
+            </solicitante>
+            <solicitante id="40230">
+                <tipo>Estudantes</tipo>
+                <requisitos>Alunos de cursos regulares</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="minutos"/>
+            <descricao>teste</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17367">
+                <titulo>Agendamento</titulo>
+                <descricao>agendar no site</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63226</id>
+                            <descricao>RG</descricao>
+                        </documento>
+                        <documento>
+                            <id>63227</id>
+                            <descricao>CPF</descricao>
+                        </documento>
+                    </default>
+                    <caso id="17298" descricao="Incapaz">
+                        <documento>
+                            <id>63225</id>
+                            <descricao>Autorização do responsável</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="13">
+                            <descricao>Taxa</descricao>
+                            <moeda></moeda>
+                            <valor>18,000</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17306" tipo="e-mail">
+                            <descricao>Solicitar pelo seguinte email: agendamento@agendamento.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="17305" tipo="web">
+                            <descricao>http://www.agendamento.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17368">
+                <titulo>Atendimento presencial</titulo>
+                <descricao>atendimento presencial</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63228</id>
+                            <descricao>Comprovante de pagamento da GRU</descricao>
+                        </documento>
+                        <documento>
+                            <id>63229</id>
+                            <descricao>CPF</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17307" tipo="presencial">
+                            <descricao>Atendimento presencial</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11538">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <palavras-chave>
+            <item id="17316">Teste</item>
+            <item id="17317">Carlos</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5797">http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste-branch</id>
+        <dbId>3581</dbId>
+        <nome>Teste branch</nome>
+        <sigla></sigla>
+        <descricao>descricao</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40231">
+                <tipo>populacao</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17369">
+                <titulo>etapa importante</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17308" tipo="e-mail">
+                            <descricao>meu email</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11539">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <palavras-chave>
+            <item id="17318">m</item>
+            <item id="17319">o</item>
+            <item id="17320">o</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5798">ultra lei</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste-09</id>
+        <dbId>3593</dbId>
+        <nome>Teste 09</nome>
+        <sigla>Teste 09 Teste</sigla>
+        <nomes-populares>
+            <item id="44">dfsfsddsfsdfdsfsfsd</item>
+        </nomes-populares>
+        <descricao>Testefdfd</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40248">
+                <tipo>aafd</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao>dfd</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17384">
+                <titulo>aafd</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17334" tipo="e-mail">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="11556">Órgãos e entidades públicas</item>
+            <item idSegmento="1" idServicoSegmento="11557">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <palavras-chave>
+            <item id="17357">a</item>
+            <item id="17358">a</item>
+            <item id="17359">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5813">a</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>obter-aurtorizacao-de-empresa</id>
+        <dbId>3596</dbId>
+        <nome>Obter aurtorização de empresa</nome>
+        <sigla></sigla>
+        <descricao>teste</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40252">
+                <tipo>Empresario brasileiro</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="40253">
+                <tipo>estrangeiro</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>2</quantidade>
+            <unidade>dias</unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="17388">
+                <titulo>Realizar solicitacao de certidao</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <documento codigo="0">
+                            <id>63295</id>
+                            <descricao>Planta empresa</descricao>
+                            <ondeObter></ondeObter>
+                            <observacoes></observacoes>
+                        </documento>
+                        <documento codigo="0">
+                            <id>63296</id>
+                            <descricao>cnpj</descricao>
+                            <ondeObter></ondeObter>
+                            <observacoes></observacoes>
+                        </documento>
+                    </default>
+                    <caso id="17306" descricao="emnrpe">
+                        <documento codigo="0">
+                            <id>63294</id>
+                            <descricao>autorizacao do itamaraty</descricao>
+                            <ondeObter></ondeObter>
+                            <observacoes></observacoes>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17338" tipo="web">
+                            <descricao>www.receita.fazenda.gov.br/sidiasasiajdid</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17389">
+                <titulo>Visita técnica ao estabelecimento</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17339" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17390">
+                <titulo>Envio</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17361" tipo="e-mail">
+                            <descricao>email</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="108999"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="11560">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="11561">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Assistência Hospitalar e Ambulatorial</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17385">fdsf</item>
+            <item id="17386">fdsfds</item>
+            <item id="17387">sdfsd</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5816">rerwer</item>
+            <item id="5817">rerwerw</item>
+            <item id="5818">qqq</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>instalacao-de-cisternas-3</id>
+        <dbId>3584</dbId>
+        <nome>Instalação de cisternas 3</nome>
+        <sigla>cisterna</sigla>
+        <nomes-populares>
+            <item id="47">Cisterna 1</item>
+            <item id="48">Cisterna 2</item>
+            <item id="49">Cisterna 3</item>
+        </nomes-populares>
+        <descricao>O serviço de instalação de cisterna de consumo faz parte do programa água para todos</descricao>
+        <contato>Contato fsadkfklsjkfshadjkghjkghfkjgkfhgjhfjkgxvcnbvxmcbnxcv,mnb.xvcnbm,cvnbm,nxcm,bnx,vc.n
+fsadkfklsjkfshadjkghjkghfkjgkfhgjhfjkgxvcnbvxmcbnxcv,mnb.xvcnbm,cvnbm,nxcm,bnx,vc.n
+fsadkfklsjkfshadjkghjkghfkjgkfhgjhfjkgxvcnbvxmcbnxcv,mnb.xvcnbm,cvnbm,nxcm,bnx,vc.n
+fsadkfklsjkfshadjkghjkghfkjgkfhgjhfjkgxvcnbvxmcbnxcv,mnb.xvcnbm,cvnbm,nxcm,bnx,vc.n
+fsadkfklsjkfshadjkghjkghfkjgkfhgjhfjkgxvcnbvxmcbnxcv,mnb.xvcnbm,cvnbm,nxcm,bnx,vc.n
+fsadkfklsjkfshadjkghjkghfkjgkfhgjhfjkgxvcnbvxmcbnxcv,mnb.xvcnbm,cvnbcccc</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40234">
+                <tipo>Populações carentes, residentes em comunidades rurais com acesso precário à água.</tipo>
+                <requisitos>- Renda familiar per capita de R$ 154,00  (cento e cinquenta quarenta reais) mensais
+- Acesso precário á água
+- Morar em área rural</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="12" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17372">
+                <titulo>Cadastrar no CadÚnico  (Cadastro Único dos Programas Sociais do Governo Federal)</titulo>
+                <descricao>Os beneficiários são identificados por meio do CadÚnico (Cadastro Único dos Programas Sociais do Governo Federal). Os chamados Centros de Referência de Assistência Social (CRAS), localizados nos municípios, são as unidades responsáveis, juntamente com as prefeituras municipais, pelo cadastro e inserção de famílias no CadÚnico.</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63230</id>
+                            <descricao>Carteira de trabalho e/ou três últimos contra-cheques</descricao>
+                        </documento>
+                        <documento>
+                            <id>63231</id>
+                            <descricao>Documento de Identidade (RG)</descricao>
+                        </documento>
+                        <documento>
+                            <id>63232</id>
+                            <descricao>CPF (Cadastro de Pessoa Física)</descricao>
+                        </documento>
+                        <documento>
+                            <id>63233</id>
+                            <descricao>Comprovante de Residência</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17313" tipo="web">
+                            <descricao>http://www.brasilsemmiseria.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="17312" tipo="telefone">
+                            <descricao>0800-707-2003</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="17311" tipo="presencial">
+                            <descricao>Centros de Referência de Assistência Social (CRAS) do seu município.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="108999"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11543">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+            <item>Água</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17327">AGUA</item>
+            <item id="17328">cisterna</item>
+            <item id="17329">cisterna 1</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5801">lexml.gov.br</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>centro-de-testagem-e-acolhimento-cta-dst-aids_4</id>
+        <dbId>3595</dbId>
+        <nome>Centro de Testagem e Acolhimento (CTA) - DST/AIDS_4</nome>
+        <sigla>abc</sigla>
+        <nomes-populares>
+            <item id="50">banana</item>
+            <item id="51">laranja</item>
+        </nomes-populares>
+        <descricao>Os Centros de Testagem e Aconselhamento (CTA) são serviços de saúde que realizam ações de diagnóstico e prevenção de doenças sexualmente transmissíveis. Nesses serviços, é possível realizar testes para HIV, sífilis e hepatites B e C gratuitamente. Todos os testes são realizados de acordo com a norma definida pelo Ministério da Saúde e com produtos registrados na Agência Nacional de Vigilância Sanitária (Anvisa) e por ela controlados.
+* [Mais informações](http://www.aids.gov.br/): Portal</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-digital>53</porcentagem-digital>
+        <solicitantes>
+            <solicitante id="40251">
+                <tipo>Cidadão</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao>comentario</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>20</quantidade>
+            <unidade>dias</unidade>
+            <descricao>info</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="17387">
+                <titulo>Etapas</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17337" tipo="web">
+                            <descricao>http://www.aids.gov.br/pagina/servicos-de-saude</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="3616"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11559">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Fomento ao Trabalho</item>
+            <item>Saúde</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17363">Aids</item>
+            <item id="17364">Transmissível</item>
+            <item id="17365">Doença</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5815">alguma</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>vitor-teste-banco-2</id>
+        <dbId>3597</dbId>
+        <nome>vitor teste banco 2</nome>
+        <sigla>sigla nova</sigla>
+        <nomes-populares>
+            <item id="52">vitor</item>
+            <item id="53">dois</item>
+            <item id="54">quatro</item>
+        </nomes-populares>
+        <descricao>gfshdgfshdgfhsdggfgdsghdfgv,mcnxbm,vncbxvc,m.nbm,xcv.,bmxc,v;.b;,xcmv.,;bmx.,cvmb,.xcmv,
+bmlçgkhlghçksfçldhkdhlçklhçkpyopitytopw yioptiyopitwytpohgjhlkjklgjiortyuitoyutiyuoqewrweo  rwqṕldçsalfadsfsaf.c;z,xv.;xcm,.cxmv,nbm,cv,.xb.cvmbcv.,mm mlkgjkhljoireoyuijhkldjjbnnb,mnmxnbxv,mnbcmv,nbm,nbm,vnxb ,mxnm,bnxcmv,nm,vnxcb,n ,mxvcnmbvmxcnbm,xcvnbnvcxm,
+nb,mcxvnbm.,xcnvbm,cvnbm,nvc,mxnbm ,vcxnbm,v,bnm,xvcnm,bvnbm,xcvnbm,v,mnbm,cxvnb</descricao>
+        <contato>COntato muillllllll</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40255">
+                <tipo>solicitante 1</tipo>
+                <requisitos>jhsafdjskgksdfhgdfskjgjhdfjsghsdjflkghkjdfhgjkhdfk  jshgbvvc,mnbmcvnx.m,bnxcvm.,nbm,.xcvn,mbnxcmv,bn m,cxvnbm,cvnbm,nxvcm,.bnx,mcvnb.m,cvnm,bnxcmv,nb jhsafdjskgksdfhgdfskjgjhdfjsghsdjflkghkjdfhgjkhdfkjshgbvvc ,mnbmcvnx.m,bnxcvm.,nbm,.xcvn,mbnxcmv,bnm,cxvnbm, cvnbm,nxvcm,.bnx,mcvnb.m,cvnm,bnxcmv,nbjhsafdjskgksd fhgdfskjgjhdfjsghsdjflkghkjdfhgjkhdfkjshgbvvc,mnbmcvnx.m,b nxcvm.,nbm,.xcvn,mbnxcmv,bnm,cxvnbm,cvnbm,nxvcm,. bnx,mcvnb.m,cvnm,bnxcmv,nbjhsafdjskgksdfhgdfskjgjhdfjsg=</requisitos>
+            </solicitante>
+            <solicitante id="40254">
+                <tipo>vitor</tipo>
+                <requisitos>jhsafdjskgksdfhgdfskjgjhdfjsghsdjflkghkjdfhgjkhdfkjshgbvvc, mnbmcvnx.m,bnxcvm.,nbm,.xcvn,mbnxcmv,bnm,cxvnbm,cv nbm,nxvcm,.bnx,mcvnb.m,cvnm,bnxcmv,nb</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="1" max="2" unidade="meses"/>
+            <descricao>,nxvc,mnb.vc,m.nbm,xcvnm,bnm,xc vnm,bnm,xcnvbm,xcnm,bcxvbn,.mcxvnbmxkkk,nxvc,mnb.vc,m.nbm,xcvnm,bnm ,xcvnm,bnm,xcnvbm,xcnm,bcxvbn,.mcxvnbmxkkk,nxvc,mnb.v xcnvbm,xcnm,bcxvbn,.mcxvnbmxkkk,nxvc,mnb.vc,m.nbm, xcvnm,bnm,xcvnm,bnm,xcnvbm,xcnm,bcxvbn,.mcxvnbmxk kk,nxvc,mnb.vc,m.nbm,xcvnm,bnm,xcvnm,bnm,xcnvbm,xcnm,bcxvbn,. mcxvnbmxkkk,nxvc,mnb.vc,m.nbm,xcvnm,bnm,xcvnm,bnm,xcnvbm, xcnm,bcxvbn,.mcxvnbmxkkkffffffffff</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17394">
+                <titulo>Etapa 2</titulo>
+                <descricao>jsdhafjkhdafkjhjskfhjkdhsfjkashdfjkashdfcmxzn,mv</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63259</id>
+                            <descricao>Identidade</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17347" tipo="web-emitir">
+                            <descricao>[uol](www.uol.com.br)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17397">
+                <titulo>Etapa nova 2</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17350" tipo="web">
+                            <descricao>[uol](http://www.uol.com.br)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17399">
+                <titulo>etapa 4</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17353" tipo="telefone">
+                            <descricao>3453546</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17401">
+                <titulo>vitor etapa</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17352" tipo="telefone">
+                            <descricao>34243242</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="108999"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11566">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <palavras-chave>
+            <item id="17369">vitor</item>
+            <item id="17370">teste</item>
+            <item id="17371">kjgkdfjskgldfkl</item>
+            <item id="17372">bu</item>
+            <item id="17373">sd</item>
+            <item id="17374">dfsdfsdf</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5822">legislacoa 1</item>
+            <item id="5823">legislacao 2</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste-josselmo</id>
+        <dbId>3598</dbId>
+        <nome>Teste - Josselmo</nome>
+        <sigla>JQB</sigla>
+        <nomes-populares>
+            <item id="55">nomes populares 1</item>
+            <item id="56">nomes populares 2</item>
+            <item id="57">nomes populares 3</item>
+        </nomes-populares>
+        <descricao>JOSSELMOxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxXXXXXXXXXXXXXXXXXXXxxxJOSSELMO</descricao>
+        <contato>Contato do serviço Tel. 36425215</contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="40256">
+                <tipo>Solicitante 01</tipo>
+                <requisitos>Requisitos 01</requisitos>
+            </solicitante>
+            <solicitante id="40257">
+                <tipo>Solicitante 02</tipo>
+                <requisitos>Requisitos 02</requisitos>
+            </solicitante>
+            <solicitante id="40258">
+                <tipo>Solicitante 03</tipo>
+                <requisitos>Requisitos 03</requisitos>
+            </solicitante>
+            <solicitante id="40259">
+                <tipo>Solicitante 04</tipo>
+                <requisitos>Requisitos 04</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="1" max="2" unidade="meses"/>
+            <descricao>JOSSELMOxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxXXXXXXXXXXXXXXXXXXXxxxJOSSELMO</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="17391">
+                <titulo>Etapa 01</titulo>
+                <descricao>Descrição da etapa 1</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63249</id>
+                            <descricao>CPF</descricao>
+                        </documento>
+                        <documento>
+                            <id>63250</id>
+                            <descricao>CPF</descricao>
+                        </documento>
+                        <documento>
+                            <id>63251</id>
+                            <descricao>CPF</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="19">
+                            <descricao>Teste</descricao>
+                            <moeda></moeda>
+                            <valor>15,000</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17343" tipo="postal">
+                            <descricao>Canal de prestação da etapa 02</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="17342" tipo="presencial">
+                            <descricao>Canal de prestação da etapa 01</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="17307" descricao="Caso 01">
+                        <canal-de-prestacao id="17340" tipo="postal">
+                            <descricao>Descrição do Caso 01</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="17308" descricao="Caso 02">
+                        <canal-de-prestacao id="17341" tipo="fax">
+                            <descricao>Descrição do Caso 02</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="17392">
+                <titulo>Etapa 02</titulo>
+                <descricao>Descrição da etapa 2</descricao>
+                <documentos>
+                    <default>
+                        <documento>
+                            <id>63252</id>
+                            <descricao>CPF</descricao>
+                        </documento>
+                        <documento>
+                            <id>63253</id>
+                            <descricao>Identidade</descricao>
+                        </documento>
+                        <documento>
+                            <id>63254</id>
+                            <descricao>Curriculum</descricao>
+                        </documento>
+                        <documento>
+                            <id>63255</id>
+                            <descricao>Comprovante de Rendimento</descricao>
+                        </documento>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17344" tipo="fax">
+                            <descricao>Canais de prestacao da etapa 2</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="108999"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11562">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="11563">Órgãos e entidades públicas</item>
+            <item idSegmento="4" idServicoSegmento="11564">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="3" idServicoSegmento="11565">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Patrimônio Cultural</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17366">a</item>
+            <item id="17367">b</item>
+            <item id="17368">c</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5819">Legislações relacionadas ao serviço 01</item>
+            <item id="5820">Legislações relacionadas ao serviço 02</item>
+            <item id="5821">Legislações relacionadas ao serviço 03</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>radio</id>
+        <dbId>3605</dbId>
+        <nome>Radio</nome>
+        <sigla>teste 2</sigla>
+        <descricao>Radio mil jdjfjfj</descricao>
+        <contato>teste</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="40266">
+                <tipo>Radio 1</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="2" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>3</quantidade>
+            <unidade>meses</unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="17406">
+                <titulo>Etapa 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17360" tipo="e-mail">
+                            <descricao>radio@email.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="108999"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11572">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comercio externo</item>
+            <item>Compras governamentais</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17382">teste</item>
+            <item id="17383">teste 1</item>
+            <item id="17384">teste 2</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5828">legislação</item>
+        </legislacoes>
+    </servico>
+</servicos>
