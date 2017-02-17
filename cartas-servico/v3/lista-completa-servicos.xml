@@ -94,7 +94,6 @@ A carteira de trabalho é um dos únicos documentos a reproduzir, esclarecer e c
 wfg</descricao>
         <contato>erv</contato>
         <gratuito>true</gratuito>
-        <porcentagem-digital>0</porcentagem-digital>
         <solicitantes>
             <solicitante id="3">
                 <tipo>eu</tipo>
@@ -1362,6 +1361,72 @@ oficial  seja  o  português.</descricao>
         </legislacoes>
     </servico>
     <servico>
+        <id>centro-de-testagem-e-acolhimento-cta-dst-aids_4</id>
+        <dbId>3595</dbId>
+        <nome>Centro de Testagem e Acolhimento (CTA) - DST/AIDS_4</nome>
+        <sigla>abc</sigla>
+        <nomes-populares>
+            <item id="50">banana</item>
+            <item id="51">laranja</item>
+        </nomes-populares>
+        <descricao>Os Centros de Testagem e Aconselhamento (CTA) são serviços de saúde que realizam ações de diagnóstico e prevenção de doenças sexualmente transmissíveis. Nesses serviços, é possível realizar testes para HIV, sífilis e hepatites B e C gratuitamente. Todos os testes são realizados de acordo com a norma definida pelo Ministério da Saúde e com produtos registrados na Agência Nacional de Vigilância Sanitária (Anvisa) e por ela controlados.
+* [Mais informações](http://www.aids.gov.br/): Portal</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-digital>30</porcentagem-digital>
+        <solicitantes>
+            <solicitante id="40251">
+                <tipo>Cidadão</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao>comentario</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>20</quantidade>
+            <unidade>dias</unidade>
+            <descricao>info</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="17387">
+                <titulo>Etapas</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="17337" tipo="web">
+                            <descricao>http://www.aids.gov.br/pagina/servicos-de-saude</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="3616"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="11559">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Fomento ao Trabalho</item>
+            <item>Saúde</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="17363">Aids</item>
+            <item id="17364">Transmissível</item>
+            <item id="17365">Doença</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="5815">alguma</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>obter-aurtorizacao-de-empresa</id>
         <dbId>3596</dbId>
         <nome>Obter aurtorização de empresa</nome>
@@ -1569,72 +1634,6 @@ fsadkfklsjkfshadjkghjkghfkjgkfhgjhfjkgxvcnbvxmcbnxcv,mnb.xvcnbm,cvnbcccc</contat
         </palavras-chave>
         <legislacoes>
             <item id="5801">lexml.gov.br</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>centro-de-testagem-e-acolhimento-cta-dst-aids_4</id>
-        <dbId>3595</dbId>
-        <nome>Centro de Testagem e Acolhimento (CTA) - DST/AIDS_4</nome>
-        <sigla>abc</sigla>
-        <nomes-populares>
-            <item id="50">banana</item>
-            <item id="51">laranja</item>
-        </nomes-populares>
-        <descricao>Os Centros de Testagem e Aconselhamento (CTA) são serviços de saúde que realizam ações de diagnóstico e prevenção de doenças sexualmente transmissíveis. Nesses serviços, é possível realizar testes para HIV, sífilis e hepatites B e C gratuitamente. Todos os testes são realizados de acordo com a norma definida pelo Ministério da Saúde e com produtos registrados na Agência Nacional de Vigilância Sanitária (Anvisa) e por ela controlados.
-* [Mais informações](http://www.aids.gov.br/): Portal</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-digital>53</porcentagem-digital>
-        <solicitantes>
-            <solicitante id="40251">
-                <tipo>Cidadão</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="horas"/>
-            <descricao>comentario</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>20</quantidade>
-            <unidade>dias</unidade>
-            <descricao>info</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="17387">
-                <titulo>Etapas</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="17337" tipo="web">
-                            <descricao>http://www.aids.gov.br/pagina/servicos-de-saude</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="3616"/>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="11559">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Fomento ao Trabalho</item>
-            <item>Saúde</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="17363">Aids</item>
-            <item id="17364">Transmissível</item>
-            <item id="17365">Doença</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="5815">alguma</item>
         </legislacoes>
     </servico>
     <servico>
