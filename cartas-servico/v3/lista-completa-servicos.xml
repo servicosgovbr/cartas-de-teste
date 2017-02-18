@@ -608,11 +608,11 @@ oficial  seja  o  português.</descricao>
                         </canal-de-prestacao>
                     </default>
                     <caso id="17304" descricao="Estudantes de primeiro grau">
-                        <canal-de-prestacao id="17323" tipo="e-mail">
-                            <descricao>estudantes@gov.br</descricao>
-                        </canal-de-prestacao>
                         <canal-de-prestacao id="17324" tipo="fax">
                             <descricao>3434234242342342</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="17323" tipo="e-mail">
+                            <descricao>estudantes@gov.br</descricao>
                         </canal-de-prestacao>
                     </caso>
                 </canais-de-prestacao>
@@ -691,8 +691,8 @@ oficial  seja  o  português.</descricao>
             </etapa>
         </etapas>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="11542">Cidadãos</item>
             <item idSegmento="2" idServicoSegmento="11541">Órgãos e entidades públicas</item>
+            <item idSegmento="1" idServicoSegmento="11542">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Empregabilidade</item>
@@ -918,8 +918,8 @@ oficial  seja  o  português.</descricao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="11546">Cidadãos</item>
             <item idSegmento="2" idServicoSegmento="11547">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="11549">Empresas</item>
             <item idSegmento="4" idServicoSegmento="11548">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="3" idServicoSegmento="11549">Empresas</item>
         </segmentos-da-sociedade>
         <palavras-chave>
             <item id="17333">sadfjasdklfjkdlsajkflj</item>
