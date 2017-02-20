@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Assinar Documento]]></nome>
+    <sigla>ASS</sigla>
+    <nomes-populares>
+        <item>endossar</item>
+        <item>de acordo</item>
+    </nomes-populares>
+    <descricao><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut efficitur tellus, vitae bibendum sem. Curabitur vestibulum suscipit libero, eu molestie turpis vulputate at. Vestibulum quis condimentum magna, eget porttitor magna. Nunc ipsum ante, consectetur ac dui consequat, viverra posuere mauris. Nunc leo elit, semper a consectetur pulvinar, interdum non metus. Maecenas eu tortor sed sapien placerat efficit velit. Aliquam eleifend nunc at feugiat rhoncus.]]></descricao>
+    <contato><![CDATA[0800 Brasil Cidadão]]></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Cidadão</tipo>
+            <requisitos><![CDATA[ras non ornare velit, sit amet elementum est. Aliquam in neque ultricies, scelerisque nisi ut, scelerisque elit. Proin vel augue quis sapien volutpat]]></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="minutos"/>
+        <descricao><![CDATA[Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus porttitor mattis diam, sit amet placerat libero mattis sed. Curabitur ut sem ipsum. Praesent fringilla augue dui, vel lobortis justo blandit nec. In ultrices tellus vitae est placerat, gravida porttitor est iaculis. Morbi eu ex porta, tempus ipsum et, elementum massa. Donec elementum blandit velit ut venenatis. Aliquam tristique massa vitae velit congue, nec pretium magna.]]></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa>
+            <titulo>Assinar Documento</titulo>
+            <descricao><![CDATA[Etiam at purus enim. Praesent risus quam, auctor vitae rhoncus ut, maximus id erat. Vivamus ac mi ac arcu ultricies ullamcorper.]]></descricao>
+            <documentos>
+                <default>
+                    <item>protocolo</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://138.197.70.84/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0]]></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+        <item>Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cidadania</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>documento</item>
+        <item>despacho</item>
+        <item>assinar</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[In semper, nulla id congue scelerisque, justo libero cursus velit, molestie ullamcorper nisi leo vitae diam. Nam vulputate ultrices efficitur. Curabitur luctus facilisis lorem, sit amet cursus elit mollis vel. Ut eu varius lorem. Sed consectetur imperdiet dolor, luctus consequat leo accumsan ac. Donec porttitor augue venenatis nibh dignissim.]]></item>
+    </legislacoes>
+</servico>
