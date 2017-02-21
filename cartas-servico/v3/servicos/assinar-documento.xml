@@ -34,7 +34,7 @@
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao tipo="web">
-                        <descricao><![CDATA[http://138.197.70.84/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0]]></descricao>
+                        <descricao><![CDATA[http://sei-ecidadao-dth.brazilsouth.cloudapp.azure.com/sei/controlador_externo.php?acao=usuario_externo_logar_ecidadao&id_orgao_acesso_externo=0]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
