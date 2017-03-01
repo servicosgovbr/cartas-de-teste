@@ -482,14 +482,8 @@ CEP 70064-901   Brasília/DF</descricao>
                 <descricao>Para  fazer  sua  inscrição,  o  participante  deverá  entrar  no site  indicado  e  obter  código  de  identificação  e  senha. O  número  de  inscrição  e  a  senha  devem  ser  mantidos sob  a  guarda  do  participante,  sendo  indispensáveis  para  o  acompanhamento  do  processo  de  inscrição  e  para  a  obtenção  dos  resultados  individuais  via  Internet.</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>201</id>
-                            <descricao>Diploma  digitalizado,  frente  e verso</descricao>
-                        </documento>
-                        <documento>
-                            <id>202</id>
-                            <descricao>Informar  se  possui  o  Certificado  de  Proficiência  em Língua  Portuguesa  Para  Estrangeiros  (Celpe-Bras)</descricao>
-                        </documento>
+                        <item id="201">Diploma  digitalizado,  frente  e verso</item>
+                        <item id="202">Informar  se  possui  o  Certificado  de  Proficiência  em Língua  Portuguesa  Para  Estrangeiros  (Celpe-Bras)</item>
                     </default>
                 </documentos>
                 <custos>
@@ -688,10 +682,7 @@ oficial  seja  o  português.</descricao>
 Obs.: Como tratar a questão da empresa requerer o auxílio ? (outro serviço ?)</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>205</id>
-                            <descricao>NIT - Número de Identificação do Trabalhador (PIS/PASEP/CICI)</descricao>
-                        </documento>
+                        <item id="205">NIT - Número de Identificação do Trabalhador (PIS/PASEP/CICI)</item>
                     </default>
                     <caso id="43" descricao="Se for empregado de empresa">
                         <documento>
@@ -720,22 +711,10 @@ Obs.: Como tratar a questão da empresa requerer o auxílio ? (outro serviço ?)
                 <descricao></descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>209</id>
-                            <descricao>Documento de identificação válido e oficial com foto;</descricao>
-                        </documento>
-                        <documento>
-                            <id>210</id>
-                            <descricao>Número do CPF</descricao>
-                        </documento>
-                        <documento>
-                            <id>211</id>
-                            <descricao>Carteira de trabalho, carnês de contribuição e outros documentos que comprovem pagamento ao INSS;</descricao>
-                        </documento>
-                        <documento>
-                            <id>212</id>
-                            <descricao>Documentos médicos que comprovem a causa do problema de saúde, o tratamento médico indicado e o período sugerido de afastamento do trabalho;</descricao>
-                        </documento>
+                        <item id="209">Documento de identificação válido e oficial com foto;</item>
+                        <item id="210">Número do CPF</item>
+                        <item id="211">Carteira de trabalho, carnês de contribuição e outros documentos que comprovem pagamento ao INSS;</item>
+                        <item id="212">Documentos médicos que comprovem a causa do problema de saúde, o tratamento médico indicado e o período sugerido de afastamento do trabalho;</item>
                     </default>
                     <caso id="44" descricao="Para o empregado">
                         <documento>
@@ -771,10 +750,7 @@ Obs.: Como tratar a questão da empresa requerer o auxílio ? (outro serviço ?)
 Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Outra etapa/serviço ?</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>213</id>
-                            <descricao>Número do Benefício</descricao>
-                        </documento>
+                        <item id="213">Número do Benefício</item>
                     </default>
                 </documentos>
                 <custos>
@@ -899,22 +875,10 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 <descricao>Os beneficiários são identificados por meio do CadÚnico (Cadastro Único dos Programas Sociais do Governo Federal). Os chamados Centros de Referência de Assistência Social (CRAS), localizados nos municípios, são as unidades responsáveis, juntamente com as prefeituras municipais, pelo cadastro e inserção de famílias no CadÚnico.</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>214</id>
-                            <descricao>Carteira de trabalho e/ou três últimos contra-cheques</descricao>
-                        </documento>
-                        <documento>
-                            <id>215</id>
-                            <descricao>Documento de Identidade (RG)</descricao>
-                        </documento>
-                        <documento>
-                            <id>216</id>
-                            <descricao>CPF (Cadastro de Pessoa Física)</descricao>
-                        </documento>
-                        <documento>
-                            <id>217</id>
-                            <descricao>Comprovante de Residência</descricao>
-                        </documento>
+                        <item id="214">Carteira de trabalho e/ou três últimos contra-cheques</item>
+                        <item id="215">Documento de Identidade (RG)</item>
+                        <item id="216">CPF (Cadastro de Pessoa Física)</item>
+                        <item id="217">Comprovante de Residência</item>
                     </default>
                 </documentos>
                 <custos>
@@ -982,14 +946,8 @@ Verifique se você já possui um número de cartão nacional de saúde: https://
 Caso possua, dirija-se a uma unidade de saúde.</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>218</id>
-                            <descricao>cpf</descricao>
-                        </documento>
-                        <documento>
-                            <id>219</id>
-                            <descricao>rg</descricao>
-                        </documento>
+                        <item id="218">cpf</item>
+                        <item id="219">rg</item>
                     </default>
                 </documentos>
                 <custos>
@@ -1013,22 +971,10 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
                 <descricao></descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>221</id>
-                            <descricao>rg</descricao>
-                        </documento>
-                        <documento>
-                            <id>222</id>
-                            <descricao>cpf</descricao>
-                        </documento>
-                        <documento>
-                            <id>223</id>
-                            <descricao>Número de protocolo</descricao>
-                        </documento>
-                        <documento>
-                            <id>224</id>
-                            <descricao>Comprovante de residência</descricao>
-                        </documento>
+                        <item id="221">rg</item>
+                        <item id="222">cpf</item>
+                        <item id="223">Número de protocolo</item>
+                        <item id="224">Comprovante de residência</item>
                     </default>
                     <caso id="47" descricao="Se for menor de 18 anos">
                         <documento>
@@ -1180,14 +1126,8 @@ Os pré-requisitos para se firmar um TCC são:
                 <descricao>O passo-a-passo para o credenciamento pode ser encontrado em http://www.cade.gov.br/noticias/requerimento-de-tcc-ja-pode-ser-realizado-pelo-protocolo-eletronico-do-cade/guia-peticionamento-eletronico.pdf</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>232</id>
-                            <descricao>cpf</descricao>
-                        </documento>
-                        <documento>
-                            <id>233</id>
-                            <descricao>rg</descricao>
-                        </documento>
+                        <item id="232">cpf</item>
+                        <item id="233">rg</item>
                     </default>
                 </documentos>
                 <custos>
@@ -1206,10 +1146,7 @@ Os pré-requisitos para se firmar um TCC são:
                 <descricao></descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>234</id>
-                            <descricao>cpf</descricao>
-                        </documento>
+                        <item id="234">cpf</item>
                     </default>
                 </documentos>
                 <custos>
@@ -1235,10 +1172,7 @@ número do IP da máquina de acesso do usuário externo. O comprovante pode
 ser impresso ou armazenado como documento eletrônico.</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>238</id>
-                            <descricao>Número do processo a que o requerimento é relacionado</descricao>
-                        </documento>
+                        <item id="238">Número do processo a que o requerimento é relacionado</item>
                     </default>
                     <caso id="49" descricao="Se for Brasilero - Pessoa física">
                         <documento>
@@ -1501,22 +1435,10 @@ A pensão corresponde a R$ 750,00 (setecentos e cinquenta reais) e tem reajuste 
                 <descricao>O formulário deverá ser baixado pela internet e preenchido pelo solicitante.</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>319</id>
-                            <descricao>RG ou</descricao>
-                        </documento>
-                        <documento>
-                            <id>320</id>
-                            <descricao>CNH ou</descricao>
-                        </documento>
-                        <documento>
-                            <id>321</id>
-                            <descricao>Passaporte ou</descricao>
-                        </documento>
-                        <documento>
-                            <id>322</id>
-                            <descricao>Carteira de trabalho</descricao>
-                        </documento>
+                        <item id="319">RG ou</item>
+                        <item id="320">CNH ou</item>
+                        <item id="321">Passaporte ou</item>
+                        <item id="322">Carteira de trabalho</item>
                     </default>
                 </documentos>
                 <custos>
@@ -1542,34 +1464,13 @@ Forma Clínica da hanseníase.
 A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depoimentos de testemunhas e, caso necessário, prova pericial para comprovar a situação do solicitante.</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>324</id>
-                            <descricao>carteira de identidade ou</descricao>
-                        </documento>
-                        <documento>
-                            <id>325</id>
-                            <descricao>certidão de nascimento ou</descricao>
-                        </documento>
-                        <documento>
-                            <id>326</id>
-                            <descricao>certidão de casamento ou</descricao>
-                        </documento>
-                        <documento>
-                            <id>327</id>
-                            <descricao>certificado de reservista ou</descricao>
-                        </documento>
-                        <documento>
-                            <id>328</id>
-                            <descricao>carteira de trabalho e previdência social</descricao>
-                        </documento>
-                        <documento>
-                            <id>329</id>
-                            <descricao>formulário da etapa anterior preenchido e assinado</descricao>
-                        </documento>
-                        <documento>
-                            <id>330</id>
-                            <descricao>documentos hospitalares da época do isolamento e internação</descricao>
-                        </documento>
+                        <item id="324">carteira de identidade ou</item>
+                        <item id="325">certidão de nascimento ou</item>
+                        <item id="326">certidão de casamento ou</item>
+                        <item id="327">certificado de reservista ou</item>
+                        <item id="328">carteira de trabalho e previdência social</item>
+                        <item id="329">formulário da etapa anterior preenchido e assinado</item>
+                        <item id="330">documentos hospitalares da época do isolamento e internação</item>
                     </default>
                     <caso id="62" descricao="Se for representante legal">
                         <documento>
@@ -1672,14 +1573,8 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 <descricao>etapa gfklsdfjkglsdlknhlknblkglbn,.v,nxmcnbm,.nxcmv,bncmvxbnx,mcv.</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>332</id>
-                            <descricao>sadasfsdfsafdsf</descricao>
-                        </documento>
-                        <documento>
-                            <id>333</id>
-                            <descricao>adsffadsfdsafdsafsdaf</descricao>
-                        </documento>
+                        <item id="332">sadasfsdfsafdsf</item>
+                        <item id="333">adsffadsfdsafdsafsdaf</item>
                     </default>
                     <caso id="63" descricao="adsfdasfdsafasdfdas">
                         <documento>
@@ -1720,10 +1615,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 <descricao>dsfsdgfdgfdsgdsfgdfsgfdsgdsfgsfdgsfdgsdfgfsdgfdsgfsdgfsdgfsdgsfdgdsfg</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>334</id>
-                            <descricao>testertdsgacdvb</descricao>
-                        </documento>
+                        <item id="334">testertdsgacdvb</item>
                     </default>
                 </documentos>
                 <custos>
@@ -1843,14 +1735,8 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 <descricao>agendar no site</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>372</id>
-                            <descricao>RG</descricao>
-                        </documento>
-                        <documento>
-                            <id>373</id>
-                            <descricao>CPF</descricao>
-                        </documento>
+                        <item id="372">RG</item>
+                        <item id="373">CPF</item>
                     </default>
                     <caso id="69" descricao="Incapaz">
                         <documento>
@@ -1884,14 +1770,8 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 <descricao>atendimento presencial</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>374</id>
-                            <descricao>Comprovante de pagamento da GRU</descricao>
-                        </documento>
-                        <documento>
-                            <id>375</id>
-                            <descricao>CPF</descricao>
-                        </documento>
+                        <item id="374">Comprovante de pagamento da GRU</item>
+                        <item id="375">CPF</item>
                     </default>
                 </documentos>
                 <custos>
@@ -2028,22 +1908,10 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 <descricao>A Junta de Serviço Militar é um órgão de Serviço Militar sob responsabilidade da prefeitura do seu município, o alistamento terá que ser solicitado pessoalmente na Junta de Serviço Militar.</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>349</id>
-                            <descricao>Documento de identidade ou Certidão de nascimento</descricao>
-                        </documento>
-                        <documento>
-                            <id>350</id>
-                            <descricao>Fotografia 3x4</descricao>
-                        </documento>
-                        <documento>
-                            <id>351</id>
-                            <descricao>Comprovante de residência</descricao>
-                        </documento>
-                        <documento>
-                            <id>352</id>
-                            <descricao>Cadastro de Pessoa Física</descricao>
-                        </documento>
+                        <item id="349">Documento de identidade ou Certidão de nascimento</item>
+                        <item id="350">Fotografia 3x4</item>
+                        <item id="351">Comprovante de residência</item>
+                        <item id="352">Cadastro de Pessoa Física</item>
                     </default>
                     <caso id="67" descricao="Caso seja naturalizado brasileiro do sexo masculino que completa 18 anos">
                         <documento>
@@ -2075,42 +1943,15 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>353</id>
-                            <descricao>Certificado de Alistamento Militar (CAM)</descricao>
-                        </documento>
-                        <documento>
-                            <id>354</id>
-                            <descricao>Carteira de identidade (RG), se tiver</descricao>
-                        </documento>
-                        <documento>
-                            <id>355</id>
-                            <descricao>Carteira de Trabalho, se tiver</descricao>
-                        </documento>
-                        <documento>
-                            <id>356</id>
-                            <descricao>Certidão de Nascimento original dos filhos, caso adquira esta condição após o alistamento</descricao>
-                        </documento>
-                        <documento>
-                            <id>357</id>
-                            <descricao>Certidão de Casamento original, caso adquira esta condição após o alistamento</descricao>
-                        </documento>
-                        <documento>
-                            <id>358</id>
-                            <descricao>Declaração escolar: Certificado de conclusão ou atestado de frequência, se tiver</descricao>
-                        </documento>
-                        <documento>
-                            <id>359</id>
-                            <descricao>Comprovantes de qualificação ou experiência profissional, se tiver</descricao>
-                        </documento>
-                        <documento>
-                            <id>360</id>
-                            <descricao>Comprovante de residência</descricao>
-                        </documento>
-                        <documento>
-                            <id>361</id>
-                            <descricao>Carteira nacional de Habilitação, se tiver</descricao>
-                        </documento>
+                        <item id="353">Certificado de Alistamento Militar (CAM)</item>
+                        <item id="354">Carteira de identidade (RG), se tiver</item>
+                        <item id="355">Carteira de Trabalho, se tiver</item>
+                        <item id="356">Certidão de Nascimento original dos filhos, caso adquira esta condição após o alistamento</item>
+                        <item id="357">Certidão de Casamento original, caso adquira esta condição após o alistamento</item>
+                        <item id="358">Declaração escolar: Certificado de conclusão ou atestado de frequência, se tiver</item>
+                        <item id="359">Comprovantes de qualificação ou experiência profissional, se tiver</item>
+                        <item id="360">Comprovante de residência</item>
+                        <item id="361">Carteira nacional de Habilitação, se tiver</item>
                     </default>
                 </documentos>
                 <custos>
@@ -2129,14 +1970,8 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 <descricao>Nesta etapa deve ir novamente a Junta de Serviço Militar para participar de uma cerimônia de juramento de compromisso à Bandeira Nacional e receber seu Certificado de Dispensa de Incorporação (CDI)</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>362</id>
-                            <descricao>Documento de identidade</descricao>
-                        </documento>
-                        <documento>
-                            <id>363</id>
-                            <descricao>Certificado de Alistamento Militar</descricao>
-                        </documento>
+                        <item id="362">Documento de identidade</item>
+                        <item id="363">Certificado de Alistamento Militar</item>
                     </default>
                 </documentos>
                 <custos>
@@ -2155,14 +1990,8 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 <descricao>Caso seja apto o brasileiro irá servir por no mínimo 1 ano na organização militar designada.</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>364</id>
-                            <descricao>Documento de identidade</descricao>
-                        </documento>
-                        <documento>
-                            <id>365</id>
-                            <descricao>Certificado de Alistamento Militar</descricao>
-                        </documento>
+                        <item id="364">Documento de identidade</item>
+                        <item id="365">Certificado de Alistamento Militar</item>
                     </default>
                 </documentos>
                 <custos>
@@ -2229,14 +2058,8 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 <descricao>desc da etapa um</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>381</id>
-                            <descricao>RG</descricao>
-                        </documento>
-                        <documento>
-                            <id>382</id>
-                            <descricao>CPF</descricao>
-                        </documento>
+                        <item id="381">RG</item>
+                        <item id="382">CPF</item>
                     </default>
                 </documentos>
                 <custos>
@@ -2370,18 +2193,9 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 <descricao>Inscrições abertas a partir de 11/08 até 31/08, o prazo final para inscrição de candidato ainda não matriculado na instituição de educação superior em que deseja se inscrever.</descricao>
                 <documentos>
                     <default>
-                        <documento>
-                            <id>413</id>
-                            <descricao>CPF</descricao>
-                        </documento>
-                        <documento>
-                            <id>414</id>
-                            <descricao>RG</descricao>
-                        </documento>
-                        <documento>
-                            <id>415</id>
-                            <descricao>Comprovante de renda</descricao>
-                        </documento>
+                        <item id="413">CPF</item>
+                        <item id="414">RG</item>
+                        <item id="415">Comprovante de renda</item>
                     </default>
                     <caso id="75" descricao="Professores">
                         <documento>
