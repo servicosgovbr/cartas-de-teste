@@ -32,7 +32,10 @@
             <titulo>teste</titulo>
             <descricao></descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item id="427">Mais uma</item>
+                    <item id="428">Mais duas</item>
+                </default>
             </documentos>
             <custos>
                 <default>
