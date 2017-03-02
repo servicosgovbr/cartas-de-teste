@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-documento</id>
+    <dbId>96</dbId>
+    <nome>Teste documento</nome>
+    <sigla></sigla>
+    <descricao>jhfjkdhghsfjkh</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-digital>0</porcentagem-digital>
+    <solicitantes>
+        <solicitante id="156">
+            <tipo>solictanet</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="179">
+            <titulo>eatap 1</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="422">Tetse e</item>
+                    <item id="423">teste 6</item>
+                    <item id="424">dfjdsgfhj</item>
+                    <item id="425">dfsjjskhdshgjhsjkh</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="210" tipo="e-mail">
+                        <descricao>email@teste</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="108999"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="4" idServicoSegmento="152">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="153">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Compras governamentais</item>
+        <item>Cidadania</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="307">jdfhdsjh</item>
+        <item id="308">kldsjkfljd</item>
+        <item id="309">kldjklsjlkfj</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="134">sdfjsdkljgklsjfkgskljlk</item>
+    </legislacoes>
+</servico>
