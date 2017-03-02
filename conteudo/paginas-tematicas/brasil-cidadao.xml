@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica>
+    <conteudo>### Serviços relacionados
+
+* [Assinar Documento](/servico/assinar-documento)</conteudo>
+    <dbId>41</dbId>
+    <nome>Brasil Cidadão</nome>
+    <orgaos>
+        <orgao id="2981"/>
+        <orgao id="90"/>
+    </orgaos>
+</pagina-tematica>
