@@ -189,8 +189,11 @@ classificacaoindicativa@mj.gov.br</contato>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="73" tipo="e-mail">
-                            <descricao>classificacaoindicativa@mj.gov.br</descricao>
+                        <canal-de-prestacao id="75" tipo="presencial">
+                            <descricao>Protocolo Geral
+Esplanada dos Ministérios, Bloco T,
+Ministério da Justiça, Anexo II, Térreo
+CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="74" tipo="postal">
                             <descricao>Departamento de Políticas de Justiça
@@ -199,11 +202,8 @@ Esplanada dos Ministérios, Bloco T,
 Ministério da Justiça, Anexo II, Sala 321
 CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="75" tipo="presencial">
-                            <descricao>Protocolo Geral
-Esplanada dos Ministérios, Bloco T,
-Ministério da Justiça, Anexo II, Térreo
-CEP 70064-901   Brasília/DF</descricao>
+                        <canal-de-prestacao id="73" tipo="e-mail">
+                            <descricao>classificacaoindicativa@mj.gov.br</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="72" tipo="web">
                             <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
@@ -451,184 +451,6 @@ CEP 70064-901   Brasília/DF</descricao>
         </palavras-chave>
         <legislacoes>
             <item id="46">ultra lei</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>revalidar-diploma-medico-expedido-no-exterior</id>
-        <dbId>6</dbId>
-        <nome>Revalidar diploma médico expedido no exterior</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="45">Revalida</item>
-        </nomes-populares>
-        <descricao>Trata-se de um exame para revalidação dos diplomas estrangeiros compatíveis com as exigências de formação correspondentes aos diplomas médicos expedidos por universidades brasileiras, em consonância com as Diretrizes Curriculares Nacionais do Curso de Graduação em Medicina, com parâmetros e critérios isonômicos adequados para aferição de equivalência curricular e definição da correspondente aptidão para o exercício profissional da medicina no Brasil.</descricao>
-        <contato>0800-616161</contato>
-        <gratuito>false</gratuito>
-        <solicitantes>
-            <solicitante id="62">
-                <tipo>Médicos com diploma obtido no exterior</tipo>
-                <requisitos>* Ser  brasileiro(a)  ou  estrangeiro  em  situação  legal  no Brasil;
-* Possuir  Cadastro  de  Pessoas  Físicas  -  CPF,  emitido pela  Receita  Federal  do  Brasil;
-* Ser  portador  de  diploma  médico  expedido  por  Instituição  de  Educação  Superior  Estrangeira,  reconhecida  no  país  de origem  pelo  seu  Ministério  da  Educação  ou  órgão  equivalente,  autenticado  pela  autoridade  consular  brasileira.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="2" max="4" unidade="meses"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="75">
-                <titulo>Realizar inscrição</titulo>
-                <descricao>Para  fazer  sua  inscrição,  o  participante  deverá  entrar  no site  indicado  e  obter  código  de  identificação  e  senha. O  número  de  inscrição  e  a  senha  devem  ser  mantidos sob  a  guarda  do  participante,  sendo  indispensáveis  para  o  acompanhamento  do  processo  de  inscrição  e  para  a  obtenção  dos  resultados  individuais  via  Internet.</descricao>
-                <documentos>
-                    <default>
-                        <item id="201">Diploma  digitalizado,  frente  e verso</item>
-                        <item id="202">Informar  se  possui  o  Certificado  de  Proficiência  em Língua  Portuguesa  Para  Estrangeiros  (Celpe-Bras)</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="87" tipo="web">
-                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="76">
-                <titulo>Efetuar pagamento da avaliação escrita</titulo>
-                <descricao>O  participante  deverá  entrar  no  sistema,  com  seu  código e senha, a fim de emitir o boleto para pagamento da taxa de inscrição, devendo  efetuar  o  pagamento  até  a  data  de  vencimento  indicada  no boleto.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="12">
-                            <descricao>Avaliação escrita</descricao>
-                            <moeda></moeda>
-                            <valor>10,000</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="88" tipo="web">
-                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="77">
-                <titulo>Realizar avaliação escrita</titulo>
-                <descricao>A data de realização da avaliação está disponível no [edital do exame](http://portal.inep.gov.br/legislacao).</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="89" tipo="presencial">
-                            <descricao>O local de realização da avaliação está disponível no [portal do INEP](http://revalida.inep.gov.br/revalida/inscricao).</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="78">
-                <titulo>Efetuar pagamento da avaliação de habilidades clínicas</titulo>
-                <descricao>Na hipótese de aprovação na avaliação escrita, o  participante deverá emitir novo boleto para pagamento da taxa, até a data de  vencimento  indicada,  relativa  à  segunda  etapa.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="13">
-                            <descricao>Avaliação de habilidades clínicas</descricao>
-                            <moeda></moeda>
-                            <valor>30,000</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="90" tipo="web">
-                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="79">
-                <titulo>Realizar avaliação de habilidades clínicas</titulo>
-                <descricao>A data de realização da avaliação está disponível no [edital do exame](http://portal.inep.gov.br/legislacao).</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="91" tipo="presencial">
-                            <descricao>O local de realização da avaliação está disponível no [portal do INEP](http://revalida.inep.gov.br/revalida/inscricao).</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="80">
-                <titulo>Consultar resultado</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="92" tipo="web">
-                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="81">
-                <titulo>Comparecer à universidade</titulo>
-                <descricao>Em  caso  de  aprovação  no  Revalida  o  participante  deverá  apresentar,  junto  à  Universidade  à  qual  foi  solicitada  a  revalidação,  o  Certificado  de  Proficiência  em  Língua  Portuguesa  para Estrangeiros (Celpe-Bras), nível intermediário superior, conforme Resolução  CFM  nº  1831/2008,  exceto  os  naturais  de  países  cuja  língua
-oficial  seja  o  português.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="93" tipo="presencial">
-                            <descricao>Universidade escolhida para revalidação do diploma.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="249"/>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="59">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Educação</item>
-            <item>Educação superior</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="115">diploma</item>
-            <item id="116">revalidar</item>
-            <item id="117">exterior</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="47">http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2007-12-20;6317</item>
-            <item id="48">http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-12-20;9394</item>
         </legislacoes>
     </servico>
     <servico>
@@ -1293,71 +1115,6 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
         </legislacoes>
     </servico>
     <servico>
-        <id>carlos-teste-2</id>
-        <dbId>14</dbId>
-        <nome>Carlos Teste 2</nome>
-        <sigla>CT1</sigla>
-        <nomes-populares>
-            <item id="70">TesteCT</item>
-        </nomes-populares>
-        <descricao>teste 3 teste 4 teste 5</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <solicitantes>
-            <solicitante id="108">
-                <tipo>Idosos</tipo>
-                <requisitos>maiores de 65 anos</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="1" max="1" unidade="horas"/>
-            <descricao>teste</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="126">
-                <titulo>teste</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="18">
-                            <descricao></descricao>
-                            <moeda></moeda>
-                            <valor>2,000</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="140" tipo="presencial">
-                            <descricao>Este é um link para o [Localização](https://www.google.com.br/maps/place/Pal%C3%A1cio+do+Planalto/@-15.7997326,-47.8674332,15z/data=!4m2!3m1!1s0x0000000000000000:0xc7c45a6f5981ca10?hl=pt-BR).</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="2981"/>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="104">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Administração</item>
-            <item>Agropecuária</item>
-            <item>Cultura</item>
-            <item>Saúde</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="201">Teste</item>
-            <item id="202">Teste2</item>
-            <item id="203">Teste3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="95">teste</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>teste-de-servico-repo</id>
         <dbId>15</dbId>
         <nome>Teste de Serviço Repo</nome>
@@ -1877,154 +1634,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         </legislacoes>
     </servico>
     <servico>
-        <id>alistar-no-servico-militar-obrigatorio</id>
-        <dbId>20</dbId>
-        <nome>Alistar no Serviço Militar Obrigatório</nome>
-        <sigla>Sigla nova</sigla>
-        <nomes-populares>
-            <item id="82">Alistamento</item>
-            <item id="83">Alistamento Militar</item>
-        </nomes-populares>
-        <descricao>O Serviço Militar é o exercício de atividades específicas desempenhadas pela Marinha, Exército e Aeronáutica na defesa nacional.</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="129">
-                <tipo>Brasileiros do sexo masculino que completa 18 anos</tipo>
-                <requisitos>O Alistamento Militar deve ser realizado por todo jovem brasileiro, do sexo masculino no **ano** em que completar 18 anos.</requisitos>
-            </solicitante>
-            <solicitante id="130">
-                <tipo>Naturalizado brasileiro do sexo masculino que completa 18 anos</tipo>
-                <requisitos>Brasileiros naturalizados do sexo masculino que completaram 18 anos até o último dia de junho do ano de alistamento.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="meses"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="150">
-                <titulo>Alistar na Junta de Serviço Militar</titulo>
-                <descricao>A Junta de Serviço Militar é um órgão de Serviço Militar sob responsabilidade da prefeitura do seu município, o alistamento terá que ser solicitado pessoalmente na Junta de Serviço Militar.</descricao>
-                <documentos>
-                    <default>
-                        <item id="349">Documento de identidade ou Certidão de nascimento</item>
-                        <item id="350">Fotografia 3x4</item>
-                        <item id="351">Comprovante de residência</item>
-                        <item id="352">Cadastro de Pessoa Física</item>
-                    </default>
-                    <caso id="67" descricao="Caso seja naturalizado brasileiro do sexo masculino que completa 18 anos">
-                        <documento>
-                            <id>348</id>
-                            <descricao>Prova de naturalização  ou certidão do termo de opção</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="174" tipo="presencial">
-                            <descricao>O alistamento deve ser feito na Junta de Serviço Militar mais próxima de sua residência. 
-  
-Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/jsm.action</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                    <caso id="68" descricao="Caso more no estado de Sergipe">
-                        <canal-de-prestacao id="173" tipo="web">
-                            <descricao>http://www.alistamento.eb.mil.br/</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="151">
-                <titulo>Comparecer a Seleção Geral</titulo>
-                <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
-                <documentos>
-                    <default>
-                        <item id="353">Certificado de Alistamento Militar (CAM)</item>
-                        <item id="354">Carteira de identidade (RG), se tiver</item>
-                        <item id="355">Carteira de Trabalho, se tiver</item>
-                        <item id="356">Certidão de Nascimento original dos filhos, caso adquira esta condição após o alistamento</item>
-                        <item id="357">Certidão de Casamento original, caso adquira esta condição após o alistamento</item>
-                        <item id="358">Declaração escolar: Certificado de conclusão ou atestado de frequência, se tiver</item>
-                        <item id="359">Comprovantes de qualificação ou experiência profissional, se tiver</item>
-                        <item id="360">Comprovante de residência</item>
-                        <item id="361">Carteira nacional de Habilitação, se tiver</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="175" tipo="presencial">
-                            <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="152">
-                <titulo>Caso seja dispensado do Serviço Militar: Receber Certificado de Dispensa de Corporação (CDI)</titulo>
-                <descricao>Nesta etapa deve ir novamente a Junta de Serviço Militar para participar de uma cerimônia de juramento de compromisso à Bandeira Nacional e receber seu Certificado de Dispensa de Incorporação (CDI)</descricao>
-                <documentos>
-                    <default>
-                        <item id="362">Documento de identidade</item>
-                        <item id="363">Certificado de Alistamento Militar</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="176" tipo="presencial">
-                            <descricao>Deverá comparecer na mesma Junta de Serviço Militar da Etapa 1.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="153">
-                <titulo>Caso seja apto ao Serviço Militar: Comparecer a organização militar da marinha, aeronáutico ou exército designado</titulo>
-                <descricao>Caso seja apto o brasileiro irá servir por no mínimo 1 ano na organização militar designada.</descricao>
-                <documentos>
-                    <default>
-                        <item id="364">Documento de identidade</item>
-                        <item id="365">Certificado de Alistamento Militar</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="177" tipo="presencial">
-                            <descricao>Endereço da organização militar designada.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="41066"/>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="123">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Defesa Nacional</item>
-            <item>Defesa militar</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="248">Exército</item>
-            <item id="249">Marinha</item>
-            <item id="250">Aeronáutica</item>
-            <item id="251">Marinha</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="114">Legislação militar.</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>teste</id>
         <dbId>22</dbId>
         <nome>Teste</nome>
@@ -2275,6 +1884,484 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         </palavras-chave>
         <legislacoes>
             <item id="132">[TítuloLei nº 6.766, de 19 de Dezembro de 1979](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1979-12-19;6766)</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste-documento</id>
+        <dbId>96</dbId>
+        <nome>Teste documento</nome>
+        <sigla></sigla>
+        <descricao>jhfjkdhghsfjkh</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-digital>0</porcentagem-digital>
+        <solicitantes>
+            <solicitante id="156">
+                <tipo>solictanet</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Sem validade</tipo>
+            <quantidade>0</quantidade>
+            <unidade></unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="179">
+                <titulo>eatap 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="422">Tetse e</item>
+                        <item id="423">teste 6</item>
+                        <item id="424">dfjdsgfhj</item>
+                        <item id="425">dfsjjskhdshgjhsjkh</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="210" tipo="e-mail">
+                            <descricao>email@teste</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="108999"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="153">Cidadãos</item>
+            <item idSegmento="4" idServicoSegmento="152">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Compras governamentais</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="307">jdfhdsjh</item>
+            <item id="308">kldsjkfljd</item>
+            <item id="309">kldjklsjlkfj</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="134">sdfjsdkljgklsjfkgskljlk</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>alistar-no-servico-militar-obrigatorio</id>
+        <dbId>20</dbId>
+        <nome>Alistar no Serviço Militar Obrigatório</nome>
+        <sigla>Sigla nova</sigla>
+        <nomes-populares>
+            <item id="82">Alistamento</item>
+            <item id="83">Alistamento Militar</item>
+        </nomes-populares>
+        <descricao>O Serviço Militar é o exercício de atividades específicas desempenhadas pela Marinha, Exército e Aeronáutica na defesa nacional.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-digital>0</porcentagem-digital>
+        <solicitantes>
+            <solicitante id="129">
+                <tipo>Brasileiros do sexo masculino que completa 18 anos</tipo>
+                <requisitos>O Alistamento Militar deve ser realizado por todo jovem brasileiro, do sexo masculino no **ano** em que completar 18 anos.</requisitos>
+            </solicitante>
+            <solicitante id="130">
+                <tipo>Naturalizado brasileiro do sexo masculino que completa 18 anos</tipo>
+                <requisitos>Brasileiros naturalizados do sexo masculino que completaram 18 anos até o último dia de junho do ano de alistamento.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>10</quantidade>
+            <unidade>dias</unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="150">
+                <titulo>Alistar na Junta de Serviço Militar</titulo>
+                <descricao>A Junta de Serviço Militar é um órgão de Serviço Militar sob responsabilidade da prefeitura do seu município, o alistamento terá que ser solicitado pessoalmente na Junta de Serviço Militar.</descricao>
+                <documentos>
+                    <default>
+                        <item id="349">Documento de identidade ou Certidão de nascimento</item>
+                        <item id="350">Fotografia 3x4</item>
+                        <item id="351">Comprovante de residência</item>
+                        <item id="352">Cadastro de Pessoa Física</item>
+                        <item id="426">Identidade nova</item>
+                    </default>
+                    <caso id="67" descricao="Caso seja naturalizado brasileiro do sexo masculino que completa 18 anos">
+                        <documento>
+                            <id>348</id>
+                            <descricao>Prova de naturalização  ou certidão do termo de opção</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="174" tipo="presencial">
+                            <descricao>O alistamento deve ser feito na Junta de Serviço Militar mais próxima de sua residência. 
+  
+Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/jsm.action</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="68" descricao="Caso more no estado de Sergipe">
+                        <canal-de-prestacao id="173" tipo="web">
+                            <descricao>http://www.alistamento.eb.mil.br/</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="151">
+                <titulo>Comparecer a Seleção Geral</titulo>
+                <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
+                <documentos>
+                    <default>
+                        <item id="353">Certificado de Alistamento Militar (CAM)</item>
+                        <item id="354">Carteira de identidade (RG), se tiver</item>
+                        <item id="355">Carteira de Trabalho, se tiver</item>
+                        <item id="356">Certidão de Nascimento original dos filhos, caso adquira esta condição após o alistamento</item>
+                        <item id="357">Certidão de Casamento original, caso adquira esta condição após o alistamento</item>
+                        <item id="358">Declaração escolar: Certificado de conclusão ou atestado de frequência, se tiver</item>
+                        <item id="359">Comprovantes de qualificação ou experiência profissional, se tiver</item>
+                        <item id="360">Comprovante de residência</item>
+                        <item id="361">Carteira nacional de Habilitação, se tiver</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="175" tipo="presencial">
+                            <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="152">
+                <titulo>Caso seja dispensado do Serviço Militar: Receber Certificado de Dispensa de Corporação (CDI)</titulo>
+                <descricao>Nesta etapa deve ir novamente a Junta de Serviço Militar para participar de uma cerimônia de juramento de compromisso à Bandeira Nacional e receber seu Certificado de Dispensa de Incorporação (CDI)</descricao>
+                <documentos>
+                    <default>
+                        <item id="362">Documento de identidade</item>
+                        <item id="363">Certificado de Alistamento Militar</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="176" tipo="presencial">
+                            <descricao>Deverá comparecer na mesma Junta de Serviço Militar da Etapa 1.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="153">
+                <titulo>Caso seja apto ao Serviço Militar: Comparecer a organização militar da marinha, aeronáutico ou exército designado</titulo>
+                <descricao>Caso seja apto o brasileiro irá servir por no mínimo 1 ano na organização militar designada.</descricao>
+                <documentos>
+                    <default>
+                        <item id="364">Documento de identidade</item>
+                        <item id="365">Certificado de Alistamento Militar</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="177" tipo="presencial">
+                            <descricao>Endereço da organização militar designada.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="108999"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="123">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Defesa Nacional</item>
+            <item>Defesa militar</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="248">Exército</item>
+            <item id="249">Marinha</item>
+            <item id="250">Aeronáutica</item>
+            <item id="251">Marinha</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="114">Legislação militar.</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>carlos-teste-2</id>
+        <dbId>14</dbId>
+        <nome>Carlos Teste 2</nome>
+        <sigla>CT1</sigla>
+        <nomes-populares>
+            <item id="70">TesteCT</item>
+        </nomes-populares>
+        <descricao>teste 3 teste 4 teste 5</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-digital>10</porcentagem-digital>
+        <solicitantes>
+            <solicitante id="108">
+                <tipo>Idosos</tipo>
+                <requisitos>maiores de 65 anos</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="1" max="1" unidade="horas"/>
+            <descricao>teste</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>20</quantidade>
+            <unidade>anos</unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="126">
+                <titulo>teste</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="427">Mais uma</item>
+                        <item id="428">Mais duas</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="18">
+                            <descricao></descricao>
+                            <moeda></moeda>
+                            <valor>2,000</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="140" tipo="presencial">
+                            <descricao>Este é um link para o [Localização](https://www.google.com.br/maps/place/Pal%C3%A1cio+do+Planalto/@-15.7997326,-47.8674332,15z/data=!4m2!3m1!1s0x0000000000000000:0xc7c45a6f5981ca10?hl=pt-BR).</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="2981"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="104">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Administração</item>
+            <item>Agropecuária</item>
+            <item>Cultura</item>
+            <item>Saúde</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="201">Teste</item>
+            <item id="202">Teste2</item>
+            <item id="203">Teste3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="95">teste</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>revalidar-diploma-medico-expedido-no-exterior</id>
+        <dbId>6</dbId>
+        <nome>Revalidar diploma médico expedido no exterior</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="45">Revalida</item>
+        </nomes-populares>
+        <descricao>Trata-se de um exame para revalidação dos diplomas estrangeiros compatíveis com as exigências de formação correspondentes aos diplomas médicos expedidos por universidades brasileiras, em consonância com as Diretrizes Curriculares Nacionais do Curso de Graduação em Medicina, com parâmetros e critérios isonômicos adequados para aferição de equivalência curricular e definição da correspondente aptidão para o exercício profissional da medicina no Brasil.</descricao>
+        <contato>0800-616161</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-digital>0</porcentagem-digital>
+        <solicitantes>
+            <solicitante id="62">
+                <tipo>Médicos com diploma obtido no exterior</tipo>
+                <requisitos>* Ser  brasileiro(a)  ou  estrangeiro  em  situação  legal  no Brasil;
+* Possuir  Cadastro  de  Pessoas  Físicas  -  CPF,  emitido pela  Receita  Federal  do  Brasil;
+* Ser  portador  de  diploma  médico  expedido  por  Instituição  de  Educação  Superior  Estrangeira,  reconhecida  no  país  de origem  pelo  seu  Ministério  da  Educação  ou  órgão  equivalente,  autenticado  pela  autoridade  consular  brasileira.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="2" max="4" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="75">
+                <titulo>Realizar inscrição</titulo>
+                <descricao>Para  fazer  sua  inscrição,  o  participante  deverá  entrar  no site  indicado  e  obter  código  de  identificação  e  senha. O  número  de  inscrição  e  a  senha  devem  ser  mantidos sob  a  guarda  do  participante,  sendo  indispensáveis  para  o  acompanhamento  do  processo  de  inscrição  e  para  a  obtenção  dos  resultados  individuais  via  Internet.</descricao>
+                <documentos>
+                    <default>
+                        <item id="201">Diploma  digitalizado,  frente  e verso</item>
+                        <item id="202">Informar  se  possui  o  Certificado  de  Proficiência  em Língua  Portuguesa  Para  Estrangeiros  (Celpe-Bras)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="87" tipo="web">
+                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="76">
+                <titulo>Efetuar pagamento da avaliação escrita</titulo>
+                <descricao>O  participante  deverá  entrar  no  sistema,  com  seu  código e senha, a fim de emitir o boleto para pagamento da taxa de inscrição, devendo  efetuar  o  pagamento  até  a  data  de  vencimento  indicada  no boleto.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="12">
+                            <descricao>Avaliação escrita</descricao>
+                            <moeda></moeda>
+                            <valor>10,000</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="88" tipo="web">
+                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="77">
+                <titulo>Realizar avaliação escrita</titulo>
+                <descricao>A data de realização da avaliação está disponível no [edital do exame](http://portal.inep.gov.br/legislacao).</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="89" tipo="presencial">
+                            <descricao>O local de realização da avaliação está disponível no [portal do INEP](http://revalida.inep.gov.br/revalida/inscricao).</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="78">
+                <titulo>Efetuar pagamento da avaliação de habilidades clínicas</titulo>
+                <descricao>Na hipótese de aprovação na avaliação escrita, o  participante deverá emitir novo boleto para pagamento da taxa, até a data de  vencimento  indicada,  relativa  à  segunda  etapa.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="13">
+                            <descricao>Avaliação de habilidades clínicas</descricao>
+                            <moeda></moeda>
+                            <valor>30,000</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="90" tipo="web">
+                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="79">
+                <titulo>Realizar avaliação de habilidades clínicas</titulo>
+                <descricao>A data de realização da avaliação está disponível no [edital do exame](http://portal.inep.gov.br/legislacao).</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="91" tipo="presencial">
+                            <descricao>O local de realização da avaliação está disponível no [portal do INEP](http://revalida.inep.gov.br/revalida/inscricao).</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="80">
+                <titulo>Consultar resultado</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="92" tipo="web">
+                            <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="81">
+                <titulo>Comparecer à universidade</titulo>
+                <descricao>Em  caso  de  aprovação  no  Revalida  o  participante  deverá  apresentar,  junto  à  Universidade  à  qual  foi  solicitada  a  revalidação,  o  Certificado  de  Proficiência  em  Língua  Portuguesa  para Estrangeiros (Celpe-Bras), nível intermediário superior, conforme Resolução  CFM  nº  1831/2008,  exceto  os  naturais  de  países  cuja  língua
+oficial  seja  o  português.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="93" tipo="presencial">
+                            <descricao>Universidade escolhida para revalidação do diploma.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="90"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="59">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Educação</item>
+            <item>Educação superior</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="115">diploma</item>
+            <item id="116">revalidar</item>
+            <item id="117">exterior</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="47">http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2007-12-20;6317</item>
+            <item id="48">http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-12-20;9394</item>
         </legislacoes>
     </servico>
 </servicos>
