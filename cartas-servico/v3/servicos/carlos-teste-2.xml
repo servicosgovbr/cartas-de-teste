@@ -10,7 +10,7 @@
     <descricao>teste 3 teste 4 teste 5</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
-    <porcentagem-digital>0</porcentagem-digital>
+    <porcentagem-digital>10</porcentagem-digital>
     <solicitantes>
         <solicitante id="108">
             <tipo>Idosos</tipo>
