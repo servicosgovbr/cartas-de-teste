@@ -189,8 +189,11 @@ classificacaoindicativa@mj.gov.br</contato>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="73" tipo="e-mail">
-                            <descricao>classificacaoindicativa@mj.gov.br</descricao>
+                        <canal-de-prestacao id="75" tipo="presencial">
+                            <descricao>Protocolo Geral
+Esplanada dos Ministérios, Bloco T,
+Ministério da Justiça, Anexo II, Térreo
+CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="74" tipo="postal">
                             <descricao>Departamento de Políticas de Justiça
@@ -199,11 +202,8 @@ Esplanada dos Ministérios, Bloco T,
 Ministério da Justiça, Anexo II, Sala 321
 CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="75" tipo="presencial">
-                            <descricao>Protocolo Geral
-Esplanada dos Ministérios, Bloco T,
-Ministério da Justiça, Anexo II, Térreo
-CEP 70064-901   Brasília/DF</descricao>
+                        <canal-de-prestacao id="73" tipo="e-mail">
+                            <descricao>classificacaoindicativa@mj.gov.br</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="72" tipo="web">
                             <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
@@ -1822,7 +1822,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>O Documento de Arrecadação de Receitas Federais – DARF é utilizado para recolhimento, junto aos bancos autorizados, da taxa de ocupação ou foro dos imóveis da União, além de outros débitos de caráter extraordinário. Nele serão impressos os dados de identificação do imóvel, do titular ocupante ou foreiro, a data de pagamento e os respectivos valores, a serem recolhidos ao Tesouro Nacional.</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem-digital>0</porcentagem-digital>
+        <porcentagem-digital>25</porcentagem-digital>
         <solicitantes>
             <solicitante id="128">
                 <tipo>Proprietários de imóveis da união</tipo>
@@ -1833,7 +1833,12 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
             <entre min="1" max="5" unidade="dias-uteis"/>
             <descricao>O não pagamento de qualquer obrigação, até sua data de vencimento, implicará na inclusão do atual titular ocupante no CADIN – Cadastro Informativo dos Créditos não quitados de Órgãos e Entidades Federais e posterior inscrição em Dívida Ativa da União – DAU.</descricao>
         </tempo-total-estimado>
-        <validade-documento/>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>1</quantidade>
+            <unidade>meses</unidade>
+            <descricao></descricao>
+        </validade-documento>
         <etapas>
             <etapa id="148">
                 <titulo>Emissão do DARF</titulo>
@@ -1863,14 +1868,14 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="172" tipo="web">
+                        <canal-de-prestacao id="172" tipo="web-acompanhar">
                             <descricao>http://atendimentovirtual.spu.planejamento.gov.br/</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981"/>
+        <orgao id="1986"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="122">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2122,7 +2127,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         <descricao>teste 3 teste 4 teste 5</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
-        <porcentagem-digital>10</porcentagem-digital>
+        <porcentagem-digital>20</porcentagem-digital>
         <solicitantes>
             <solicitante id="108">
                 <tipo>Idosos</tipo>
