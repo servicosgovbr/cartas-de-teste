@@ -21,7 +21,12 @@
         <entre min="1" max="5" unidade="dias-uteis"/>
         <descricao>O não pagamento de qualquer obrigação, até sua data de vencimento, implicará na inclusão do atual titular ocupante no CADIN – Cadastro Informativo dos Créditos não quitados de Órgãos e Entidades Federais e posterior inscrição em Dívida Ativa da União – DAU.</descricao>
     </tempo-total-estimado>
-    <validade-documento/>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>1</quantidade>
+        <unidade>meses</unidade>
+        <descricao></descricao>
+    </validade-documento>
     <etapas>
         <etapa id="148">
             <titulo>Emissão do DARF</titulo>
@@ -51,7 +56,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="172" tipo="web">
+                    <canal-de-prestacao id="172" tipo="web-acompanhar">
                         <descricao>http://atendimentovirtual.spu.planejamento.gov.br/</descricao>
                     </canal-de-prestacao>
                 </default>
