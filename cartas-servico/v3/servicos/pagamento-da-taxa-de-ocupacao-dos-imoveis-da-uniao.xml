@@ -10,7 +10,7 @@
     <descricao>O Documento de Arrecadação de Receitas Federais – DARF é utilizado para recolhimento, junto aos bancos autorizados, da taxa de ocupação ou foro dos imóveis da União, além de outros débitos de caráter extraordinário. Nele serão impressos os dados de identificação do imóvel, do titular ocupante ou foreiro, a data de pagamento e os respectivos valores, a serem recolhidos ao Tesouro Nacional.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
-    <porcentagem-digital>0</porcentagem-digital>
+    <porcentagem-digital>50</porcentagem-digital>
     <solicitantes>
         <solicitante id="128">
             <tipo>Proprietários de imóveis da união</tipo>
