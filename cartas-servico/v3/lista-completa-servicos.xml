@@ -236,60 +236,6 @@ CEP 70064-901   Brasília/DF</descricao>
         </legislacoes>
     </servico>
     <servico>
-        <id>teste-09</id>
-        <dbId>2</dbId>
-        <nome>Teste 09</nome>
-        <sigla>Teste 09 Teste</sigla>
-        <descricao>Testefdfd</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="47">
-                <tipo>aafd</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="horas"/>
-            <descricao>dfd</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="54">
-                <titulo>aafd</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="71" tipo="e-mail">
-                            <descricao></descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="1930"/>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="38">Cidadãos</item>
-            <item idSegmento="2" idServicoSegmento="37">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="82">a</item>
-            <item id="83">a</item>
-            <item id="84">a</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="31">a</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>teste-mps-teste-2</id>
         <dbId>3</dbId>
         <nome>Teste MPS Teste 2</nome>
@@ -1556,6 +1502,62 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         </palavras-chave>
         <legislacoes>
             <item id="121">http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste-09</id>
+        <dbId>2</dbId>
+        <nome>Teste 09</nome>
+        <sigla>Teste 09 Teste</sigla>
+        <descricao>Testefdfd</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-digital>0</porcentagem-digital>
+        <solicitantes>
+            <solicitante id="47">
+                <tipo>aafd</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao>dfd</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="54">
+                <titulo>aafd</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="71" tipo="e-mail">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="2981"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="38">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="37">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="82">a</item>
+            <item id="83">a</item>
+            <item id="84">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="31">a</item>
         </legislacoes>
     </servico>
     <servico>
