@@ -14,11 +14,11 @@
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <atendimento-imediato/>
+        <em-media max="2" unidade="horas"/>
         <descricao>bla bla</descricao>
     </tempo-total-estimado>
     <validade-documento>
-        <tipo>Válido por</tipo>
+        <tipo>Sem validade</tipo>
         <quantidade>2</quantidade>
         <unidade>dias</unidade>
         <descricao>bla bla</descricao>
