@@ -44,7 +44,9 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="2981"/>
+    <orgao id="37545" dbId="46740">
+        <nomeOrgao>Serviço de Saúde Coletiva (SSC/DSC)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
         <item idSegmento="3" idServicoSegmento="158">Empresas</item>
