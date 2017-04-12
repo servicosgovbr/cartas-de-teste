@@ -212,7 +212,9 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="316"/>
+        <orgao id="316" dbId="37532">
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="41">Cidadãos</item>
             <item idSegmento="2" idServicoSegmento="40">Órgãos e entidades públicas</item>
@@ -277,7 +279,9 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981"/>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="49">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -330,7 +334,9 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="25281"/>
+        <orgao id="25281" dbId="917">
+            <nomeOrgao>Agência Nacional do Petróleo Gás Natural e Biocombustíveis (ANP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="42">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -383,7 +389,9 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="203141"/>
+        <orgao id="203141" dbId="4209">
+            <nomeOrgao>Assessoria de Administração e Planejamento (AAP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="58">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -533,7 +541,9 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981"/>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="68">Cidadãos</item>
             <item idSegmento="3" idServicoSegmento="69">Empresas</item>
@@ -598,7 +608,9 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981"/>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="72">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -654,20 +666,22 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="102" tipo="presencial">
-                            <descricao>Centros de Referência de Assistência Social (CRAS) do seu município.</descricao>
+                        <canal-de-prestacao id="104" tipo="web">
+                            <descricao>http://www.brasilsemmiseria.gov.br</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="103" tipo="telefone">
                             <descricao>0800-707-2003</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="104" tipo="web">
-                            <descricao>http://www.brasilsemmiseria.gov.br</descricao>
+                        <canal-de-prestacao id="102" tipo="presencial">
+                            <descricao>Centros de Referência de Assistência Social (CRAS) do seu município.</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="42670"/>
+        <orgao id="42670" dbId="37531">
+            <nomeOrgao>Ministério da Integração Nacional (MIN)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="73">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -780,7 +794,9 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="41066"/>
+        <orgao id="41066" dbId="37527">
+            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="76">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -833,7 +849,9 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="113010"/>
+        <orgao id="113010" dbId="4017">
+            <nomeOrgao>Assessoria Especial de Planejamento (AEP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="83">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -990,7 +1008,9 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="1988"/>
+        <orgao id="1988" dbId="37525">
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="84">Cidadãos</item>
             <item idSegmento="3" idServicoSegmento="85">Empresas</item>
@@ -1044,7 +1064,9 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981"/>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="86">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1097,7 +1119,9 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="209690"/>
+        <orgao id="209690" dbId="10508">
+            <nomeOrgao>Coordenadoria de Gestão Sustentável (CGS)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="105">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1229,7 +1253,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="41066"/>
+        <orgao id="41066" dbId="37527">
+            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="114">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1333,7 +1359,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="1988"/>
+        <orgao id="1988" dbId="37525">
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="115">Cidadãos</item>
             <item idSegmento="2" idServicoSegmento="116">Órgãos e entidades públicas</item>
@@ -1399,7 +1427,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="304"/>
+        <orgao id="304" dbId="37534">
+            <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="121">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1489,7 +1519,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981"/>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="130">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1543,7 +1575,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981"/>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="38">Cidadãos</item>
             <item idSegmento="2" idServicoSegmento="37">Órgãos e entidades públicas</item>
@@ -1610,7 +1644,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="54793"/>
+        <orgao id="54793" dbId="913">
+            <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="136">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1668,7 +1704,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="80675"/>
+        <orgao id="80675" dbId="30">
+            <nomeOrgao>10º Regimento de Cavalaria Mecanizado (10º  R C Mec)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="143">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1796,7 +1834,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="61283"/>
+        <orgao id="61283" dbId="794">
+            <nomeOrgao>Administração (ADM-HP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="147">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1877,7 +1917,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="1986"/>
+        <orgao id="1986" dbId="43033">
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="122">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1973,7 +2015,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981"/>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="155">Cidadãos</item>
             <item idSegmento="3" idServicoSegmento="156">Empresas</item>
@@ -2030,7 +2074,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="108999"/>
+        <orgao id="108999" dbId="795">
+            <nomeOrgao>Administração Central (AC)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="154">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2095,7 +2141,9 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="108999"/>
+        <orgao id="108999" dbId="795">
+            <nomeOrgao>Administração Central (AC)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="153">Cidadãos</item>
             <item idSegmento="4" idServicoSegmento="152">Demais segmentos (ONGs, organizações sociais, etc)</item>
@@ -2251,7 +2299,9 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="108999"/>
+        <orgao id="108999" dbId="795">
+            <nomeOrgao>Administração Central (AC)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="123">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2325,7 +2375,9 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981"/>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="104">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2342,69 +2394,6 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         </palavras-chave>
         <legislacoes>
             <item id="95">teste</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>mapa</id>
-        <dbId>99</dbId>
-        <nome>Mapa</nome>
-        <sigla>mapa</sigla>
-        <descricao>Mapa jdfskjhsfdkjhsjlkdhgjksjdlkgkjdfhgjkhg</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="159">
-                <tipo>Solicitante 1</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <em-media max="2" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Sem validade</tipo>
-            <quantidade>0</quantidade>
-            <unidade></unidade>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="183">
-                <titulo>etapa 1</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="432">identidade 2</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="215" tipo="e-mail">
-                            <descricao>teste@email.com</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="2981"/>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="158">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Biodiversidade</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="316">teste</item>
-            <item id="317">teste</item>
-            <item id="318">teste</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="137">decreto 2</item>
         </legislacoes>
     </servico>
     <servico>
@@ -2569,7 +2558,9 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="90"/>
+        <orgao id="90" dbId="43381">
+            <nomeOrgao>Serviço Federal de Processamento de Dados (SERPRO)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="59">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2585,6 +2576,71 @@ oficial  seja  o  português.</descricao>
         <legislacoes>
             <item id="47">http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2007-12-20;6317</item>
             <item id="48">http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-12-20;9394</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>mapa</id>
+        <dbId>99</dbId>
+        <nome>Mapa</nome>
+        <sigla>mapa</sigla>
+        <descricao>Mapa jdfskjhsfdkjhsjlkdhgjksjdlkgkjdfhgjkhg</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="159">
+                <tipo>Solicitante 1</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="2" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Sem validade</tipo>
+            <quantidade>0</quantidade>
+            <unidade></unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="183">
+                <titulo>etapa 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="432">identidade 2</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="215" tipo="e-mail">
+                            <descricao>teste@email.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="37545" dbId="46740">
+            <nomeOrgao>Serviço de Saúde Coletiva (SSC/DSC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="158">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Biodiversidade</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="316">teste</item>
+            <item id="317">teste</item>
+            <item id="318">teste</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="137">decreto 2</item>
         </legislacoes>
     </servico>
     <servico>
@@ -2630,7 +2686,9 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="122614"/>
+        <orgao id="122614" dbId="39845">
+            <nomeOrgao>Planejamento e Orçamento (PLO)</nomeOrgao>
+        </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="159">Cidadãos</item>
         </segmentos-da-sociedade>
