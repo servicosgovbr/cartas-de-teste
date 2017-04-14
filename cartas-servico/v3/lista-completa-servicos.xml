@@ -189,8 +189,11 @@ classificacaoindicativa@mj.gov.br</contato>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="73" tipo="e-mail">
-                            <descricao>classificacaoindicativa@mj.gov.br</descricao>
+                        <canal-de-prestacao id="75" tipo="presencial">
+                            <descricao>Protocolo Geral
+Esplanada dos Ministérios, Bloco T,
+Ministério da Justiça, Anexo II, Térreo
+CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="74" tipo="postal">
                             <descricao>Departamento de Políticas de Justiça
@@ -199,11 +202,8 @@ Esplanada dos Ministérios, Bloco T,
 Ministério da Justiça, Anexo II, Sala 321
 CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="75" tipo="presencial">
-                            <descricao>Protocolo Geral
-Esplanada dos Ministérios, Bloco T,
-Ministério da Justiça, Anexo II, Térreo
-CEP 70064-901   Brasília/DF</descricao>
+                        <canal-de-prestacao id="73" tipo="e-mail">
+                            <descricao>classificacaoindicativa@mj.gov.br</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="72" tipo="web">
                             <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
@@ -654,14 +654,14 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="102" tipo="presencial">
-                            <descricao>Centros de Referência de Assistência Social (CRAS) do seu município.</descricao>
+                        <canal-de-prestacao id="104" tipo="web">
+                            <descricao>http://www.brasilsemmiseria.gov.br</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="103" tipo="telefone">
                             <descricao>0800-707-2003</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="104" tipo="web">
-                            <descricao>http://www.brasilsemmiseria.gov.br</descricao>
+                        <canal-de-prestacao id="102" tipo="presencial">
+                            <descricao>Centros de Referência de Assistência Social (CRAS) do seu município.</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
@@ -2345,69 +2345,6 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         </legislacoes>
     </servico>
     <servico>
-        <id>mapa</id>
-        <dbId>99</dbId>
-        <nome>Mapa</nome>
-        <sigla>mapa</sigla>
-        <descricao>Mapa jdfskjhsfdkjhsjlkdhgjksjdlkgkjdfhgjkhg</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="159">
-                <tipo>Solicitante 1</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <em-media max="2" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Sem validade</tipo>
-            <quantidade>0</quantidade>
-            <unidade></unidade>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="183">
-                <titulo>etapa 1</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="432">identidade 2</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="215" tipo="e-mail">
-                            <descricao>teste@email.com</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="2981"/>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="158">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Biodiversidade</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="316">teste</item>
-            <item id="317">teste</item>
-            <item id="318">teste</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="137">decreto 2</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>revalidar-diploma-medico-expedido-no-exterior</id>
         <dbId>6</dbId>
         <nome>Revalidar diploma médico expedido no exterior</nome>
@@ -2585,6 +2522,69 @@ oficial  seja  o  português.</descricao>
         <legislacoes>
             <item id="47">http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2007-12-20;6317</item>
             <item id="48">http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-12-20;9394</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>mapa</id>
+        <dbId>99</dbId>
+        <nome>Mapa</nome>
+        <sigla>mapa</sigla>
+        <descricao>Mapa jdfskjhsfdkjhsjlkdhgjksjdlkgkjdfhgjkhg</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="159">
+                <tipo>Solicitante 1</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="2" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Sem validade</tipo>
+            <quantidade>0</quantidade>
+            <unidade></unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="183">
+                <titulo>etapa 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="432">identidade 2</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="215" tipo="e-mail">
+                            <descricao>teste@email.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="37545"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="158">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Biodiversidade</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="316">teste</item>
+            <item id="317">teste</item>
+            <item id="318">teste</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="137">decreto 2</item>
         </legislacoes>
     </servico>
     <servico>
