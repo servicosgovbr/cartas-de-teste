@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>testes-nivia</id>
+    <dbId>101</dbId>
+    <nome>testes nivia</nome>
+    <sigla>TNIVIA</sigla>
+    <nomes-populares>
+        <item id="114">teste</item>
+        <item id="113">CAU</item>
+    </nomes-populares>
+    <descricao>testestestesteteste</descricao>
+    <contato>testeste</contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante id="161">
+            <tipo>usuário comum</tipo>
+            <requisitos>rtestre</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="90" unidade="dias-uteis"/>
+        <descricao>testestet</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>90</quantidade>
+        <unidade>dias</unidade>
+        <descricao>testeste</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="185">
+            <titulo>teste</titulo>
+            <descricao>testes</descricao>
+            <documentos>
+                <default>
+                    <item id="433">teste</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="217" tipo="e-mail">
+                        <descricao>teste</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="14"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="160">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="161">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Água</item>
+        <item>Agropecuária</item>
+        <item>Energia elétrica</item>
+        <item>Empregabilidade</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="322">teste</item>
+        <item id="323">testes</item>
+        <item id="324">teste</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="139">testest</item>
+    </legislacoes>
+</servico>
