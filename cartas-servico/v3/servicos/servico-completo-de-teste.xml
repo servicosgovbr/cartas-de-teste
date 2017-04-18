@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>servico-completo-de-teste</id>
+    <dbId>104</dbId>
+    <nome>Serviço Completo de Teste</nome>
+    <sigla>SCT</sigla>
+    <nomes-populares>
+        <item id="118">Teste</item>
+        <item id="119">Teste Dois</item>
+    </nomes-populares>
+    <descricao>Descrição qualquer do serviço</descricao>
+    <contato>contato@email.com</contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante id="163">
+            <tipo>Qualquer solicitante</tipo>
+            <requisitos>Nada nada...</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="795" unidade="meses"/>
+        <descricao>Demora mesmo né ?!</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>70</quantidade>
+        <unidade>anos</unidade>
+        <descricao>mas vale muito tempo :)</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="187">
+            <titulo>ETP #1</titulo>
+            <descricao>Essa é a primeira etapa</descricao>
+            <documentos>
+                <default>
+                    <item id="436">RG</item>
+                    <item id="437">CPF</item>
+                    <item id="438">FOTO 3x4</item>
+                </default>
+                <caso id="86" descricao="Caso esteja com pressa">
+                    <documento>
+                        <id>435</id>
+                        <descricao>RG</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="223" tipo="web-consultar">
+                        <descricao>no site também</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="222" tipo="web-emitir">
+                        <descricao>no site</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="221" tipo="presencial">
+                        <descricao>Só aqui mesmo</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="220" tipo="e-mail">
+                        <descricao>contato@email.com</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="188">
+            <titulo>ETP #2</titulo>
+            <descricao>Essa é a segunda etapa ;)</descricao>
+            <documentos>
+                <default>
+                    <item id="439">RG</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="224" tipo="web">
+                        <descricao>no site</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="207378"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="164">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="165">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Assistência ao Idoso</item>
+        <item>Cidadania</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="328">P1</item>
+        <item id="329">P2</item>
+        <item id="330">P3</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="141">legislação 5.642</item>
+    </legislacoes>
+</servico>
