@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-consciente-gabi</id>
+    <dbId>105</dbId>
+    <nome>TESTE CONSCIENTE GABI</nome>
+    <sigla>TSCGABI</sigla>
+    <nomes-populares>
+        <item id="120">GABI</item>
+    </nomes-populares>
+    <descricao>TESTE GABI</descricao>
+    <contato>35359200</contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante id="164">
+            <tipo>Estudantes</tipo>
+            <requisitos>Matrícula do ensino médio</requisitos>
+        </solicitante>
+        <solicitante id="165">
+            <tipo>GABRIELA</tipo>
+            <requisitos>SER AMIGO DA GABI</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="90" unidade="dias-uteis"/>
+        <descricao>TESTE GABI</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao>TESTE GABI</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="189">
+            <titulo>TESTE GABI</titulo>
+            <descricao>TESTE GABI</descricao>
+            <documentos>
+                <default>
+                    <item id="441">TESTE GABI</item>
+                </default>
+                <caso id="87" descricao="TESTE GABI">
+                    <documento>
+                        <id>440</id>
+                        <descricao>TESTE GABI</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="225" tipo="e-mail">
+                        <descricao>TESTE GABI</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="190">
+            <titulo>TESTE GABI</titulo>
+            <descricao>TESTE GABI</descricao>
+            <documentos>
+                <default>
+                    <item id="442">TESTE GABI</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="226" tipo="e-mail">
+                        <descricao>TESTE GABI</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="41066"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="166">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cultura</item>
+        <item>Atendimento básico</item>
+        <item>Defesa Civil</item>
+        <item>Esporte e Lazer</item>
+        <item>Educação básica</item>
+        <item>Habitação Urbana</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="331">TESTE GABI</item>
+        <item id="332">TESTE GABI</item>
+        <item id="333">TESTE GABI</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="142">TESTE GABI</item>
+    </legislacoes>
+</servico>
