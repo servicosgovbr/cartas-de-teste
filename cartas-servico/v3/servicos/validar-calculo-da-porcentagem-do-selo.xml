@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>validar-calculo-da-porcentagem-do-selo</id>
+    <dbId>107</dbId>
+    <nome>Validar cálculo da porcentagem do selo</nome>
+    <sigla>TESTE</sigla>
+    <nomes-populares>
+        <item id="122">testes</item>
+    </nomes-populares>
+    <descricao>testes</descricao>
+    <contato>testes</contato>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante id="166">
+            <tipo>testes</tipo>
+            <requisitos>testes</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="90" unidade="dias-uteis"/>
+        <descricao>testes</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>90</quantidade>
+        <unidade>dias</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="192">
+            <titulo>testes</titulo>
+            <descricao>testesw</descricao>
+            <documentos>
+                <default>
+                    <item id="443">testes</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="28">
+                        <descricao>testes</descricao>
+                        <moeda></moeda>
+                        <valor>10,000</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="228" tipo="e-mail">
+                        <descricao>testes</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="1926"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="167">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Assistência à Criança e ao Adolescente</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="334">teste</item>
+        <item id="335">testes</item>
+        <item id="336">teste</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="143">teste</item>
+    </legislacoes>
+</servico>
