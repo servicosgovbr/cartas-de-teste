@@ -189,11 +189,8 @@ classificacaoindicativa@mj.gov.br</contato>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="75" tipo="presencial">
-                            <descricao>Protocolo Geral
-Esplanada dos Ministérios, Bloco T,
-Ministério da Justiça, Anexo II, Térreo
-CEP 70064-901   Brasília/DF</descricao>
+                        <canal-de-prestacao id="73" tipo="e-mail">
+                            <descricao>classificacaoindicativa@mj.gov.br</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="74" tipo="postal">
                             <descricao>Departamento de Políticas de Justiça
@@ -202,8 +199,11 @@ Esplanada dos Ministérios, Bloco T,
 Ministério da Justiça, Anexo II, Sala 321
 CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="73" tipo="e-mail">
-                            <descricao>classificacaoindicativa@mj.gov.br</descricao>
+                        <canal-de-prestacao id="75" tipo="presencial">
+                            <descricao>Protocolo Geral
+Esplanada dos Ministérios, Bloco T,
+Ministério da Justiça, Anexo II, Térreo
+CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="72" tipo="web">
                             <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
@@ -2345,6 +2345,167 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         </legislacoes>
     </servico>
     <servico>
+        <id>teste-consciente-gabi</id>
+        <dbId>105</dbId>
+        <nome>TESTE CONSCIENTE GABI</nome>
+        <sigla>TSCGABI</sigla>
+        <nomes-populares>
+            <item id="120">GABI</item>
+        </nomes-populares>
+        <descricao>TESTE GABI</descricao>
+        <contato>35359200</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="164">
+                <tipo>Estudantes</tipo>
+                <requisitos>Matrícula do ensino médio</requisitos>
+            </solicitante>
+            <solicitante id="165">
+                <tipo>GABRIELA</tipo>
+                <requisitos>SER AMIGO DA GABI</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="90" unidade="dias-uteis"/>
+            <descricao>TESTE GABI</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Sem validade</tipo>
+            <quantidade>0</quantidade>
+            <unidade></unidade>
+            <descricao>TESTE GABI</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="189">
+                <titulo>TESTE GABI</titulo>
+                <descricao>TESTE GABI</descricao>
+                <documentos>
+                    <default>
+                        <item id="441">TESTE GABI</item>
+                    </default>
+                    <caso id="87" descricao="TESTE GABI">
+                        <documento>
+                            <id>440</id>
+                            <descricao>TESTE GABI</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="225" tipo="e-mail">
+                            <descricao>TESTE GABI</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="190">
+                <titulo>TESTE GABI</titulo>
+                <descricao>TESTE GABI</descricao>
+                <documentos>
+                    <default>
+                        <item id="442">TESTE GABI</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="226" tipo="e-mail">
+                            <descricao>TESTE GABI</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="41066"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="166">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Cultura</item>
+            <item>Defesa Civil</item>
+            <item>Educação básica</item>
+            <item>Esporte e Lazer</item>
+            <item>Habitação Urbana</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="331">TESTE GABI</item>
+            <item id="332">TESTE GABI</item>
+            <item id="333">TESTE GABI</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="142">TESTE GABI</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>mapa</id>
+        <dbId>99</dbId>
+        <nome>Mapa</nome>
+        <sigla>mapa</sigla>
+        <descricao>Mapa jdfskjhsfdkjhsjlkdhgjksjdlkgkjdfhgjkhg</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="159">
+                <tipo>Solicitante 1</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="2" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Sem validade</tipo>
+            <quantidade>0</quantidade>
+            <unidade></unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="183">
+                <titulo>etapa 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="432">identidade 2</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="215" tipo="e-mail">
+                            <descricao>teste@email.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="2981"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="158">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Biodiversidade</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="316">teste</item>
+            <item id="317">teste</item>
+            <item id="318">teste</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="137">decreto 2</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>revalidar-diploma-medico-expedido-no-exterior</id>
         <dbId>6</dbId>
         <nome>Revalidar diploma médico expedido no exterior</nome>
@@ -2525,36 +2686,40 @@ oficial  seja  o  português.</descricao>
         </legislacoes>
     </servico>
     <servico>
-        <id>mapa</id>
-        <dbId>99</dbId>
-        <nome>Mapa</nome>
-        <sigla>mapa</sigla>
-        <descricao>Mapa jdfskjhsfdkjhsjlkdhgjksjdlkgkjdfhgjkhg</descricao>
-        <contato></contato>
+        <id>testes-nivia</id>
+        <dbId>101</dbId>
+        <nome>testes nivia</nome>
+        <sigla>TNIVIA</sigla>
+        <nomes-populares>
+            <item id="114">teste</item>
+            <item id="113">CAU</item>
+        </nomes-populares>
+        <descricao>testestestesteteste</descricao>
+        <contato>testeste</contato>
         <gratuito>true</gratuito>
         <solicitantes>
-            <solicitante id="159">
-                <tipo>Solicitante 1</tipo>
-                <requisitos></requisitos>
+            <solicitante id="161">
+                <tipo>usuário comum</tipo>
+                <requisitos>rtestre</requisitos>
             </solicitante>
         </solicitantes>
         <tempo-total-estimado>
-            <em-media max="2" unidade="horas"/>
-            <descricao></descricao>
+            <ate max="90" unidade="dias-uteis"/>
+            <descricao>testestet</descricao>
         </tempo-total-estimado>
         <validade-documento>
-            <tipo>Sem validade</tipo>
-            <quantidade>0</quantidade>
-            <unidade></unidade>
-            <descricao></descricao>
+            <tipo>Válido por</tipo>
+            <quantidade>90</quantidade>
+            <unidade>dias</unidade>
+            <descricao>testeste</descricao>
         </validade-documento>
         <etapas>
-            <etapa id="183">
-                <titulo>etapa 1</titulo>
-                <descricao></descricao>
+            <etapa id="185">
+                <titulo>teste</titulo>
+                <descricao>testes</descricao>
                 <documentos>
                     <default>
-                        <item id="432">identidade 2</item>
+                        <item id="433">teste</item>
                     </default>
                 </documentos>
                 <custos>
@@ -2562,29 +2727,32 @@ oficial  seja  o  português.</descricao>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="215" tipo="e-mail">
-                            <descricao>teste@email.com</descricao>
+                        <canal-de-prestacao id="217" tipo="e-mail">
+                            <descricao>teste</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="37545"/>
+        <orgao id="14"/>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="158">Empresas</item>
+            <item idSegmento="1" idServicoSegmento="160">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="161">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Biodiversidade</item>
+            <item>Abastecimento</item>
+            <item>Agropecuária</item>
+            <item>Água</item>
+            <item>Empregabilidade</item>
+            <item>Energia elétrica</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="316">teste</item>
-            <item id="317">teste</item>
-            <item id="318">teste</item>
+            <item id="322">teste</item>
+            <item id="323">testes</item>
+            <item id="324">teste</item>
         </palavras-chave>
         <legislacoes>
-            <item id="137">decreto 2</item>
+            <item id="139">testest</item>
         </legislacoes>
     </servico>
     <servico>
@@ -2644,6 +2812,147 @@ oficial  seja  o  português.</descricao>
         </palavras-chave>
         <legislacoes>
             <item id="138">zxvzxcvzxcv</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>cadastro-de-instrumento-musicais</id>
+        <dbId>102</dbId>
+        <nome>Cadastro de instrumento musicais</nome>
+        <sigla>CINSM</sigla>
+        <nomes-populares>
+            <item id="115">Mus</item>
+            <item id="116">musica</item>
+        </nomes-populares>
+        <descricao>Cadastro de instrumento musicais</descricao>
+        <contato>Cadastro de instrumento musicais</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="162">
+                <tipo>Cadastro de instrumento musicais</tipo>
+                <requisitos>Cadastro de instrumento musicais</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="90" unidade="dias-uteis"/>
+            <descricao>Cadastro de instrumento musicais</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>90</quantidade>
+            <unidade>dias</unidade>
+            <descricao>Cadastro de instrumento musicais</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="186">
+                <titulo>Cadastro de instrumento musicais</titulo>
+                <descricao>Cadastro de instrumento musicais</descricao>
+                <documentos>
+                    <default>
+                        <item id="434">Cadastro de instrumento musicais</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="219" tipo="sms">
+                            <descricao>Cadastro de instrumento musicais</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="218" tipo="e-mail">
+                            <descricao>Cadastro de instrumento musicais</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="41066"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="162">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="163">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Combustíveis</item>
+            <item>Comercio externo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="325">Cadastro de instrumento musicais</item>
+            <item id="326">Cadastro de instrumento musicais</item>
+            <item id="327">Cadastro de instrumento musicais</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="140">Cadastro de instrumento musicais</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>validar-calculo-da-porcentagem-do-selo</id>
+        <dbId>107</dbId>
+        <nome>Validar cálculo da porcentagem do selo</nome>
+        <sigla>TESTE</sigla>
+        <nomes-populares>
+            <item id="122">testes</item>
+        </nomes-populares>
+        <descricao>testes</descricao>
+        <contato>testes</contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="166">
+                <tipo>testes</tipo>
+                <requisitos>testes</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="90" unidade="dias-uteis"/>
+            <descricao>testes</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>90</quantidade>
+            <unidade>dias</unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="192">
+                <titulo>testes</titulo>
+                <descricao>testesw</descricao>
+                <documentos>
+                    <default>
+                        <item id="443">testes</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="28">
+                            <descricao>testes</descricao>
+                            <moeda></moeda>
+                            <valor>10,000</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="228" tipo="e-mail">
+                            <descricao>testes</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="1926"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="167">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Assistência à Criança e ao Adolescente</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="334">teste</item>
+            <item id="335">testes</item>
+            <item id="336">teste</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="143">teste</item>
         </legislacoes>
     </servico>
 </servicos>
