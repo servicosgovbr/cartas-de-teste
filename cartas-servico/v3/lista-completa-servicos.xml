@@ -654,14 +654,14 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="102" tipo="presencial">
-                            <descricao>Centros de Referência de Assistência Social (CRAS) do seu município.</descricao>
+                        <canal-de-prestacao id="104" tipo="web">
+                            <descricao>http://www.brasilsemmiseria.gov.br</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="103" tipo="telefone">
                             <descricao>0800-707-2003</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="104" tipo="web">
-                            <descricao>http://www.brasilsemmiseria.gov.br</descricao>
+                        <canal-de-prestacao id="102" tipo="presencial">
+                            <descricao>Centros de Referência de Assistência Social (CRAS) do seu município.</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
