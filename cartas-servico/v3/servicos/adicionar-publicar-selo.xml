@@ -7,7 +7,7 @@
     <descricao>serviço de teste de publicação do selo</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
-    <porcentagem-digital>0</porcentagem-digital>
+    <porcentagem>0</porcentagem>
     <solicitantes>
         <solicitante id="157">
             <tipo>Solicitante 1</tipo>
@@ -44,6 +44,7 @@
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comercio externo</item>
+        <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
         <item id="310">selo</item>
