@@ -8,7 +8,7 @@
     <contato>De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.</contato>
     <gratuito>true</gratuito>
     <porcentagem>50</porcentagem>
-    <porcentagem-manual>true</porcentagem-manual>
+    <porcentagem-manual>false</porcentagem-manual>
     <solicitantes>
         <solicitante id="145">
             <tipo>Qualquer pessoa interessada</tipo>
