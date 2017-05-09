@@ -30,6 +30,7 @@ Bl. "T", 3º andar, sala 321
 Correio eletrônico:
 classificacaoindicativa@mj.gov.br</contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="48">
                 <tipo>Qualquer cidadão</tipo>
@@ -103,30 +104,30 @@ classificacaoindicativa@mj.gov.br</contato>
                     </caso>
                     <caso id="37" descricao="Televisão Aberta">
                         <documento>
-                            <id>160</id>
-                            <descricao>Ficha Técnica de Audiovisual</descricao>
+                            <id>162</id>
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
                         </documento>
                         <documento>
                             <id>161</id>
                             <descricao>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</descricao>
                         </documento>
                         <documento>
-                            <id>162</id>
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
+                            <id>160</id>
+                            <descricao>Ficha Técnica de Audiovisual</descricao>
                         </documento>
                     </caso>
                     <caso id="38" descricao="Serviço de Acesso Condicionado (TV por assinatura) (dispensável)">
                         <documento>
-                            <id>163</id>
-                            <descricao>Ficha Técnica de Audiovisual</descricao>
+                            <id>165</id>
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
                         </documento>
                         <documento>
                             <id>164</id>
                             <descricao>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</descricao>
                         </documento>
                         <documento>
-                            <id>165</id>
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
+                            <id>163</id>
+                            <descricao>Ficha Técnica de Audiovisual</descricao>
                         </documento>
                     </caso>
                     <caso id="39" descricao="Jogos e aplicativos de distribuição em mídia física (DVD, Blu-ray, cartuchos, etc)">
@@ -189,11 +190,8 @@ classificacaoindicativa@mj.gov.br</contato>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="75" tipo="presencial">
-                            <descricao>Protocolo Geral
-Esplanada dos Ministérios, Bloco T,
-Ministério da Justiça, Anexo II, Térreo
-CEP 70064-901   Brasília/DF</descricao>
+                        <canal-de-prestacao id="73" tipo="e-mail">
+                            <descricao>classificacaoindicativa@mj.gov.br</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="74" tipo="postal">
                             <descricao>Departamento de Políticas de Justiça
@@ -202,8 +200,11 @@ Esplanada dos Ministérios, Bloco T,
 Ministério da Justiça, Anexo II, Sala 321
 CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="73" tipo="e-mail">
-                            <descricao>classificacaoindicativa@mj.gov.br</descricao>
+                        <canal-de-prestacao id="75" tipo="presencial">
+                            <descricao>Protocolo Geral
+Esplanada dos Ministérios, Bloco T,
+Ministério da Justiça, Anexo II, Térreo
+CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="72" tipo="web">
                             <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
@@ -213,7 +214,7 @@ CEP 70064-901   Brasília/DF</descricao>
             </etapa>
         </etapas>
         <orgao id="316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="41">Cidadãos</item>
@@ -250,6 +251,7 @@ CEP 70064-901   Brasília/DF</descricao>
         <descricao>Desc Teste</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="54">
                 <tipo>Soli</tipo>
@@ -280,7 +282,7 @@ CEP 70064-901   Brasília/DF</descricao>
             </etapa>
         </etapas>
         <orgao id="2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="49">Cidadãos</item>
@@ -305,6 +307,7 @@ CEP 70064-901   Brasília/DF</descricao>
         <descricao>asdfaasdf</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="49">
                 <tipo>asdfas</tipo>
@@ -335,7 +338,7 @@ CEP 70064-901   Brasília/DF</descricao>
             </etapa>
         </etapas>
         <orgao id="25281" dbId="917">
-            <nomeOrgao>Agência Nacional do Petróleo Gás Natural e Biocombustíveis (ANP)</nomeOrgao>
+            <nomeOrgao>Agência Nacional do Petróleo, Gás Natural e Biocombustíveis</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="42">Cidadãos</item>
@@ -360,6 +363,7 @@ CEP 70064-901   Brasília/DF</descricao>
         <descricao>descricao</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="61">
                 <tipo>populacao</tipo>
@@ -415,6 +419,7 @@ CEP 70064-901   Brasília/DF</descricao>
         <descricao>O auxílio-doença é um benefício por incapacidade devido ao segurado do INSS acometido por uma doença ou acidente que o torne temporariamente incapaz para o trabalho.</descricao>
         <contato>Através do telefone 135</contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="66">
                 <tipo>Desempregado</tipo>
@@ -462,12 +467,12 @@ Obs.: Como tratar a questão da empresa requerer o auxílio ? (outro serviço ?)
                     </default>
                     <caso id="43" descricao="Se for empregado de empresa">
                         <documento>
-                            <id>203</id>
-                            <descricao>CNPJ/CGC ou</descricao>
-                        </documento>
-                        <documento>
                             <id>204</id>
                             <descricao>CEI</descricao>
+                        </documento>
+                        <documento>
+                            <id>203</id>
+                            <descricao>CNPJ/CGC ou</descricao>
                         </documento>
                     </caso>
                 </documentos>
@@ -542,7 +547,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
             </etapa>
         </etapas>
         <orgao id="2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="68">Cidadãos</item>
@@ -573,6 +578,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
         <descricao>teste 3 teste 4 teste 5</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="75">
                 <tipo>Idosos</tipo>
@@ -609,7 +615,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
             </etapa>
         </etapas>
         <orgao id="2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="72">Cidadãos</item>
@@ -637,6 +643,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
         <descricao>O serviço de instalação de cisterna de consumo faz parte do programa água para todos</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="76">
                 <tipo>Populações carentes, residentes em comunidades rurais com acesso precário à água.</tipo>
@@ -666,21 +673,21 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="104" tipo="web">
-                            <descricao>http://www.brasilsemmiseria.gov.br</descricao>
+                        <canal-de-prestacao id="102" tipo="presencial">
+                            <descricao>Centros de Referência de Assistência Social (CRAS) do seu município.</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="103" tipo="telefone">
                             <descricao>0800-707-2003</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="102" tipo="presencial">
-                            <descricao>Centros de Referência de Assistência Social (CRAS) do seu município.</descricao>
+                        <canal-de-prestacao id="104" tipo="web">
+                            <descricao>http://www.brasilsemmiseria.gov.br</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
         <orgao id="42670" dbId="37531">
-            <nomeOrgao>Ministério da Integração Nacional (MIN)</nomeOrgao>
+            <nomeOrgao>Ministério da Integração Nacional</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="73">Cidadãos</item>
@@ -710,6 +717,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
 Com esse cartão, é possível marcar consultas médicas para solicitar uma cirurgia que seja feita pelo SUS e conseguir medicamentos gratuitos ou com desconto, por exemplo</descricao>
         <contato>Disque saúde 136</contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="79">
                 <tipo>Qualque cidadão</tipo>
@@ -795,7 +803,7 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
             </etapa>
         </etapas>
         <orgao id="41066" dbId="37527">
-            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+            <nomeOrgao>Ministério da Defesa</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="76">Cidadãos</item>
@@ -820,6 +828,7 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
         <descricao>teste da ponte 127.0.0.1:8100</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="83">
                 <tipo>teste</tipo>
@@ -878,6 +887,7 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
         <descricao>O TCC poderá ocorrer no curso das investigações contra a ordem econômica e trata de um acordo entre a autoridade encarregada do processo administrativo e o representado – pessoa física ou jurídica – cuja conduta se analisa. A partir da celebração do compromisso de cessação, a investigação é suspensa enquanto o administrado compromete-se a suspender as práticas que geraram as suspeitas de infração à ordem econômica, independentemente do reconhecimento de culpa..</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="84">
                 <tipo>Brasileiros - Pessoa física</tipo>
@@ -940,10 +950,10 @@ Os pré-requisitos para se firmar um TCC são:
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="122" tipo="presencial">
+                        <canal-de-prestacao id="121" tipo="postal">
                             <descricao>Endereço informado no momento do cadastramento realizado na etapa anterior.</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="121" tipo="postal">
+                        <canal-de-prestacao id="122" tipo="presencial">
                             <descricao>Endereço informado no momento do cadastramento realizado na etapa anterior.</descricao>
                         </canal-de-prestacao>
                     </default>
@@ -1009,7 +1019,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
             </etapa>
         </etapas>
         <orgao id="1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="84">Cidadãos</item>
@@ -1035,6 +1045,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
         <descricao>Desc Teste</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="88">
                 <tipo>Solic</tipo>
@@ -1065,7 +1076,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
             </etapa>
         </etapas>
         <orgao id="2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="86">Cidadãos</item>
@@ -1090,6 +1101,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
         <descricao>Descrição</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="109">
                 <tipo>Solicita 1</tipo>
@@ -1146,6 +1158,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
 A pensão corresponde a R$ 750,00 (setecentos e cinquenta reais) e tem reajuste anual, conforme os índices concedidos aos benefícios de valor superior ao piso do Regime Geral de Previdência Social.</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="119">
                 <tipo>Pessoas com hanseníase</tipo>
@@ -1254,7 +1267,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
             </etapa>
         </etapas>
         <orgao id="41066" dbId="37527">
-            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+            <nomeOrgao>Ministério da Defesa</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="114">Cidadãos</item>
@@ -1282,6 +1295,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>Serviço teste para verificar se funciona sem o editor 2</descricao>
         <contato>dsfsdadsfsdafadsf</contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="120">
                 <tipo>Eu</tipo>
@@ -1317,19 +1331,19 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="161" tipo="web-postos-de-atendimento">
-                            <descricao>http://www.uol.com.br</descricao>
-                        </canal-de-prestacao>
                         <canal-de-prestacao id="160" tipo="web-inscrever-se">
                             <descricao>http://www.google.com.br</descricao>
                         </canal-de-prestacao>
+                        <canal-de-prestacao id="161" tipo="web-postos-de-atendimento">
+                            <descricao>http://www.uol.com.br</descricao>
+                        </canal-de-prestacao>
                     </default>
                     <caso id="64" descricao="fdsafasfsafdsafdasff">
-                        <canal-de-prestacao id="157" tipo="web-declarar">
-                            <descricao>http://www.gmail.com</descricao>
-                        </canal-de-prestacao>
                         <canal-de-prestacao id="158" tipo="e-mail">
                             <descricao>teste@teste.com</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="157" tipo="web-declarar">
+                            <descricao>http://www.gmail.com</descricao>
                         </canal-de-prestacao>
                     </caso>
                     <caso id="65" descricao="dsvfasfdsfasfdasfafds">
@@ -1360,7 +1374,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
             </etapa>
         </etapas>
         <orgao id="1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="115">Cidadãos</item>
@@ -1404,6 +1418,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
 
 * [Mais informações](http://www.aids.gov.br/): Portal sobre a</descricao>
         <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <tempo-total-estimado>
             <atendimento-imediato/>
             <descricao></descricao>
@@ -1428,7 +1443,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
             </etapa>
         </etapas>
         <orgao id="304" dbId="37534">
-            <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
+            <nomeOrgao>Ministério da Saúde</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="121">Cidadãos</item>
@@ -1448,6 +1463,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         </nomes-populares>
         <descricao>Teste de serviço</descricao>
         <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="136">
                 <tipo>Idosos</tipo>
@@ -1489,11 +1505,11 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="183" tipo="e-mail">
-                            <descricao>Solicitar pelo seguinte email: agendamento@agendamento.gov.br</descricao>
-                        </canal-de-prestacao>
                         <canal-de-prestacao id="182" tipo="web">
                             <descricao>http://www.agendamento.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="183" tipo="e-mail">
+                            <descricao>Solicitar pelo seguinte email: agendamento@agendamento.gov.br</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
@@ -1520,7 +1536,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
             </etapa>
         </etapas>
         <orgao id="2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="130">Cidadãos</item>
@@ -1545,6 +1561,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <contato></contato>
         <gratuito>true</gratuito>
         <porcentagem>0</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="47">
                 <tipo>aafd</tipo>
@@ -1576,7 +1593,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
             </etapa>
         </etapas>
         <orgao id="2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="38">Cidadãos</item>
@@ -1608,6 +1625,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
 * contato1
 * contato2</contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="141">
                 <tipo>Eu</tipo>
@@ -1645,7 +1663,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
             </etapa>
         </etapas>
         <orgao id="54793" dbId="913">
-            <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
+            <nomeOrgao>Agência Nacional de Transportes Terrestres</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="136">Cidadãos</item>
@@ -1669,6 +1687,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <sigla>TST2</sigla>
         <descricao>Descrição</descricao>
         <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="146">
                 <tipo>Solicitante Teste</tipo>
@@ -1735,6 +1754,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>O Programa Universidade para Todos - Prouni tem como finalidade a concessão de bolsas de estudo integrais e parciais em cursos de graduação e sequenciais de formação específica, em instituições de ensino superior privadas. Criado pelo Governo Federal em 2004 e institucionalizado pela Lei nº 11.096, em 13 de janeiro de 2005 oferece, em contrapartida, isenção de tributos àquelas instituições que aderem ao Programa.</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="150">
                 <tipo>Estudantes egressos do ensino médio da rede pública</tipo>
@@ -1796,22 +1816,22 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="203" tipo="web-agendar">
-                            <descricao>http://siteprouni.mec.gov.br/</descricao>
+                        <canal-de-prestacao id="201" tipo="postal">
+                            <descricao>Av. Ipiranga 6681 - Prédio 99A - sala 218 – 2º andar. Porto Alegre - RS - Brasil. CEP 90619-900</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="202" tipo="e-mail">
                             <descricao>brasil@gov.br</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="201" tipo="postal">
-                            <descricao>Av. Ipiranga 6681 - Prédio 99A - sala 218 – 2º andar. Porto Alegre - RS - Brasil. CEP 90619-900</descricao>
+                        <canal-de-prestacao id="203" tipo="web-agendar">
+                            <descricao>http://siteprouni.mec.gov.br/</descricao>
                         </canal-de-prestacao>
                     </default>
                     <caso id="77" descricao="Estudantes de primeiro grau">
-                        <canal-de-prestacao id="199" tipo="e-mail">
-                            <descricao>estudantes@gov.br</descricao>
-                        </canal-de-prestacao>
                         <canal-de-prestacao id="200" tipo="fax">
                             <descricao>3434234242342342</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="199" tipo="e-mail">
+                            <descricao>estudantes@gov.br</descricao>
                         </canal-de-prestacao>
                     </caso>
                 </canais-de-prestacao>
@@ -1865,6 +1885,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <contato></contato>
         <gratuito>true</gratuito>
         <porcentagem>25</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="128">
                 <tipo>Proprietários de imóveis da união</tipo>
@@ -1948,6 +1969,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação , Vitor teste homologação, Vitor teste homologação.</descricao>
         <contato>contatos testes testes testets</contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="158">
                 <tipo>solicitante 1</tipo>
@@ -2016,7 +2038,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
             </etapa>
         </etapas>
         <orgao id="2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="155">Cidadãos</item>
@@ -2044,6 +2066,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <contato></contato>
         <gratuito>true</gratuito>
         <porcentagem>0</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="157">
                 <tipo>Solicitante 1</tipo>
@@ -2102,6 +2125,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <contato></contato>
         <gratuito>true</gratuito>
         <porcentagem>0</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="156">
                 <tipo>solictanet</tipo>
@@ -2163,164 +2187,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         </legislacoes>
     </servico>
     <servico>
-        <id>alistar-no-servico-militar-obrigatorio</id>
-        <dbId>20</dbId>
-        <nome>Alistar no Serviço Militar Obrigatório</nome>
-        <sigla>Sigla nova</sigla>
-        <nomes-populares>
-            <item id="82">Alistamento</item>
-            <item id="83">Alistamento Militar</item>
-        </nomes-populares>
-        <descricao>O Serviço Militar é o exercício de atividades específicas desempenhadas pela Marinha, Exército e Aeronáutica na defesa nacional.</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem>0</porcentagem>
-        <solicitantes>
-            <solicitante id="129">
-                <tipo>Brasileiros do sexo masculino que completa 18 anos</tipo>
-                <requisitos>O Alistamento Militar deve ser realizado por todo jovem brasileiro, do sexo masculino no **ano** em que completar 18 anos.</requisitos>
-            </solicitante>
-            <solicitante id="130">
-                <tipo>Naturalizado brasileiro do sexo masculino que completa 18 anos</tipo>
-                <requisitos>Brasileiros naturalizados do sexo masculino que completaram 18 anos até o último dia de junho do ano de alistamento.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="meses"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>10</quantidade>
-            <unidade>dias</unidade>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="150">
-                <titulo>Alistar na Junta de Serviço Militar</titulo>
-                <descricao>A Junta de Serviço Militar é um órgão de Serviço Militar sob responsabilidade da prefeitura do seu município, o alistamento terá que ser solicitado pessoalmente na Junta de Serviço Militar.</descricao>
-                <documentos>
-                    <default>
-                        <item id="349">Documento de identidade ou Certidão de nascimento</item>
-                        <item id="350">Fotografia 3x4</item>
-                        <item id="351">Comprovante de residência</item>
-                        <item id="352">Cadastro de Pessoa Física</item>
-                        <item id="426">Identidade nova</item>
-                    </default>
-                    <caso id="67" descricao="Caso seja naturalizado brasileiro do sexo masculino que completa 18 anos">
-                        <documento>
-                            <id>348</id>
-                            <descricao>Prova de naturalização  ou certidão do termo de opção</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="174" tipo="presencial">
-                            <descricao>O alistamento deve ser feito na Junta de Serviço Militar mais próxima de sua residência. 
-  
-Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/jsm.action</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                    <caso id="68" descricao="Caso more no estado de Sergipe">
-                        <canal-de-prestacao id="173" tipo="web">
-                            <descricao>http://www.alistamento.eb.mil.br/</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="151">
-                <titulo>Comparecer a Seleção Geral</titulo>
-                <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
-                <documentos>
-                    <default>
-                        <item id="353">Certificado de Alistamento Militar (CAM)</item>
-                        <item id="354">Carteira de identidade (RG), se tiver</item>
-                        <item id="355">Carteira de Trabalho, se tiver</item>
-                        <item id="356">Certidão de Nascimento original dos filhos, caso adquira esta condição após o alistamento</item>
-                        <item id="357">Certidão de Casamento original, caso adquira esta condição após o alistamento</item>
-                        <item id="358">Declaração escolar: Certificado de conclusão ou atestado de frequência, se tiver</item>
-                        <item id="359">Comprovantes de qualificação ou experiência profissional, se tiver</item>
-                        <item id="360">Comprovante de residência</item>
-                        <item id="361">Carteira nacional de Habilitação, se tiver</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="175" tipo="presencial">
-                            <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="152">
-                <titulo>Caso seja dispensado do Serviço Militar: Receber Certificado de Dispensa de Corporação (CDI)</titulo>
-                <descricao>Nesta etapa deve ir novamente a Junta de Serviço Militar para participar de uma cerimônia de juramento de compromisso à Bandeira Nacional e receber seu Certificado de Dispensa de Incorporação (CDI)</descricao>
-                <documentos>
-                    <default>
-                        <item id="362">Documento de identidade</item>
-                        <item id="363">Certificado de Alistamento Militar</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="176" tipo="presencial">
-                            <descricao>Deverá comparecer na mesma Junta de Serviço Militar da Etapa 1.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="153">
-                <titulo>Caso seja apto ao Serviço Militar: Comparecer a organização militar da marinha, aeronáutico ou exército designado</titulo>
-                <descricao>Caso seja apto o brasileiro irá servir por no mínimo 1 ano na organização militar designada.</descricao>
-                <documentos>
-                    <default>
-                        <item id="364">Documento de identidade</item>
-                        <item id="365">Certificado de Alistamento Militar</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="177" tipo="presencial">
-                            <descricao>Endereço da organização militar designada.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="108999" dbId="795">
-            <nomeOrgao>Administração Central (AC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="123">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Defesa Nacional</item>
-            <item>Defesa militar</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="248">Exército</item>
-            <item id="249">Marinha</item>
-            <item id="250">Aeronáutica</item>
-            <item id="251">Marinha</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="114">Legislação militar.</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>carlos-teste-2</id>
         <dbId>14</dbId>
         <nome>Carlos Teste 2</nome>
@@ -2332,6 +2198,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         <contato></contato>
         <gratuito>false</gratuito>
         <porcentagem>20</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="108">
                 <tipo>Idosos</tipo>
@@ -2377,7 +2244,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
             </etapa>
         </etapas>
         <orgao id="2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="104">Cidadãos</item>
@@ -2408,6 +2275,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         <descricao>TESTE GABI</descricao>
         <contato>35359200</contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="164">
                 <tipo>Estudantes</tipo>
@@ -2475,7 +2343,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
             </etapa>
         </etapas>
         <orgao id="41066" dbId="37527">
-            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+            <nomeOrgao>Ministério da Defesa</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="166">Cidadãos</item>
@@ -2505,6 +2373,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         <descricao>Mapa jdfskjhsfdkjhsjlkdhgjksjdlkgkjdfhgjkhg</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="159">
                 <tipo>Solicitante 1</tipo>
@@ -2543,7 +2412,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
             </etapa>
         </etapas>
         <orgao id="2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
@@ -2574,6 +2443,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         <contato>0800-616161</contato>
         <gratuito>false</gratuito>
         <porcentagem>0</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="62">
                 <tipo>Médicos com diploma obtido no exterior</tipo>
@@ -2725,7 +2595,7 @@ oficial  seja  o  português.</descricao>
             </etapa>
         </etapas>
         <orgao id="90" dbId="43381">
-            <nomeOrgao>Serviço Federal de Processamento de Dados (SERPRO)</nomeOrgao>
+            <nomeOrgao>Serviço Federal de Processamento de Dados</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="59">Cidadãos</item>
@@ -2756,6 +2626,7 @@ oficial  seja  o  português.</descricao>
         <descricao>testestestesteteste</descricao>
         <contato>testeste</contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="161">
                 <tipo>usuário comum</tipo>
@@ -2794,7 +2665,7 @@ oficial  seja  o  português.</descricao>
             </etapa>
         </etapas>
         <orgao id="14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura Pecuária e Abastecimento (MAPA)</nomeOrgao>
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="160">Cidadãos</item>
@@ -2824,6 +2695,7 @@ oficial  seja  o  português.</descricao>
         <descricao>asdfasdfas</descricao>
         <contato>asdfasdf</contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="160">
                 <tipo>cidadao</tipo>
@@ -2889,6 +2761,7 @@ oficial  seja  o  português.</descricao>
         <descricao>Cadastro de instrumento musicais</descricao>
         <contato>Cadastro de instrumento musicais</contato>
         <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="162">
                 <tipo>Cadastro de instrumento musicais</tipo>
@@ -2919,10 +2792,10 @@ oficial  seja  o  português.</descricao>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="219" tipo="sms">
+                        <canal-de-prestacao id="218" tipo="e-mail">
                             <descricao>Cadastro de instrumento musicais</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="218" tipo="e-mail">
+                        <canal-de-prestacao id="219" tipo="sms">
                             <descricao>Cadastro de instrumento musicais</descricao>
                         </canal-de-prestacao>
                     </default>
@@ -2930,7 +2803,7 @@ oficial  seja  o  português.</descricao>
             </etapa>
         </etapas>
         <orgao id="41066" dbId="37527">
-            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+            <nomeOrgao>Ministério da Defesa</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="162">Cidadãos</item>
@@ -2961,6 +2834,7 @@ oficial  seja  o  português.</descricao>
         <descricao>testes</descricao>
         <contato>testes</contato>
         <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="166">
                 <tipo>testes</tipo>
@@ -3005,7 +2879,7 @@ oficial  seja  o  português.</descricao>
             </etapa>
         </etapas>
         <orgao id="1926" dbId="37526">
-            <nomeOrgao>Ministério da Cultura (MinC)</nomeOrgao>
+            <nomeOrgao>Ministério da Cultura</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="167">Cidadãos</item>
@@ -3020,6 +2894,226 @@ oficial  seja  o  português.</descricao>
         </palavras-chave>
         <legislacoes>
             <item id="143">teste</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>01-cau-buscar-profissional-ou-empresa-de-arquitetura</id>
+        <dbId>91</dbId>
+        <nome>01. CAU - Buscar Profissional ou Empresa de Arquitetura</nome>
+        <sigla></sigla>
+        <descricao>Consulta ao banco de dados do CAU para confirmar se determinado profissional ou empresa de arquitetura e urbanismo possuem registro no Conselho.</descricao>
+        <contato>De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.</contato>
+        <gratuito>true</gratuito>
+        <porcentagem>50</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="145">
+                <tipo>Qualquer pessoa interessada</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="minutos"/>
+            <descricao>Serviço online de consulta imediata pelo sistema.</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="168">
+                <titulo>Consulta</titulo>
+                <descricao>No site de serviços do CAU, clicar em "Buscar Profissional/Empresa". A busca pode ser feita por nome ou CPF/CNPJ, ou número de registro no CAU. Caso o profissional ou empresa possua registro, o sistema informará.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="192" tipo="web">
+                            <descricao>https://servicos.caubr.org.br/</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="172" dbId="4722">
+            <nomeOrgao>Banco do Nordeste do Brasil S.A.</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="139">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="141">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="140">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="142">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="286">consulta arquiteto</item>
+            <item id="287">confirmar registro arquiteto</item>
+            <item id="288">confirmar registro empresa</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="125">Lei 12.378/2010</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>alistar-no-servico-militar-obrigatorio</id>
+        <dbId>20</dbId>
+        <nome>Alistar no Serviço Militar Obrigatório</nome>
+        <sigla>Sigla nova</sigla>
+        <nomes-populares>
+            <item id="82">Alistamento</item>
+            <item id="83">Alistamento Militar</item>
+        </nomes-populares>
+        <descricao>O Serviço Militar é o exercício de atividades específicas desempenhadas pela Marinha, Exército e Aeronáutica na defesa nacional.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem>0</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="129">
+                <tipo>Brasileiros do sexo masculino que completa 18 anos</tipo>
+                <requisitos>O Alistamento Militar deve ser realizado por todo jovem brasileiro, do sexo masculino no **ano** em que completar 18 anos.</requisitos>
+            </solicitante>
+            <solicitante id="130">
+                <tipo>Naturalizado brasileiro do sexo masculino que completa 18 anos</tipo>
+                <requisitos>Brasileiros naturalizados do sexo masculino que completaram 18 anos até o último dia de junho do ano de alistamento.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>10</quantidade>
+            <unidade>dias</unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="150">
+                <titulo>Alistar na Junta de Serviço Militar</titulo>
+                <descricao>A Junta de Serviço Militar é um órgão de Serviço Militar sob responsabilidade da prefeitura do seu município, o alistamento terá que ser solicitado pessoalmente na Junta de Serviço Militar.</descricao>
+                <documentos>
+                    <default>
+                        <item id="349">Documento de identidade ou Certidão de nascimento</item>
+                        <item id="350">Fotografia 3x4</item>
+                        <item id="351">Comprovante de residência</item>
+                        <item id="352">Cadastro de Pessoa Física</item>
+                        <item id="426">Identidade nova</item>
+                    </default>
+                    <caso id="67" descricao="Caso seja naturalizado brasileiro do sexo masculino que completa 18 anos">
+                        <documento>
+                            <id>348</id>
+                            <descricao>Prova de naturalização  ou certidão do termo de opção</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="174" tipo="presencial">
+                            <descricao>O alistamento deve ser feito na Junta de Serviço Militar mais próxima de sua residência. 
+  
+Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/jsm.action</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="68" descricao="Caso more no estado de Sergipe">
+                        <canal-de-prestacao id="173" tipo="web">
+                            <descricao>http://www.alistamento.eb.mil.br/</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="151">
+                <titulo>Comparecer a Seleção Geral</titulo>
+                <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
+                <documentos>
+                    <default>
+                        <item id="353">Certificado de Alistamento Militar (CAM)</item>
+                        <item id="354">Carteira de identidade (RG), se tiver</item>
+                        <item id="355">Carteira de Trabalho, se tiver</item>
+                        <item id="356">Certidão de Nascimento original dos filhos, caso adquira esta condição após o alistamento</item>
+                        <item id="357">Certidão de Casamento original, caso adquira esta condição após o alistamento</item>
+                        <item id="358">Declaração escolar: Certificado de conclusão ou atestado de frequência, se tiver</item>
+                        <item id="359">Comprovantes de qualificação ou experiência profissional, se tiver</item>
+                        <item id="360">Comprovante de residência</item>
+                        <item id="361">Carteira nacional de Habilitação, se tiver</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="175" tipo="presencial">
+                            <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="152">
+                <titulo>Caso seja dispensado do Serviço Militar: Receber Certificado de Dispensa de Corporação (CDI)</titulo>
+                <descricao>Nesta etapa deve ir novamente a Junta de Serviço Militar para participar de uma cerimônia de juramento de compromisso à Bandeira Nacional e receber seu Certificado de Dispensa de Incorporação (CDI)</descricao>
+                <documentos>
+                    <default>
+                        <item id="362">Documento de identidade</item>
+                        <item id="363">Certificado de Alistamento Militar</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="176" tipo="presencial">
+                            <descricao>Deverá comparecer na mesma Junta de Serviço Militar da Etapa 1.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="153">
+                <titulo>Caso seja apto ao Serviço Militar: Comparecer a organização militar da marinha, aeronáutico ou exército designado</titulo>
+                <descricao>Caso seja apto o brasileiro irá servir por no mínimo 1 ano na organização militar designada.</descricao>
+                <documentos>
+                    <default>
+                        <item id="364">Documento de identidade</item>
+                        <item id="365">Certificado de Alistamento Militar</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="177" tipo="presencial">
+                            <descricao>Endereço da organização militar designada.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="244" dbId="37528">
+            <nomeOrgao>Ministério da Educação</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="123">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Defesa Nacional</item>
+            <item>Defesa militar</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="248">Exército</item>
+            <item id="249">Marinha</item>
+            <item id="250">Aeronáutica</item>
+            <item id="251">Marinha</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="114">Legislação militar.</item>
         </legislacoes>
     </servico>
 </servicos>
