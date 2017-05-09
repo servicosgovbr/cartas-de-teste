@@ -39,8 +39,8 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="59989" dbId="54588">
-        <nomeOrgao>Seção de Vias Públicas (SVP)</nomeOrgao>
+    <orgao id="172" dbId="4722">
+        <nomeOrgao>Banco do Nordeste do Brasil S.A.</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="139">Cidadãos</item>
