@@ -39,6 +39,9 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
+    <orgao id="59989" dbId="54588">
+        <nomeOrgao>Seção de Vias Públicas (SVP)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="139">Cidadãos</item>
         <item idSegmento="3" idServicoSegmento="140">Empresas</item>
