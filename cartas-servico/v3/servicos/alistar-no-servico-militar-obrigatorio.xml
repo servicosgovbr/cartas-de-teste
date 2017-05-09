@@ -11,7 +11,8 @@
     <descricao>O Serviço Militar é o exercício de atividades específicas desempenhadas pela Marinha, Exército e Aeronáutica na defesa nacional.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
-    <porcentagem-digital>0</porcentagem-digital>
+    <porcentagem>0</porcentagem>
+    <porcentagem-manual>false</porcentagem-manual>
     <solicitantes>
         <solicitante id="129">
             <tipo>Brasileiros do sexo masculino que completa 18 anos</tipo>
@@ -137,7 +138,9 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="108999"/>
+    <orgao id="244" dbId="37528">
+        <nomeOrgao>Ministério da Educação</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="123">Cidadãos</item>
     </segmentos-da-sociedade>
