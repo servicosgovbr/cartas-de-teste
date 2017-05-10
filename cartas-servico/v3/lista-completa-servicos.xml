@@ -104,30 +104,30 @@ classificacaoindicativa@mj.gov.br</contato>
                     </caso>
                     <caso id="37" descricao="Televisão Aberta">
                         <documento>
-                            <id>162</id>
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
+                            <id>160</id>
+                            <descricao>Ficha Técnica de Audiovisual</descricao>
                         </documento>
                         <documento>
                             <id>161</id>
                             <descricao>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</descricao>
                         </documento>
                         <documento>
-                            <id>160</id>
-                            <descricao>Ficha Técnica de Audiovisual</descricao>
+                            <id>162</id>
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
                         </documento>
                     </caso>
                     <caso id="38" descricao="Serviço de Acesso Condicionado (TV por assinatura) (dispensável)">
                         <documento>
-                            <id>165</id>
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
+                            <id>163</id>
+                            <descricao>Ficha Técnica de Audiovisual</descricao>
                         </documento>
                         <documento>
                             <id>164</id>
                             <descricao>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</descricao>
                         </documento>
                         <documento>
-                            <id>163</id>
-                            <descricao>Ficha Técnica de Audiovisual</descricao>
+                            <id>165</id>
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
                         </documento>
                     </caso>
                     <caso id="39" descricao="Jogos e aplicativos de distribuição em mídia física (DVD, Blu-ray, cartuchos, etc)">
@@ -190,6 +190,9 @@ classificacaoindicativa@mj.gov.br</contato>
                 </custos>
                 <canais-de-prestacao>
                     <default>
+                        <canal-de-prestacao id="72" tipo="web">
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
+                        </canal-de-prestacao>
                         <canal-de-prestacao id="73" tipo="e-mail">
                             <descricao>classificacaoindicativa@mj.gov.br</descricao>
                         </canal-de-prestacao>
@@ -205,9 +208,6 @@ CEP 70064-901   Brasília/DF</descricao>
 Esplanada dos Ministérios, Bloco T,
 Ministério da Justiça, Anexo II, Térreo
 CEP 70064-901   Brasília/DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="72" tipo="web">
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
@@ -467,12 +467,12 @@ Obs.: Como tratar a questão da empresa requerer o auxílio ? (outro serviço ?)
                     </default>
                     <caso id="43" descricao="Se for empregado de empresa">
                         <documento>
-                            <id>204</id>
-                            <descricao>CEI</descricao>
-                        </documento>
-                        <documento>
                             <id>203</id>
                             <descricao>CNPJ/CGC ou</descricao>
+                        </documento>
+                        <documento>
+                            <id>204</id>
+                            <descricao>CEI</descricao>
                         </documento>
                     </caso>
                 </documentos>
@@ -3114,6 +3114,108 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         </palavras-chave>
         <legislacoes>
             <item id="114">Legislação militar.</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>sistema-de-orgaos</id>
+        <dbId>108</dbId>
+        <nome>Sistema De Órgãos</nome>
+        <sigla>SIORG</sigla>
+        <nomes-populares>
+            <item id="123">SIORG</item>
+            <item id="124">1</item>
+        </nomes-populares>
+        <descricao>Sistema de controle e cadastro de órgãos</descricao>
+        <contato>contato master</contato>
+        <gratuito>true</gratuito>
+        <porcentagem>50</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="167">
+                <tipo>Qualquer Brasileiro</tipo>
+                <requisitos>Ser natural do Brasil</requisitos>
+            </solicitante>
+            <solicitante id="168">
+                <tipo>Desenvolvedor Web</tipo>
+                <requisitos>Desenvolver aplicativos</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="193">
+                <titulo>Acessar documentação</titulo>
+                <descricao>Ir ate o site x e baixar a documentação</descricao>
+                <documentos>
+                    <default>
+                        <item id="445">Identidade</item>
+                    </default>
+                    <caso id="88" descricao="Caso desenvolvedor">
+                        <documento>
+                            <id>444</id>
+                            <descricao>identidade desenvolvedor</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="230" tipo="web">
+                            <descricao>http://www.uol.com.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="89" descricao="Caso desenvolvedor">
+                        <canal-de-prestacao id="229" tipo="web">
+                            <descricao>http://www.gmail.com</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="194">
+                <titulo>Consumir os serviços do SIORG</titulo>
+                <descricao>Desenvolver aplicações para acessar API</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="231" tipo="web">
+                            <descricao>http://g1.globo.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="3162" dbId="37530">
+            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="168">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="170">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="169">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="171">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Administração</item>
+            <item>Patrimônio</item>
+            <item>Planejamento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="337">SIORG</item>
+            <item id="338">sistema</item>
+            <item id="339">órgão</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="144">legislação master</item>
+            <item id="145">legislação master 2</item>
         </legislacoes>
     </servico>
 </servicos>
