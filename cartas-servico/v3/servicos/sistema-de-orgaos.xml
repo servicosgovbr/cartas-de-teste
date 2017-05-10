@@ -11,7 +11,8 @@
     <descricao>Sistema de controle e cadastro de órgãos</descricao>
     <contato>contato master</contato>
     <gratuito>true</gratuito>
-    <porcentagem-manual>false</porcentagem-manual>
+    <porcentagem>50</porcentagem>
+    <porcentagem-manual>true</porcentagem-manual>
     <solicitantes>
         <solicitante id="167">
             <tipo>Qualquer Brasileiro</tipo>
