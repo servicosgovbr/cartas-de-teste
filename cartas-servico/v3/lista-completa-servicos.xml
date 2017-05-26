@@ -104,30 +104,30 @@ classificacaoindicativa@mj.gov.br</contato>
                     </caso>
                     <caso id="37" descricao="Televisão Aberta">
                         <documento>
-                            <id>160</id>
-                            <descricao>Ficha Técnica de Audiovisual</descricao>
+                            <id>162</id>
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
                         </documento>
                         <documento>
                             <id>161</id>
                             <descricao>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</descricao>
                         </documento>
                         <documento>
-                            <id>162</id>
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
+                            <id>160</id>
+                            <descricao>Ficha Técnica de Audiovisual</descricao>
                         </documento>
                     </caso>
                     <caso id="38" descricao="Serviço de Acesso Condicionado (TV por assinatura) (dispensável)">
                         <documento>
-                            <id>163</id>
-                            <descricao>Ficha Técnica de Audiovisual</descricao>
+                            <id>165</id>
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
                         </documento>
                         <documento>
                             <id>164</id>
                             <descricao>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</descricao>
                         </documento>
                         <documento>
-                            <id>165</id>
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
+                            <id>163</id>
+                            <descricao>Ficha Técnica de Audiovisual</descricao>
                         </documento>
                     </caso>
                     <caso id="39" descricao="Jogos e aplicativos de distribuição em mídia física (DVD, Blu-ray, cartuchos, etc)">
@@ -190,9 +190,6 @@ classificacaoindicativa@mj.gov.br</contato>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="72" tipo="web">
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
-                        </canal-de-prestacao>
                         <canal-de-prestacao id="73" tipo="e-mail">
                             <descricao>classificacaoindicativa@mj.gov.br</descricao>
                         </canal-de-prestacao>
@@ -209,11 +206,14 @@ Esplanada dos Ministérios, Bloco T,
 Ministério da Justiça, Anexo II, Térreo
 CEP 70064-901   Brasília/DF</descricao>
                         </canal-de-prestacao>
+                        <canal-de-prestacao id="72" tipo="web">
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
+                        </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="316" dbId="37532">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
             <nomeOrgao>Ministério da Justiça e Segurança Pública</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -281,7 +281,7 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981" dbId="37545">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -337,7 +337,7 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="25281" dbId="917">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281" dbId="917">
             <nomeOrgao>Agência Nacional do Petróleo, Gás Natural e Biocombustíveis</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -393,7 +393,7 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="203141" dbId="4209">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/203141" dbId="4209">
             <nomeOrgao>Assessoria de Administração e Planejamento (AAP)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -467,12 +467,12 @@ Obs.: Como tratar a questão da empresa requerer o auxílio ? (outro serviço ?)
                     </default>
                     <caso id="43" descricao="Se for empregado de empresa">
                         <documento>
-                            <id>203</id>
-                            <descricao>CNPJ/CGC ou</descricao>
-                        </documento>
-                        <documento>
                             <id>204</id>
                             <descricao>CEI</descricao>
+                        </documento>
+                        <documento>
+                            <id>203</id>
+                            <descricao>CNPJ/CGC ou</descricao>
                         </documento>
                     </caso>
                 </documentos>
@@ -546,7 +546,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981" dbId="37545">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -614,7 +614,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981" dbId="37545">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -686,7 +686,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="42670" dbId="37531">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/42670" dbId="37531">
             <nomeOrgao>Ministério da Integração Nacional</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -802,7 +802,7 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="41066" dbId="37527">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
             <nomeOrgao>Ministério da Defesa</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -858,7 +858,7 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="113010" dbId="4017">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/113010" dbId="4017">
             <nomeOrgao>Assessoria Especial de Planejamento (AEP)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1018,7 +1018,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="1988" dbId="37525">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
             <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1075,7 +1075,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981" dbId="37545">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1131,7 +1131,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="209690" dbId="10508">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/209690" dbId="10508">
             <nomeOrgao>Coordenadoria de Gestão Sustentável (CGS)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1266,7 +1266,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="41066" dbId="37527">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
             <nomeOrgao>Ministério da Defesa</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1373,7 +1373,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="1988" dbId="37525">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
             <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1442,7 +1442,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="304" dbId="37534">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304" dbId="37534">
             <nomeOrgao>Ministério da Saúde</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1535,7 +1535,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981" dbId="37545">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1592,7 +1592,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981" dbId="37545">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1662,7 +1662,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="54793" dbId="913">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793" dbId="913">
             <nomeOrgao>Agência Nacional de Transportes Terrestres</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1723,7 +1723,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="80675" dbId="30">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/80675" dbId="30">
             <nomeOrgao>10º Regimento de Cavalaria Mecanizado (10º  R C Mec)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1854,7 +1854,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="61283" dbId="794">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/61283" dbId="794">
             <nomeOrgao>Administração (ADM-HP)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -1938,7 +1938,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="1986" dbId="43033">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
             <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2037,7 +2037,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981" dbId="37545">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2097,7 +2097,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="108999" dbId="795">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/108999" dbId="795">
             <nomeOrgao>Administração Central (AC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2166,7 +2166,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="108999" dbId="795">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/108999" dbId="795">
             <nomeOrgao>Administração Central (AC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2243,7 +2243,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981" dbId="37545">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2342,7 +2342,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="41066" dbId="37527">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
             <nomeOrgao>Ministério da Defesa</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2411,7 +2411,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="2981" dbId="37545">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2594,7 +2594,7 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="90" dbId="43381">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/90" dbId="43381">
             <nomeOrgao>Serviço Federal de Processamento de Dados</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2664,7 +2664,7 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="14" dbId="37524">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
             <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2731,7 +2731,7 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="122614" dbId="39845">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/122614" dbId="39845">
             <nomeOrgao>Planejamento e Orçamento (PLO)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2802,7 +2802,7 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="41066" dbId="37527">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
             <nomeOrgao>Ministério da Defesa</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -2878,7 +2878,7 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="1926" dbId="37526">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1926" dbId="37526">
             <nomeOrgao>Ministério da Cultura</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -3035,7 +3035,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="244" dbId="37528">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
             <nomeOrgao>Ministério da Educação</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -3133,7 +3133,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="3162" dbId="37530">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
             <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -3197,7 +3197,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="172" dbId="4722">
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/172" dbId="4722">
             <nomeOrgao>Banco do Nordeste do Brasil S.A.</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
