@@ -30,7 +30,6 @@ Bl. "T", 3º andar, sala 321
 Correio eletrônico:
 classificacaoindicativa@mj.gov.br</contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="48">
                 <tipo>Qualquer cidadão</tipo>
@@ -213,9 +212,7 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública</nomeOrgao>
-        </orgao>
+        <orgao id="316"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="41">Cidadãos</item>
             <item idSegmento="2" idServicoSegmento="40">Órgãos e entidades públicas</item>
@@ -251,7 +248,6 @@ CEP 70064-901   Brasília/DF</descricao>
         <descricao>Desc Teste</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="54">
                 <tipo>Soli</tipo>
@@ -281,9 +277,7 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
-        </orgao>
+        <orgao id="2981"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="49">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -307,7 +301,6 @@ CEP 70064-901   Brasília/DF</descricao>
         <descricao>asdfaasdf</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="49">
                 <tipo>asdfas</tipo>
@@ -337,9 +330,7 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281" dbId="917">
-            <nomeOrgao>Agência Nacional do Petróleo, Gás Natural e Biocombustíveis</nomeOrgao>
-        </orgao>
+        <orgao id="25281"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="42">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -363,7 +354,6 @@ CEP 70064-901   Brasília/DF</descricao>
         <descricao>descricao</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="61">
                 <tipo>populacao</tipo>
@@ -393,9 +383,7 @@ CEP 70064-901   Brasília/DF</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/203141" dbId="4209">
-            <nomeOrgao>Assessoria de Administração e Planejamento (AAP)</nomeOrgao>
-        </orgao>
+        <orgao id="203141"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="58">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -419,7 +407,6 @@ CEP 70064-901   Brasília/DF</descricao>
         <descricao>O auxílio-doença é um benefício por incapacidade devido ao segurado do INSS acometido por uma doença ou acidente que o torne temporariamente incapaz para o trabalho.</descricao>
         <contato>Através do telefone 135</contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="66">
                 <tipo>Desempregado</tipo>
@@ -546,9 +533,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
-        </orgao>
+        <orgao id="2981"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="68">Cidadãos</item>
             <item idSegmento="3" idServicoSegmento="69">Empresas</item>
@@ -578,7 +563,6 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
         <descricao>teste 3 teste 4 teste 5</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="75">
                 <tipo>Idosos</tipo>
@@ -614,9 +598,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
-        </orgao>
+        <orgao id="2981"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="72">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -643,7 +625,6 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
         <descricao>O serviço de instalação de cisterna de consumo faz parte do programa água para todos</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="76">
                 <tipo>Populações carentes, residentes em comunidades rurais com acesso precário à água.</tipo>
@@ -686,9 +667,7 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/42670" dbId="37531">
-            <nomeOrgao>Ministério da Integração Nacional</nomeOrgao>
-        </orgao>
+        <orgao id="42670"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="73">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -717,7 +696,6 @@ Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Out
 Com esse cartão, é possível marcar consultas médicas para solicitar uma cirurgia que seja feita pelo SUS e conseguir medicamentos gratuitos ou com desconto, por exemplo</descricao>
         <contato>Disque saúde 136</contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="79">
                 <tipo>Qualque cidadão</tipo>
@@ -802,9 +780,7 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
-            <nomeOrgao>Ministério da Defesa</nomeOrgao>
-        </orgao>
+        <orgao id="41066"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="76">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -828,7 +804,6 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
         <descricao>teste da ponte 127.0.0.1:8100</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="83">
                 <tipo>teste</tipo>
@@ -858,9 +833,7 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/113010" dbId="4017">
-            <nomeOrgao>Assessoria Especial de Planejamento (AEP)</nomeOrgao>
-        </orgao>
+        <orgao id="113010"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="83">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -887,7 +860,6 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
         <descricao>O TCC poderá ocorrer no curso das investigações contra a ordem econômica e trata de um acordo entre a autoridade encarregada do processo administrativo e o representado – pessoa física ou jurídica – cuja conduta se analisa. A partir da celebração do compromisso de cessação, a investigação é suspensa enquanto o administrado compromete-se a suspender as práticas que geraram as suspeitas de infração à ordem econômica, independentemente do reconhecimento de culpa..</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="84">
                 <tipo>Brasileiros - Pessoa física</tipo>
@@ -1018,9 +990,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações</nomeOrgao>
-        </orgao>
+        <orgao id="1988"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="84">Cidadãos</item>
             <item idSegmento="3" idServicoSegmento="85">Empresas</item>
@@ -1045,7 +1015,6 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
         <descricao>Desc Teste</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="88">
                 <tipo>Solic</tipo>
@@ -1075,9 +1044,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
-        </orgao>
+        <orgao id="2981"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="86">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1101,7 +1068,6 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
         <descricao>Descrição</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="109">
                 <tipo>Solicita 1</tipo>
@@ -1131,9 +1097,7 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/209690" dbId="10508">
-            <nomeOrgao>Coordenadoria de Gestão Sustentável (CGS)</nomeOrgao>
-        </orgao>
+        <orgao id="209690"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="105">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1158,7 +1122,6 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
 A pensão corresponde a R$ 750,00 (setecentos e cinquenta reais) e tem reajuste anual, conforme os índices concedidos aos benefícios de valor superior ao piso do Regime Geral de Previdência Social.</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="119">
                 <tipo>Pessoas com hanseníase</tipo>
@@ -1266,9 +1229,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
-            <nomeOrgao>Ministério da Defesa</nomeOrgao>
-        </orgao>
+        <orgao id="41066"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="114">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1295,7 +1256,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>Serviço teste para verificar se funciona sem o editor 2</descricao>
         <contato>dsfsdadsfsdafadsf</contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="120">
                 <tipo>Eu</tipo>
@@ -1373,9 +1333,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações</nomeOrgao>
-        </orgao>
+        <orgao id="1988"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="115">Cidadãos</item>
             <item idSegmento="2" idServicoSegmento="116">Órgãos e entidades públicas</item>
@@ -1418,7 +1376,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
 
 * [Mais informações](http://www.aids.gov.br/): Portal sobre a</descricao>
         <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <tempo-total-estimado>
             <atendimento-imediato/>
             <descricao></descricao>
@@ -1442,9 +1399,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304" dbId="37534">
-            <nomeOrgao>Ministério da Saúde</nomeOrgao>
-        </orgao>
+        <orgao id="304"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="121">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1463,7 +1418,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         </nomes-populares>
         <descricao>Teste de serviço</descricao>
         <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="136">
                 <tipo>Idosos</tipo>
@@ -1535,9 +1489,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
-        </orgao>
+        <orgao id="2981"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="130">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1560,8 +1512,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>Testefdfd</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem>0</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
+        <porcentagem-digital>0</porcentagem-digital>
         <solicitantes>
             <solicitante id="47">
                 <tipo>aafd</tipo>
@@ -1592,9 +1543,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
-        </orgao>
+        <orgao id="2981"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="38">Cidadãos</item>
             <item idSegmento="2" idServicoSegmento="37">Órgãos e entidades públicas</item>
@@ -1625,7 +1574,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
 * contato1
 * contato2</contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="141">
                 <tipo>Eu</tipo>
@@ -1662,9 +1610,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793" dbId="913">
-            <nomeOrgao>Agência Nacional de Transportes Terrestres</nomeOrgao>
-        </orgao>
+        <orgao id="54793"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="136">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1687,7 +1633,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <sigla>TST2</sigla>
         <descricao>Descrição</descricao>
         <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="146">
                 <tipo>Solicitante Teste</tipo>
@@ -1723,9 +1668,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/80675" dbId="30">
-            <nomeOrgao>10º Regimento de Cavalaria Mecanizado (10º  R C Mec)</nomeOrgao>
-        </orgao>
+        <orgao id="80675"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="143">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1754,7 +1697,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>O Programa Universidade para Todos - Prouni tem como finalidade a concessão de bolsas de estudo integrais e parciais em cursos de graduação e sequenciais de formação específica, em instituições de ensino superior privadas. Criado pelo Governo Federal em 2004 e institucionalizado pela Lei nº 11.096, em 13 de janeiro de 2005 oferece, em contrapartida, isenção de tributos àquelas instituições que aderem ao Programa.</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="150">
                 <tipo>Estudantes egressos do ensino médio da rede pública</tipo>
@@ -1854,9 +1796,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/61283" dbId="794">
-            <nomeOrgao>Administração (ADM-HP)</nomeOrgao>
-        </orgao>
+        <orgao id="61283"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="147">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1884,8 +1824,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>O Documento de Arrecadação de Receitas Federais – DARF é utilizado para recolhimento, junto aos bancos autorizados, da taxa de ocupação ou foro dos imóveis da União, além de outros débitos de caráter extraordinário. Nele serão impressos os dados de identificação do imóvel, do titular ocupante ou foreiro, a data de pagamento e os respectivos valores, a serem recolhidos ao Tesouro Nacional.</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem>25</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
+        <porcentagem-digital>25</porcentagem-digital>
         <solicitantes>
             <solicitante id="128">
                 <tipo>Proprietários de imóveis da união</tipo>
@@ -1938,9 +1877,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
-        </orgao>
+        <orgao id="1986"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="122">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -1969,7 +1906,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação, Vitor teste homologação , Vitor teste homologação, Vitor teste homologação.</descricao>
         <contato>contatos testes testes testets</contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="158">
                 <tipo>solicitante 1</tipo>
@@ -2037,9 +1973,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
-        </orgao>
+        <orgao id="2981"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="155">Cidadãos</item>
             <item idSegmento="3" idServicoSegmento="156">Empresas</item>
@@ -2065,8 +1999,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>serviço de teste de publicação do selo</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem>0</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
+        <porcentagem-digital>0</porcentagem-digital>
         <solicitantes>
             <solicitante id="157">
                 <tipo>Solicitante 1</tipo>
@@ -2097,9 +2030,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/108999" dbId="795">
-            <nomeOrgao>Administração Central (AC)</nomeOrgao>
-        </orgao>
+        <orgao id="108999"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="154">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2124,8 +2055,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>jhfjkdhghsfjkh</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem>0</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
+        <porcentagem-digital>0</porcentagem-digital>
         <solicitantes>
             <solicitante id="156">
                 <tipo>solictanet</tipo>
@@ -2166,9 +2096,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/108999" dbId="795">
-            <nomeOrgao>Administração Central (AC)</nomeOrgao>
-        </orgao>
+        <orgao id="108999"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="153">Cidadãos</item>
             <item idSegmento="4" idServicoSegmento="152">Demais segmentos (ONGs, organizações sociais, etc)</item>
@@ -2197,8 +2125,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>teste 3 teste 4 teste 5</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
-        <porcentagem>20</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
+        <porcentagem-digital>20</porcentagem-digital>
         <solicitantes>
             <solicitante id="108">
                 <tipo>Idosos</tipo>
@@ -2243,9 +2170,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
-        </orgao>
+        <orgao id="2981"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="104">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2275,7 +2200,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>TESTE GABI</descricao>
         <contato>35359200</contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="164">
                 <tipo>Estudantes</tipo>
@@ -2342,9 +2266,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
-            <nomeOrgao>Ministério da Defesa</nomeOrgao>
-        </orgao>
+        <orgao id="41066"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="166">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2373,7 +2295,6 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>Mapa jdfskjhsfdkjhsjlkdhgjksjdlkgkjdfhgjkhg</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="159">
                 <tipo>Solicitante 1</tipo>
@@ -2411,9 +2332,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão</nomeOrgao>
-        </orgao>
+        <orgao id="2981"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
             <item idSegmento="3" idServicoSegmento="158">Empresas</item>
@@ -2442,8 +2361,7 @@ A Comissão de Avaliação poderá solicitar documentos e pareceres, colher depo
         <descricao>Trata-se de um exame para revalidação dos diplomas estrangeiros compatíveis com as exigências de formação correspondentes aos diplomas médicos expedidos por universidades brasileiras, em consonância com as Diretrizes Curriculares Nacionais do Curso de Graduação em Medicina, com parâmetros e critérios isonômicos adequados para aferição de equivalência curricular e definição da correspondente aptidão para o exercício profissional da medicina no Brasil.</descricao>
         <contato>0800-616161</contato>
         <gratuito>false</gratuito>
-        <porcentagem>0</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
+        <porcentagem-digital>0</porcentagem-digital>
         <solicitantes>
             <solicitante id="62">
                 <tipo>Médicos com diploma obtido no exterior</tipo>
@@ -2594,9 +2512,7 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/90" dbId="43381">
-            <nomeOrgao>Serviço Federal de Processamento de Dados</nomeOrgao>
-        </orgao>
+        <orgao id="90"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="59">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2626,7 +2542,6 @@ oficial  seja  o  português.</descricao>
         <descricao>testestestesteteste</descricao>
         <contato>testeste</contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="161">
                 <tipo>usuário comum</tipo>
@@ -2664,9 +2579,7 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento</nomeOrgao>
-        </orgao>
+        <orgao id="14"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="160">Cidadãos</item>
             <item idSegmento="3" idServicoSegmento="161">Empresas</item>
@@ -2695,7 +2608,6 @@ oficial  seja  o  português.</descricao>
         <descricao>asdfasdfas</descricao>
         <contato>asdfasdf</contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="160">
                 <tipo>cidadao</tipo>
@@ -2731,9 +2643,7 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/122614" dbId="39845">
-            <nomeOrgao>Planejamento e Orçamento (PLO)</nomeOrgao>
-        </orgao>
+        <orgao id="122614"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="159">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2761,7 +2671,6 @@ oficial  seja  o  português.</descricao>
         <descricao>Cadastro de instrumento musicais</descricao>
         <contato>Cadastro de instrumento musicais</contato>
         <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="162">
                 <tipo>Cadastro de instrumento musicais</tipo>
@@ -2802,9 +2711,7 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
-            <nomeOrgao>Ministério da Defesa</nomeOrgao>
-        </orgao>
+        <orgao id="41066"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="162">Cidadãos</item>
             <item idSegmento="3" idServicoSegmento="163">Empresas</item>
@@ -2834,7 +2741,6 @@ oficial  seja  o  português.</descricao>
         <descricao>testes</descricao>
         <contato>testes</contato>
         <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="166">
                 <tipo>testes</tipo>
@@ -2878,9 +2784,7 @@ oficial  seja  o  português.</descricao>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1926" dbId="37526">
-            <nomeOrgao>Ministério da Cultura</nomeOrgao>
-        </orgao>
+        <orgao id="1926"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="167">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -2908,8 +2812,7 @@ oficial  seja  o  português.</descricao>
         <descricao>O Serviço Militar é o exercício de atividades específicas desempenhadas pela Marinha, Exército e Aeronáutica na defesa nacional.</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
-        <porcentagem>0</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
+        <porcentagem-digital>0</porcentagem-digital>
         <solicitantes>
             <solicitante id="129">
                 <tipo>Brasileiros do sexo masculino que completa 18 anos</tipo>
@@ -3035,9 +2938,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
-            <nomeOrgao>Ministério da Educação</nomeOrgao>
-        </orgao>
+        <orgao id="244"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="123">Cidadãos</item>
         </segmentos-da-sociedade>
@@ -3067,8 +2968,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         <descricao>Sistema de controle e cadastro de órgãos</descricao>
         <contato>contato master</contato>
         <gratuito>true</gratuito>
-        <porcentagem>50</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
+        <porcentagem-digital>50</porcentagem-digital>
         <solicitantes>
             <solicitante id="167">
                 <tipo>Qualquer Brasileiro</tipo>
@@ -3133,9 +3033,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços</nomeOrgao>
-        </orgao>
+        <orgao id="3162"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="168">Cidadãos</item>
             <item idSegmento="2" idServicoSegmento="170">Órgãos e entidades públicas</item>
@@ -3165,8 +3063,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         <descricao>Consulta ao banco de dados do CAU para confirmar se determinado profissional ou empresa de arquitetura e urbanismo possuem registro no Conselho.</descricao>
         <contato>De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.</contato>
         <gratuito>true</gratuito>
-        <porcentagem>52</porcentagem>
-        <porcentagem-manual>true</porcentagem-manual>
+        <porcentagem-digital>52</porcentagem-digital>
         <solicitantes>
             <solicitante id="145">
                 <tipo>Qualquer pessoa interessada</tipo>
@@ -3197,9 +3094,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/172" dbId="4722">
-            <nomeOrgao>Banco do Nordeste do Brasil S.A.</nomeOrgao>
-        </orgao>
+        <orgao id="172"/>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="139">Cidadãos</item>
             <item idSegmento="2" idServicoSegmento="141">Órgãos e entidades públicas</item>
