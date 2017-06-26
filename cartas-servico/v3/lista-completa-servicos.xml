@@ -103,30 +103,30 @@ classificacaoindicativa@mj.gov.br</contato>
                     </caso>
                     <caso id="37" descricao="Televisão Aberta">
                         <documento>
-                            <id>160</id>
-                            <descricao>Ficha Técnica de Audiovisual</descricao>
+                            <id>162</id>
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
                         </documento>
                         <documento>
                             <id>161</id>
                             <descricao>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</descricao>
                         </documento>
                         <documento>
-                            <id>162</id>
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
+                            <id>160</id>
+                            <descricao>Ficha Técnica de Audiovisual</descricao>
                         </documento>
                     </caso>
                     <caso id="38" descricao="Serviço de Acesso Condicionado (TV por assinatura) (dispensável)">
                         <documento>
-                            <id>163</id>
-                            <descricao>Ficha Técnica de Audiovisual</descricao>
+                            <id>165</id>
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
                         </documento>
                         <documento>
                             <id>164</id>
                             <descricao>Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</descricao>
                         </documento>
                         <documento>
-                            <id>165</id>
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</descricao>
+                            <id>163</id>
+                            <descricao>Ficha Técnica de Audiovisual</descricao>
                         </documento>
                     </caso>
                     <caso id="39" descricao="Jogos e aplicativos de distribuição em mídia física (DVD, Blu-ray, cartuchos, etc)">
@@ -189,9 +189,6 @@ classificacaoindicativa@mj.gov.br</contato>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="72" tipo="web">
-                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
-                        </canal-de-prestacao>
                         <canal-de-prestacao id="73" tipo="e-mail">
                             <descricao>classificacaoindicativa@mj.gov.br</descricao>
                         </canal-de-prestacao>
@@ -207,6 +204,9 @@ CEP 70064-901   Brasília/DF</descricao>
 Esplanada dos Ministérios, Bloco T,
 Ministério da Justiça, Anexo II, Térreo
 CEP 70064-901   Brasília/DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="72" tipo="web">
+                            <descricao>http://www.justica.gov.br/seus-direitos/classificacao/procedimento/capa</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
@@ -397,159 +397,6 @@ CEP 70064-901   Brasília/DF</descricao>
         </palavras-chave>
         <legislacoes>
             <item id="46">ultra lei</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>obter-auxilio-doenca</id>
-        <dbId>7</dbId>
-        <nome>Obter auxílio-doença</nome>
-        <sigla></sigla>
-        <descricao>O auxílio-doença é um benefício por incapacidade devido ao segurado do INSS acometido por uma doença ou acidente que o torne temporariamente incapaz para o trabalho.</descricao>
-        <contato>Através do telefone 135</contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="66">
-                <tipo>Desempregado</tipo>
-                <requisitos>- Comprovar doença que torne o cidadão temporariamente incapaz de trabalhar;
-- Possuir a carência (link) de 12 contribuições ao INSS (isenta em caso de acidente de trabalho ou doenças previstas em lei) (Veja aqui se você possui esse requisito)</requisitos>
-            </solicitante>
-            <solicitante id="67">
-                <tipo>Cidadão doente empregado em empresa</tipo>
-                <requisitos>Estar afastado do trabalho há pelo menos 15 dias.</requisitos>
-            </solicitante>
-            <solicitante id="68">
-                <tipo>Segurado especial (trabalhador rural, lavrador, pescador):</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="69">
-                <tipo>Trabalhador avulso</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="70">
-                <tipo>Contribuinte Individual</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="71">
-                <tipo>Conribuinte Facultativo</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="72">
-                <tipo>Empregado Doméstico</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="30" unidade="dias-corridos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="88">
-                <titulo>Agendar atendimento</titulo>
-                <descricao>Caso não possa comparecer à perícia médica no dia e hora marcados, você pode solicitar a remarcação, uma única vez, até três dias antes da data agendada, pelo telefone 135. O cálculo do benefício não poderá exce­der a média das últimas 12 contribui­ções.
-
-Obs.: Como tratar a questão da empresa requerer o auxílio ? (outro serviço ?)</descricao>
-                <documentos>
-                    <default>
-                        <item id="205">NIT - Número de Identificação do Trabalhador (PIS/PASEP/CICI)</item>
-                    </default>
-                    <caso id="43" descricao="Se for empregado de empresa">
-                        <documento>
-                            <id>203</id>
-                            <descricao>CNPJ/CGC ou</descricao>
-                        </documento>
-                        <documento>
-                            <id>204</id>
-                            <descricao>CEI</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="97" tipo="web-agendar">
-                            <descricao>http://www2.dataprev.gov.br/sabiweb/agendamento/escolherAPS.view#sabiweb</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="89">
-                <titulo>Comparecer à perícia médica</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="209">Documento de identificação válido e oficial com foto;</item>
-                        <item id="210">Número do CPF</item>
-                        <item id="211">Carteira de trabalho, carnês de contribuição e outros documentos que comprovem pagamento ao INSS;</item>
-                        <item id="212">Documentos médicos que comprovem a causa do problema de saúde, o tratamento médico indicado e o período sugerido de afastamento do trabalho;</item>
-                    </default>
-                    <caso id="44" descricao="Para o empregado">
-                        <documento>
-                            <id>206</id>
-                            <descricao>declaração carimbada e assinada do empregador, informando último dia trabalhado (se precisar, [link]imprima o requerimento);</descricao>
-                        </documento>
-                        <documento>
-                            <id>207</id>
-                            <descricao>[link]Comunicação de Acidente de Trabalho – CAT , se for o caso;</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="45" descricao="Para o segurado especial (trabalhador rural, lavrador, pescador):">
-                        <documento>
-                            <id>208</id>
-                            <descricao>documentos que comprovem esta situação, como declaração de sindicato, contratos de arrendamento, documentos onde conste a sua ocupação etc.</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="98" tipo="presencial">
-                            <descricao>Endereço informado na etapa anterior de agendamento.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="90">
-                <titulo>Consultar situação do benefício</titulo>
-                <descricao>Explicar que vai receber carta, se for aprovado vai receber no banco cadastrado, etc.
-Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Outra etapa/serviço ?</descricao>
-                <documentos>
-                    <default>
-                        <item id="213">Número do Benefício</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="99" tipo="web-consultar">
-                            <descricao>http://www.mtps.gov.br/consulta-de-situacao-de-beneficio</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="2981"/>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="68">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="69">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Previdência Social</item>
-            <item>Saúde</item>
-            <item>Trabalho</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="127">doente</item>
-            <item id="128">afastamento</item>
-            <item id="129">ajuda</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="53">Lei x</item>
         </legislacoes>
     </servico>
     <servico>
@@ -2856,6 +2703,159 @@ oficial  seja  o  português.</descricao>
         </palavras-chave>
         <legislacoes>
             <item id="125">Lei 12.378/2010</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>nome-do-servico</id>
+        <dbId>7</dbId>
+        <nome>Nome do Serviço</nome>
+        <sigla></sigla>
+        <descricao>O auxílio-doença é um benefício por incapacidade devido ao segurado do INSS acometido por uma doença ou acidente que o torne temporariamente incapaz para o trabalho.</descricao>
+        <contato>Através do telefone 135</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="66">
+                <tipo>Desempregado</tipo>
+                <requisitos>- Comprovar doença que torne o cidadão temporariamente incapaz de trabalhar;
+- Possuir a carência (link) de 12 contribuições ao INSS (isenta em caso de acidente de trabalho ou doenças previstas em lei) (Veja aqui se você possui esse requisito)</requisitos>
+            </solicitante>
+            <solicitante id="67">
+                <tipo>Cidadão doente empregado em empresa</tipo>
+                <requisitos>Estar afastado do trabalho há pelo menos 15 dias.</requisitos>
+            </solicitante>
+            <solicitante id="68">
+                <tipo>Segurado especial (trabalhador rural, lavrador, pescador):</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="69">
+                <tipo>Trabalhador avulso</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="70">
+                <tipo>Contribuinte Individual</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="71">
+                <tipo>Conribuinte Facultativo</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="72">
+                <tipo>Empregado Doméstico</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="30" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="88">
+                <titulo>Agendar atendimento</titulo>
+                <descricao>Caso não possa comparecer à perícia médica no dia e hora marcados, você pode solicitar a remarcação, uma única vez, até três dias antes da data agendada, pelo telefone 135. O cálculo do benefício não poderá exce­der a média das últimas 12 contribui­ções.
+
+Obs.: Como tratar a questão da empresa requerer o auxílio ? (outro serviço ?)</descricao>
+                <documentos>
+                    <default>
+                        <item id="205">NIT - Número de Identificação do Trabalhador (PIS/PASEP/CICI)</item>
+                    </default>
+                    <caso id="43" descricao="Se for empregado de empresa">
+                        <documento>
+                            <id>203</id>
+                            <descricao>CNPJ/CGC ou</descricao>
+                        </documento>
+                        <documento>
+                            <id>204</id>
+                            <descricao>CEI</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="97" tipo="web-agendar">
+                            <descricao>http://www2.dataprev.gov.br/sabiweb/agendamento/escolherAPS.view#sabiweb</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="89">
+                <titulo>Comparecer à perícia médica</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="209">Documento de identificação válido e oficial com foto;</item>
+                        <item id="210">Número do CPF</item>
+                        <item id="211">Carteira de trabalho, carnês de contribuição e outros documentos que comprovem pagamento ao INSS;</item>
+                        <item id="212">Documentos médicos que comprovem a causa do problema de saúde, o tratamento médico indicado e o período sugerido de afastamento do trabalho;</item>
+                    </default>
+                    <caso id="44" descricao="Para o empregado">
+                        <documento>
+                            <id>206</id>
+                            <descricao>declaração carimbada e assinada do empregador, informando último dia trabalhado (se precisar, [link]imprima o requerimento);</descricao>
+                        </documento>
+                        <documento>
+                            <id>207</id>
+                            <descricao>[link]Comunicação de Acidente de Trabalho – CAT , se for o caso;</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="45" descricao="Para o segurado especial (trabalhador rural, lavrador, pescador):">
+                        <documento>
+                            <id>208</id>
+                            <descricao>documentos que comprovem esta situação, como declaração de sindicato, contratos de arrendamento, documentos onde conste a sua ocupação etc.</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="98" tipo="presencial">
+                            <descricao>Endereço informado na etapa anterior de agendamento.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="90">
+                <titulo>Consultar situação do benefício</titulo>
+                <descricao>Explicar que vai receber carta, se for aprovado vai receber no banco cadastrado, etc.
+Explicar o que acontece em caso de negativa (há possibilidade de recorrer ? Outra etapa/serviço ?</descricao>
+                <documentos>
+                    <default>
+                        <item id="213">Número do Benefício</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="99" tipo="web-consultar">
+                            <descricao>http://www.mtps.gov.br/consulta-de-situacao-de-beneficio</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="2981"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="68">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="69">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Previdência Social</item>
+            <item>Saúde</item>
+            <item>Trabalho</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="127">doente</item>
+            <item id="128">afastamento</item>
+            <item id="129">ajuda</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="53">Lei x</item>
         </legislacoes>
     </servico>
     <servico>
