@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd">
     <id>01-cau-buscar-profissional-ou-empresa-de-arquitetura-teste</id>
     <dbId>91</dbId>
-    <nome>01. CAU - Buscar Profissional ou Empresa de Arquitetura teste</nome>
-    <sigla></sigla>
+    <nome>01-cau-buscar-profissional-ou-empresa-de-arquitetura-teste2</nome>
+    <sigla/>
     <descricao>Consulta ao banco de dados do CAU para confirmar se determinado profissional ou empresa de arquitetura e urbanismo possuem registro no Conselho.</descricao>
     <contato>De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.</contato>
     <gratuito>true</gratuito>
@@ -11,7 +11,7 @@
     <solicitantes>
         <solicitante id="145">
             <tipo>Qualquer pessoa interessada</tipo>
-            <requisitos></requisitos>
+            <requisitos/>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
