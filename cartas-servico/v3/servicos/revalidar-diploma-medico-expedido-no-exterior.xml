@@ -1,37 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <id>revalidar-diploma-medico-expedido-no-exterior</id>
-    <dbId>6</dbId>
-    <nome>Revalidar diploma médico expedido no exterior</nome>
-    <sigla></sigla>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Revalidar diploma médico expedido no exterior]]></nome>
+    <sigla/>
     <nomes-populares>
-        <item id="45">Revalida</item>
+        <item>Revalida</item>
     </nomes-populares>
-    <descricao>Trata-se de um exame para revalidação dos diplomas estrangeiros compatíveis com as exigências de formação correspondentes aos diplomas médicos expedidos por universidades brasileiras, em consonância com as Diretrizes Curriculares Nacionais do Curso de Graduação em Medicina, com parâmetros e critérios isonômicos adequados para aferição de equivalência curricular e definição da correspondente aptidão para o exercício profissional da medicina no Brasil.</descricao>
-    <contato>0800-616161</contato>
+    <descricao><![CDATA[Trata-se de um exame para revalidação dos diplomas estrangeiros compatíveis com as exigências de formação correspondentes aos diplomas médicos expedidos por universidades brasileiras, em consonância com as Diretrizes Curriculares Nacionais do Curso de Graduação em Medicina, com parâmetros e critérios isonômicos adequados para aferição de equivalência curricular e definição da correspondente aptidão para o exercício profissional da medicina no Brasil.]]></descricao>
+    <contato><![CDATA[0800-616161]]></contato>
     <gratuito>false</gratuito>
-    <porcentagem-digital>0</porcentagem-digital>
     <solicitantes>
-        <solicitante id="62">
+        <solicitante>
             <tipo>Médicos com diploma obtido no exterior</tipo>
-            <requisitos>* Ser  brasileiro(a)  ou  estrangeiro  em  situação  legal  no Brasil;
+            <requisitos><![CDATA[* Ser  brasileiro(a)  ou  estrangeiro  em  situação  legal  no Brasil;
 * Possuir  Cadastro  de  Pessoas  Físicas  -  CPF,  emitido pela  Receita  Federal  do  Brasil;
-* Ser  portador  de  diploma  médico  expedido  por  Instituição  de  Educação  Superior  Estrangeira,  reconhecida  no  país  de origem  pelo  seu  Ministério  da  Educação  ou  órgão  equivalente,  autenticado  pela  autoridade  consular  brasileira.</requisitos>
+* Ser  portador  de  diploma  médico  expedido  por  Instituição  de  Educação  Superior  Estrangeira,  reconhecida  no  país  de origem  pelo  seu  Ministério  da  Educação  ou  órgão  equivalente,  autenticado  pela  autoridade  consular  brasileira.]]></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <entre min="2" max="4" unidade="meses"/>
-        <descricao></descricao>
+        <entre max="4" min="2" unidade="meses"/>
+        <descricao/>
     </tempo-total-estimado>
-    <validade-documento/>
     <etapas>
-        <etapa id="75">
+        <etapa>
             <titulo>Realizar inscrição</titulo>
-            <descricao>Para  fazer  sua  inscrição,  o  participante  deverá  entrar  no site  indicado  e  obter  código  de  identificação  e  senha. O  número  de  inscrição  e  a  senha  devem  ser  mantidos sob  a  guarda  do  participante,  sendo  indispensáveis  para  o  acompanhamento  do  processo  de  inscrição  e  para  a  obtenção  dos  resultados  individuais  via  Internet.</descricao>
+            <descricao><![CDATA[Para  fazer  sua  inscrição,  o  participante  deverá  entrar  no site  indicado  e  obter  código  de  identificação  e  senha. O  número  de  inscrição  e  a  senha  devem  ser  mantidos sob  a  guarda  do  participante,  sendo  indispensáveis  para  o  acompanhamento  do  processo  de  inscrição  e  para  a  obtenção  dos  resultados  individuais  via  Internet.]]></descricao>
             <documentos>
                 <default>
-                    <item id="201">Diploma  digitalizado,  frente  e verso</item>
-                    <item id="202">Informar  se  possui  o  Certificado  de  Proficiência  em Língua  Portuguesa  Para  Estrangeiros  (Celpe-Bras)</item>
+                    <item>Diploma  digitalizado,  frente  e verso</item>
+                    <item>Informar  se  possui  o  Certificado  de  Proficiência  em Língua  Portuguesa  Para  Estrangeiros  (Celpe-Bras)</item>
                 </default>
             </documentos>
             <custos>
@@ -39,38 +35,38 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="87" tipo="web">
-                        <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://revalida.inep.gov.br/revalida/inscricao]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="76">
+        <etapa>
             <titulo>Efetuar pagamento da avaliação escrita</titulo>
-            <descricao>O  participante  deverá  entrar  no  sistema,  com  seu  código e senha, a fim de emitir o boleto para pagamento da taxa de inscrição, devendo  efetuar  o  pagamento  até  a  data  de  vencimento  indicada  no boleto.</descricao>
+            <descricao><![CDATA[O  participante  deverá  entrar  no  sistema,  com  seu  código e senha, a fim de emitir o boleto para pagamento da taxa de inscrição, devendo  efetuar  o  pagamento  até  a  data  de  vencimento  indicada  no boleto.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
             <custos>
                 <default>
-                    <custo id="12">
-                        <descricao>Avaliação escrita</descricao>
-                        <moeda></moeda>
-                        <valor>10,000</valor>
+                    <custo>
+                        <descricao><![CDATA[Avaliação escrita]]></descricao>
+                        <moeda/>
+                        <valor>100,00</valor>
                     </custo>
                 </default>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="88" tipo="web">
-                        <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://revalida.inep.gov.br/revalida/inscricao]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="77">
+        <etapa>
             <titulo>Realizar avaliação escrita</titulo>
-            <descricao>A data de realização da avaliação está disponível no [edital do exame](http://portal.inep.gov.br/legislacao).</descricao>
+            <descricao><![CDATA[A data de realização da avaliação está disponível no [edital do exame](http://portal.inep.gov.br/legislacao).]]></descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -79,38 +75,38 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="89" tipo="presencial">
-                        <descricao>O local de realização da avaliação está disponível no [portal do INEP](http://revalida.inep.gov.br/revalida/inscricao).</descricao>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[O local de realização da avaliação está disponível no [portal do INEP](http://revalida.inep.gov.br/revalida/inscricao).]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="78">
+        <etapa>
             <titulo>Efetuar pagamento da avaliação de habilidades clínicas</titulo>
-            <descricao>Na hipótese de aprovação na avaliação escrita, o  participante deverá emitir novo boleto para pagamento da taxa, até a data de  vencimento  indicada,  relativa  à  segunda  etapa.</descricao>
+            <descricao><![CDATA[Na hipótese de aprovação na avaliação escrita, o  participante deverá emitir novo boleto para pagamento da taxa, até a data de  vencimento  indicada,  relativa  à  segunda  etapa.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
             <custos>
                 <default>
-                    <custo id="13">
-                        <descricao>Avaliação de habilidades clínicas</descricao>
-                        <moeda></moeda>
-                        <valor>30,000</valor>
+                    <custo>
+                        <descricao><![CDATA[Avaliação de habilidades clínicas]]></descricao>
+                        <moeda/>
+                        <valor>300,00</valor>
                     </custo>
                 </default>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="90" tipo="web">
-                        <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://revalida.inep.gov.br/revalida/inscricao]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="79">
+        <etapa>
             <titulo>Realizar avaliação de habilidades clínicas</titulo>
-            <descricao>A data de realização da avaliação está disponível no [edital do exame](http://portal.inep.gov.br/legislacao).</descricao>
+            <descricao><![CDATA[A data de realização da avaliação está disponível no [edital do exame](http://portal.inep.gov.br/legislacao).]]></descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -119,15 +115,15 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="91" tipo="presencial">
-                        <descricao>O local de realização da avaliação está disponível no [portal do INEP](http://revalida.inep.gov.br/revalida/inscricao).</descricao>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[O local de realização da avaliação está disponível no [portal do INEP](http://revalida.inep.gov.br/revalida/inscricao).]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="80">
+        <etapa>
             <titulo>Consultar resultado</titulo>
-            <descricao></descricao>
+            <descricao/>
             <documentos>
                 <default/>
             </documentos>
@@ -136,16 +132,16 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="92" tipo="web">
-                        <descricao>http://revalida.inep.gov.br/revalida/inscricao</descricao>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://revalida.inep.gov.br/revalida/inscricao]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="81">
+        <etapa>
             <titulo>Comparecer à universidade</titulo>
-            <descricao>Em  caso  de  aprovação  no  Revalida  o  participante  deverá  apresentar,  junto  à  Universidade  à  qual  foi  solicitada  a  revalidação,  o  Certificado  de  Proficiência  em  Língua  Portuguesa  para Estrangeiros (Celpe-Bras), nível intermediário superior, conforme Resolução  CFM  nº  1831/2008,  exceto  os  naturais  de  países  cuja  língua
-oficial  seja  o  português.</descricao>
+            <descricao><![CDATA[Em  caso  de  aprovação  no  Revalida  o  participante  deverá  apresentar,  junto  à  Universidade  à  qual  foi  solicitada  a  revalidação,  o  Certificado  de  Proficiência  em  Língua  Portuguesa  para Estrangeiros (Celpe-Bras), nível intermediário superior, conforme Resolução  CFM  nº  1831/2008,  exceto  os  naturais  de  países  cuja  língua
+oficial  seja  o  português.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -154,28 +150,28 @@ oficial  seja  o  português.</descricao>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="93" tipo="presencial">
-                        <descricao>Universidade escolhida para revalidação do diploma.</descricao>
+                    <canal-de-prestacao tipo="presencial">
+                        <descricao><![CDATA[Universidade escolhida para revalidação do diploma.]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="90"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/249"/>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="59">Cidadãos</item>
+        <item>Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação</item>
         <item>Educação superior</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="115">diploma</item>
-        <item id="116">revalidar</item>
-        <item id="117">exterior</item>
+        <item>diploma</item>
+        <item>revalidar</item>
+        <item>exterior</item>
     </palavras-chave>
     <legislacoes>
-        <item id="47">http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2007-12-20;6317</item>
-        <item id="48">http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-12-20;9394</item>
+        <item><![CDATA[http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2007-12-20;6317]]></item>
+        <item><![CDATA[http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-12-20;9394]]></item>
     </legislacoes>
 </servico>

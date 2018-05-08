@@ -1,28 +1,25 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <id>teste-09</id>
-    <dbId>2</dbId>
-    <nome>Teste 09</nome>
-    <sigla>Teste 09 Teste</sigla>
-    <descricao>Testefdfd</descricao>
-    <contato></contato>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Teste 09]]></nome>
+    <sigla>Teste 09</sigla>
+    <nomes-populares/>
+    <descricao><![CDATA[Teste]]></descricao>
+    <contato/>
     <gratuito>true</gratuito>
-    <porcentagem-digital>0</porcentagem-digital>
     <solicitantes>
-        <solicitante id="47">
-            <tipo>aafd</tipo>
-            <requisitos></requisitos>
+        <solicitante>
+            <tipo>aa</tipo>
+            <requisitos/>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <ate max="1" unidade="horas"/>
-        <descricao>dfd</descricao>
+        <descricao/>
     </tempo-total-estimado>
-    <validade-documento/>
     <etapas>
-        <etapa id="54">
-            <titulo>aafd</titulo>
-            <descricao></descricao>
+        <etapa>
+            <titulo>aa</titulo>
+            <descricao/>
             <documentos>
                 <default/>
             </documentos>
@@ -31,27 +28,27 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="71" tipo="e-mail">
-                        <descricao></descricao>
+                    <canal-de-prestacao tipo="e-mail">
+                        <descricao/>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="2981"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1930"/>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="37">Órgãos e entidades públicas</item>
-        <item idSegmento="1" idServicoSegmento="38">Cidadãos</item>
+        <item>Órgãos e entidades públicas</item>
+        <item>Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="82">a</item>
-        <item id="83">a</item>
-        <item id="84">a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
     </palavras-chave>
     <legislacoes>
-        <item id="31">a</item>
+        <item><![CDATA[a]]></item>
     </legislacoes>
 </servico>

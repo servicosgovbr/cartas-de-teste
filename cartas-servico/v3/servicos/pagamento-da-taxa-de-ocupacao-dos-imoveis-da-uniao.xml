@@ -1,36 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <id>pagamento-da-taxa-de-ocupacao-dos-imoveis-da-uniao</id>
-    <dbId>19</dbId>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
     <nome>Pagamento da taxa de ocupação dos imóveis da união</nome>
-    <sigla>a DARF</sigla>
+    <sigla>DARF</sigla>
     <nomes-populares>
-        <item id="81">DARF Patrimonial</item>
+        <item>DARF Patrimonial</item>
     </nomes-populares>
-    <descricao>O Documento de Arrecadação de Receitas Federais – DARF é utilizado para recolhimento, junto aos bancos autorizados, da taxa de ocupação ou foro dos imóveis da União, além de outros débitos de caráter extraordinário. Nele serão impressos os dados de identificação do imóvel, do titular ocupante ou foreiro, a data de pagamento e os respectivos valores, a serem recolhidos ao Tesouro Nacional.</descricao>
-    <contato></contato>
+    <id-aplicacao>
+      emissao-darf-spu
+    </id-aplicacao>
+    <descricao><![CDATA[O Documento de Arrecadação de Receitas Federais – DARF é utilizado para recolhimento, junto aos bancos autorizados, da taxa de ocupação ou foro dos imóveis da União, além de outros débitos de caráter extraordinário. Nele serão impressos os dados de identificação do imóvel, do titular ocupante ou foreiro, a data de pagamento e os respectivos valores, a serem recolhidos ao Tesouro Nacional.]]></descricao>
+    <contato/>
     <gratuito>true</gratuito>
-    <porcentagem-digital>50</porcentagem-digital>
     <solicitantes>
-        <solicitante id="128">
+        <solicitante>
             <tipo>Proprietários de imóveis da união</tipo>
-            <requisitos>Nos casos de transferência de titularidade do ocupante ou foreiro, é obrigatória a comunicação no prazo máximo de sessenta dias à Superintendência do Patrimônio da União para a devida alteração cadastral.</requisitos>
+            <requisitos><![CDATA[Nos casos de transferência de titularidade do ocupante ou foreiro, é obrigatória a comunicação no prazo máximo de sessenta dias à Superintendência do Patrimônio da União para a devida alteração cadastral.]]></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <entre min="1" max="5" unidade="dias-uteis"/>
-        <descricao>O não pagamento de qualquer obrigação, até sua data de vencimento, implicará na inclusão do atual titular ocupante no CADIN – Cadastro Informativo dos Créditos não quitados de Órgãos e Entidades Federais e posterior inscrição em Dívida Ativa da União – DAU.</descricao>
+        <entre max="5" min="1" unidade="dias-uteis"/>
+        <descricao><![CDATA[O não pagamento de qualquer obrigação, até sua data de vencimento, implicará na inclusão do atual titular ocupante no CADIN – Cadastro Informativo dos Créditos não quitados de Órgãos e Entidades Federais e posterior inscrição em Dívida Ativa da União – DAU.]]></descricao>
     </tempo-total-estimado>
-    <validade-documento>
-        <tipo>Válido por</tipo>
-        <quantidade>1</quantidade>
-        <unidade>meses</unidade>
-        <descricao></descricao>
-    </validade-documento>
     <etapas>
-        <etapa id="148">
+        <etapa>
             <titulo>Emissão do DARF</titulo>
-            <descricao></descricao>
+            <descricao/>
             <documentos>
                 <default/>
             </documentos>
@@ -39,15 +33,15 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="171" tipo="telefone">
-                        <descricao>Para dúvidas entre em contato com 00000000</descricao>
+                    <canal-de-prestacao tipo="telefone">
+                        <descricao><![CDATA[Para dúvidas entre em contato com 00000000]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="149">
+        <etapa>
             <titulo>Pagamento do DARF</titulo>
-            <descricao>Após emitir o DARF o mesmo deverá ser pago exclusivamente nos bancos encontrados no [Site do Ministério do Planejamento](http://atendimentovirtual.spu.planejamento.gov.br/).</descricao>
+            <descricao><![CDATA[Após emitir o DARF o mesmo deverá ser pago exclusivamente nos bancos encontrados no [Site do Ministério do Planejamento](http://atendimentovirtual.spu.planejamento.gov.br/).]]></descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -56,16 +50,16 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="172" tipo="web-acompanhar">
-                        <descricao>http://atendimentovirtual.spu.planejamento.gov.br/</descricao>
+                    <canal-de-prestacao tipo="web">
+                        <descricao><![CDATA[http://atendimentovirtual.spu.planejamento.gov.br/]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="1986"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986"/>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="122">Cidadãos</item>
+        <item>Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Habitação Urbana</item>
@@ -73,11 +67,11 @@
         <item>Habitação Rural</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="245">DARF</item>
-        <item id="246">SPU</item>
-        <item id="247">DARF Patrimonial</item>
+        <item>DARF</item>
+        <item>SPU</item>
+        <item>DARF Patrimonial</item>
     </palavras-chave>
     <legislacoes>
-        <item id="113">Art. 11. da Lei 13.139 de 26 de junho de 2015</item>
+        <item><![CDATA[Art. 11. da Lei 13.139 de 26 de junho de 2015]]></item>
     </legislacoes>
 </servico>
